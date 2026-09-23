@@ -2,7 +2,7 @@
 
 Personal portfolio for wonderbell.
 
-The homepage presents current Amazon-first research and Listing production work, public Codex tools, and clearly labeled earlier projects. The About page explains the current focus; older blog posts remain available in the archive. The site is dependency-free and deploys directly through GitHub Pages.
+The homepage presents current Amazon-first research and Listing production work, public Codex tools, a personal anemoi introduction, and clearly labeled earlier projects. Project screenshots on the homepage have been replaced by typographic workflow illustrations. The About page explains the current focus; older blog posts remain available in the archive. The site is dependency-free and deploys directly through GitHub Pages.
 
 ## Local preview
 
@@ -15,6 +15,8 @@ Then open `http://127.0.0.1:4177/`.
 The previous generated Hexo pages remain in Git history and their existing paths are left untouched during the initial portfolio rollout.
 
 ## anemoi 巡礼图库
+
+介绍入口：[anemoi · 给风留一页](https://bells0.github.io/anemoi/intro/)；从这里可进入官方作品资料和本站图库。首页专题使用仓库中已有的 Key 官方主视觉，并在图片旁标注来源与非官方性质。
 
 入口：[anemoi 巡礼原图收藏](https://bells0.github.io/anemoi/)。
 
