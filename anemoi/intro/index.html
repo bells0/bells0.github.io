@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>anemoi · 给风留一页 | wonderbell</title>
+  <meta name="description" content="wonderbell 的非官方 anemoi 介绍入口：认识作品，浏览原图收藏与巡礼场景。" />
+  <meta property="og:title" content="anemoi · 给风留一页 | wonderbell" />
+  <meta property="og:description" content="从作品简介走进画面与巡礼线索。" />
+  <meta property="og:image" content="https://bells0.github.io/anemoi/01-official-key-visuals/fv_main_bg.jpg" />
+  <link rel="canonical" href="https://bells0.github.io/anemoi/intro/" />
+  <style>
+    :root { --paper: #f2f5f1; --ink: #1a302e; --muted: #526c67; --line: rgba(26,48,46,.18); --accent: #337e8d; --white: #fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Avenir Next", "PingFang SC", "Hiragino Sans GB", sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent); }
+    img { display: block; max-width: 100%; }
+    .shell { width: min(calc(100% - 48px), 1160px); margin: 0 auto; }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(242,245,241,.92); }
+    .topbar-inner { min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .identity { font: 12px/1.5 Menlo, Consolas, monospace; letter-spacing: .04em; }
+    .nav { display: flex; flex-wrap: wrap; gap: 22px; font-size: 13px; }
+    .hero { padding: clamp(68px, 9vw, 118px) 0 38px; }
+    .eyebrow, .kicker, .image-credit { font: 11px/1.5 Menlo, Consolas, monospace; letter-spacing: .1em; }
+    .eyebrow { color: var(--accent); text-transform: uppercase; }
+    h1, h2 { font-family: "Iowan Old Style", "Songti SC", "STSong", Georgia, serif; font-weight: 500; letter-spacing: -.04em; }
+    h1 { max-width: 970px; margin: 23px 0 24px; font-size: clamp(58px, 8vw, 112px); line-height: 1.08; }
+    .lead { max-width: 740px; margin: 0; font-size: clamp(18px, 2vw, 22px); color: var(--muted); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .button { display: inline-flex; align-items: center; min-height: 46px; padding: 0 18px; border: 1px solid var(--ink); font-size: 13px; }
+    .button.primary { color: var(--white); background: var(--ink); }
+    .cover { margin: 50px 0 0; }
+    .cover img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border: 1px solid var(--line); }
+    .image-credit { margin-top: 10px; color: var(--muted); letter-spacing: 0; }
+    .content { padding: 45px 0 95px; }
+    .row { display: grid; grid-template-columns: 220px 1fr; gap: 40px; padding: 48px 0; border-top: 1px solid var(--line); }
+    .kicker { margin: 7px 0 0; color: var(--accent); text-transform: uppercase; }
+    h2 { margin: 0 0 24px; font-size: clamp(34px, 4vw, 56px); line-height: 1.1; }
+    .row p { max-width: 750px; margin: 0 0 16px; font-size: 17px; }
+    .row p:last-child { margin-bottom: 0; }
+    .text-link { border-bottom: 1px solid currentColor; padding-bottom: 3px; }
+    .paths { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .path { min-height: 220px; padding: 25px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--line); background: rgba(255,255,255,.56); }
+    .path small { color: var(--accent); font: 11px/1.5 Menlo, Consolas, monospace; }
+    .path strong { font: 500 31px/1.15 "Iowan Old Style", "Songti SC", Georgia, serif; }
+    .path span { color: var(--muted); font-size: 13px; }
+    .note { padding: 26px; border: 1px solid var(--line); background: #e7eee9; color: var(--muted); font-size: 13px; }
+    footer { border-top: 1px solid var(--line); padding: 38px 0 60px; color: var(--muted); font-size: 12px; }
+    @media (max-width: 760px) { .shell { width: min(calc(100% - 28px), 1160px); } .row { grid-template-columns: 1fr; gap: 16px; } .paths { grid-template-columns: 1fr; } .path { min-height: 160px; } .nav { gap: 12px; } .cover { margin-top: 36px; } }
+    @media (max-width: 360px) { .topbar-inner { flex-direction: column; align-items: flex-start; gap: 8px; padding: 12px 0; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="identity" href="/">← wonderbell / home</a>
+      <nav class="nav" aria-label="页面导航"><a href="#about">作品</a><a href="#explore">从这里开始</a><a href="/anemoi/">原图收藏 ↗</a></nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Personal note / unofficial fan page</div>
+      <h1>我最近沉迷 anemoi。</h1>
+      <p class="lead">所以给它留一页。先从作品本身开始，再走进我持续整理的画面、场景和巡礼线索。</p>
+      <div class="actions">
+        <a class="button primary" href="#about">认识作品 ↓</a>
+        <a class="button" href="/anemoi/">直接看原图收藏 ↗</a>
+      </div>
+      <figure class="cover">
+        <img src="/anemoi/01-official-key-visuals/fv_main_bg.jpg" alt="Key《anemoi》官方主视觉：风车与麦田前的五位角色" />
+        <figcaption class="image-credit">官方主视觉 © VISUAL ARTS/Key · <a class="text-link" href="https://key.visualarts.gr.jp/anemoi/">图片来源：Key 官网 ↗</a></figcaption>
+      </figure>
+    </section>
+    <div class="content">
+      <section class="row" id="about">
+        <p class="kicker">01 / The story</p>
+        <div>
+          <h2>风中的北方小镇。</h2>
+          <p>《anemoi -アネモイ-》是 Key 于 2026 年 4 月 24 日推出的恋爱冒险游戏。故事从十年前埋下的时间胶囊说起：速川麦与妹妹六花前往北方的真澄町，在约定到来前，与小镇里的人相遇并度过缓慢的日常。</p>
+          <p>这里只放不剧透的入口。完整设定以 <a class="text-link" href="https://key.visualarts.gr.jp/anemoi/story.html">Key 官方故事页 ↗</a>与<a class="text-link" href="https://key.visualarts.gr.jp/anemoi/spec.html">作品资料页 ↗</a>为准。</p>
+        </div>
+      </section>
+      <section class="row" id="explore">
+        <p class="kicker">02 / Follow the wind</p>
+        <div>
+          <h2>从哪里开始看？</h2>
+          <div class="paths">
+            <a class="path" href="https://key.visualarts.gr.jp/anemoi/"><small>OFFICIAL</small><strong>认识 anemoi</strong><span>故事、角色与官方信息 ↗</span></a>
+            <a class="path" href="/anemoi/"><small>MY COLLECTION</small><strong>原图收藏</strong><span>官方素材、游戏场景与实景照片 ↗</span></a>
+            <a class="path" href="/anemoi/#02-official-backgrounds"><small>SCENES</small><strong>走进画面</strong><span>从官方背景场景开始浏览 ↗</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <p class="kicker">03 / This page</p>
+        <div>
+          <h2>这个入口还会生长。</h2>
+          <p>现在先把作品简介和已经整理好的画面放在一起。个人游玩感受与巡礼记录会随着体验继续补充；这里的场景收藏不等于已经到访这些地点。</p>
+          <div class="note">这是非官方个人介绍页。作品、角色和图像版权归 VISUAL ARTS/Key 及相应创作者；图库中的其他来源逐张标注。此页与 Key 或 VISUAL ARTS 没有关联。</div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer><div class="shell"><a href="/">wonderbell</a> · <a href="/anemoi/">原图收藏</a> · unofficial anemoi notes</div></footer>
+</body>
+</html>

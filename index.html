@@ -10,7 +10,6 @@
   <meta property="og:description" content="Practical AI workflows for commerce, research, and software delivery." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bells0.github.io/" />
-  <meta property="og:image" content="https://bells0.github.io/assets/knowledge-map.png" />
   <link rel="canonical" href="https://bells0.github.io/" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141714'/%3E%3Cpath d='M13 17h8l5 27 6-19h6l6 19 5-27h8L48 49h-8l-5-16-5 16h-8z' fill='%23f3f0e8'/%3E%3C/svg%3E" />
   <style>
@@ -125,35 +124,44 @@
     .btn.primary { background: var(--ink); color: var(--paper); }
     .btn:hover { transform: translateY(-2px); }
 
-    .hero-visual { position: relative; min-height: 560px; }
-    .shot {
-      position: absolute;
+    .hero-visual {
+      position: relative;
+      min-height: 560px;
       overflow: hidden;
-      border: 1px solid var(--line);
-      background: #fff;
-      box-shadow: var(--shadow);
-      transition: transform .45s cubic-bezier(.2,.8,.2,1), filter .35s ease;
+      padding: clamp(28px, 4vw, 54px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid #111715;
+      background: #161d1a;
+      color: #f3f0e8;
     }
-    .shot img { width: 100%; height: 100%; object-fit: cover; }
-    .shot-a { left: 0; top: 0; width: 79%; aspect-ratio: 16/10; transform: rotate(-2.5deg); }
-    .shot-b { right: 0; bottom: 22px; width: 68%; aspect-ratio: 16/10; transform: rotate(2.5deg); }
-    .shot-c { left: 8%; bottom: -4px; width: 31%; aspect-ratio: 1; transform: rotate(-5deg); }
-    .hero-visual:hover .shot-a { transform: rotate(-1deg) translateY(-8px); }
-    .hero-visual:hover .shot-b { transform: rotate(1deg) translateY(4px); }
-    .hero-visual:hover .shot-c { transform: rotate(-3deg) translate(-4px, 4px); }
-    .visual-note {
+    .hero-visual::before {
+      content: "";
       position: absolute;
-      right: 3%;
-      top: -20px;
-      padding: 9px 11px;
-      background: var(--signal);
-      color: white;
-      font: 10px/1 var(--mono);
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      transform: rotate(3deg);
-      z-index: 5;
+      width: 530px;
+      aspect-ratio: 1;
+      right: -190px;
+      top: -180px;
+      border: 1px solid rgba(243,240,232,.17);
+      border-radius: 50%;
+      box-shadow: 0 0 0 80px rgba(243,240,232,.025), 0 0 0 160px rgba(243,240,232,.018);
     }
+    .diagram-label, .diagram-copy, .diagram-steps { position: relative; z-index: 1; }
+    .diagram-label { font: 11px/1.5 var(--mono); letter-spacing: .12em; color: #f2b9a9; text-transform: uppercase; }
+    .diagram-copy { max-width: 520px; margin: auto 0; font: 500 clamp(48px, 5.8vw, 86px)/.96 var(--display); letter-spacing: -.055em; text-wrap: balance; }
+    .diagram-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: rgba(243,240,232,.28); border: 1px solid rgba(243,240,232,.28); }
+    .diagram-steps span { min-height: 90px; padding: 16px 12px; display: flex; flex-direction: column; justify-content: space-between; background: #161d1a; font: 11px/1.4 var(--mono); }
+    .diagram-steps b { color: #f2b9a9; font-weight: 400; }
+
+    .anemoi-feature { padding: 92px 0; border-top: 1px solid var(--line); background: #e7f0ed; }
+    .anemoi-grid { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(32px, 6vw, 90px); align-items: center; }
+    .anemoi-copy h2 { max-width: 520px; margin: 16px 0 22px; }
+    .anemoi-copy p:not(.section-index) { max-width: 500px; font-size: 17px; color: #4b5c58; }
+    .anemoi-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .anemoi-image { margin: 0; }
+    .anemoi-image img { width: 100%; aspect-ratio: 16/10; object-fit: cover; border: 1px solid rgba(20,23,20,.12); }
+    .anemoi-image figcaption { margin-top: 9px; font: 11px/1.5 var(--mono); color: #536561; }
 
     .system-loop { display: none; }
     .section { padding: 110px 0; border-top: 1px solid var(--line); }
@@ -205,6 +213,10 @@
     .method-step { min-height: 112px; padding: 16px; background: var(--ink); display: flex; flex-direction: column; justify-content: space-between; }
     .method-step b { font: 10px/1 var(--mono); color: var(--signal-soft); }
     .method-step span { font-size: 13px; }
+    .factory-visual { background: #d8e4df; color: #17201c; }
+    .factory-visual .label, .factory-visual .method-step b { color: #af4d35; }
+    .factory-visual .method-steps { background: rgba(23,32,28,.2); border-color: rgba(23,32,28,.2); }
+    .factory-visual .method-step { background: #d8e4df; }
 
     .opensource-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
     .open-card { min-height: 390px; padding: 34px; border: 1px solid var(--line); display: flex; flex-direction: column; justify-content: space-between; background: var(--surface); }
@@ -220,13 +232,13 @@
 
     .writing-grid { display: grid; grid-template-columns: 1.1fr .9fr .9fr; gap: 18px; }
     .writing-card { min-height: 330px; border-top: 2px solid var(--ink); padding: 20px 4px; display: flex; flex-direction: column; justify-content: space-between; }
-    .writing-card.featured { min-height: 500px; border: 0; padding: 0; position: relative; overflow: hidden; background: #fff; }
-    .writing-card.featured img { width: 100%; height: 100%; object-fit: cover; }
-    .writing-overlay { position: absolute; inset: auto 0 0; padding: 50px 28px 26px; color: white; background: linear-gradient(transparent, rgba(9,11,10,.92)); }
+    .writing-card.featured { min-height: 500px; border: 0; padding: 28px; position: relative; overflow: hidden; background: #e3ded1; }
+    .archive-art { min-height: 444px; border: 1px solid rgba(20,23,20,.16); padding: 28px; display: flex; flex-direction: column; justify-content: space-between; background: repeating-linear-gradient(90deg, transparent 0 54px, rgba(20,23,20,.07) 55px 56px), #e3ded1; }
+    .archive-art strong { max-width: 420px; font: 500 clamp(52px, 5vw, 78px)/.94 var(--display); letter-spacing: -.05em; }
+    .archive-art small { font: 10px/1.5 var(--mono); letter-spacing: .08em; }
     .writing-card time { font: 9px/1 var(--mono); letter-spacing: .1em; color: var(--muted); }
     .writing-card h3 { margin: 18px 0 0; font: 500 34px/1.08 var(--display); letter-spacing: -.03em; }
     .writing-card p { margin: 20px 0 0; color: var(--muted); font-size: 14px; }
-    .writing-overlay time, .writing-overlay p { color: rgba(255,255,255,.72); }
 
     .now { display: grid; grid-template-columns: .62fr 1.38fr; gap: 70px; align-items: start; }
     .now-avatar { width: min(100%, 330px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); filter: saturate(.82); }
@@ -258,7 +270,6 @@
     body[data-theme="systems"] .hero-copy { max-width: 980px; position: relative; z-index: 3; }
     body[data-theme="systems"] h1 { font-family: var(--body); font-weight: 600; letter-spacing: -.06em; max-width: 1000px; }
     body[data-theme="systems"] .hero-visual { position: absolute; right: 0; bottom: 20px; width: 52%; opacity: .46; filter: saturate(.3) contrast(1.1); }
-    body[data-theme="systems"] .visual-note { color: #101311; }
     body[data-theme="systems"] .system-loop {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -294,10 +305,6 @@
     body[data-theme="journal"] .hero { grid-template-columns: 1fr .72fr; min-height: 790px; }
     body[data-theme="journal"] h1 { font-size: clamp(62px, 8vw, 126px); }
     body[data-theme="journal"] .hero-visual { min-height: 590px; }
-    body[data-theme="journal"] .shot-a { width: 94%; left: 6%; transform: rotate(0); }
-    body[data-theme="journal"] .shot-b { width: 62%; bottom: 0; right: 23%; transform: rotate(0); }
-    body[data-theme="journal"] .shot-c { left: -4%; bottom: 24px; transform: rotate(-2deg); }
-    body[data-theme="journal"] .visual-note { transform: none; right: 0; top: auto; bottom: -18px; }
     body[data-theme="journal"] .section { padding: 132px 0; }
     body[data-theme="journal"] .project { grid-template-columns: 1fr; max-width: 1040px; margin-left: auto; margin-right: auto; padding-top: 64px; }
     body[data-theme="journal"] .project.reverse { grid-template-columns: 1fr; }
@@ -321,6 +328,8 @@
       .hero-visual, body[data-theme="journal"] .hero-visual { min-height: 480px; }
       body[data-theme="systems"] .hero-visual { position: relative; width: 100%; opacity: .72; }
       .section { padding: 76px 0; }
+      .anemoi-feature { padding: 76px 0; }
+      .anemoi-grid { grid-template-columns: 1fr; }
       .section-head { grid-template-columns: 1fr; gap: 18px; }
       .section-intro { justify-self: start; }
       .project, .project.reverse, body[data-theme="systems"] .project, body[data-theme="systems"] .project.reverse { grid-template-columns: 1fr; padding-bottom: 54px; }
@@ -346,9 +355,11 @@
       h1 { font-size: clamp(44px, 12vw, 52px); }
       .hero-copy .lead { font-size: 18px; }
       .hero-visual, body[data-theme="journal"] .hero-visual { min-height: 350px; }
-      .shot-a { width: 92%; }
-      .shot-b { width: 76%; }
-      .shot-c { width: 34%; }
+      .hero-visual { padding: 26px; }
+      .diagram-copy { font-size: 54px; }
+      .diagram-steps { grid-template-columns: 1fr 1fr; }
+      .diagram-steps span { min-height: 64px; }
+      .top-links a[href^="https://github.com"] { display: none; }
       .section-head { margin-bottom: 36px; }
       h2 { font-size: 44px; }
       .project h3 { font-size: 39px; }
@@ -370,6 +381,7 @@
         <span><strong>wonderbell</strong><span>builder · bells0</span></span>
       </a>
       <nav class="top-links" aria-label="Main navigation">
+        <a href="/anemoi/intro/">anemoi</a>
         <a href="#projects">Projects</a>
         <a href="#archive">Archive</a>
         <a href="#now">Now</a>
@@ -391,14 +403,36 @@
         <div class="hero-actions">
           <a class="btn primary" href="#projects">Explore projects</a>
           <a class="btn" href="https://github.com/bells0">GitHub ↗</a>
-          <a class="btn" href="/anemoi/" lang="zh-CN">anemoi 巡礼图库 ↗</a>
+          <a class="btn" href="/anemoi/intro/">A page for anemoi ↗</a>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Collage of project interfaces and notes">
-        <span class="visual-note">project work · past and present</span>
-        <figure class="shot shot-a"><img src="assets/ecomforge-release.png" alt="Earlier EcomForge Listing prototype interface" /></figure>
-        <figure class="shot shot-b"><img src="assets/image-factory-batches.png" alt="Image Factory production batches interface" /></figure>
-        <figure class="shot shot-c"><img src="assets/knowledge-map.png" alt="Agent Harness knowledge map" /></figure>
+      <div class="hero-visual" aria-label="Evidence to result workflow diagram">
+        <div class="diagram-label">A practical operating loop · wonderbell</div>
+        <div class="diagram-copy">Make the work traceable.</div>
+        <div class="diagram-steps">
+          <span><b>01</b>Evidence</span>
+          <span><b>02</b>Judgment</span>
+          <span><b>03</b>Action</span>
+          <span><b>04</b>Result</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="anemoi-feature" id="anemoi">
+      <div class="shell anemoi-grid">
+        <div class="anemoi-copy">
+          <p class="section-index">Personal note · now playing</p>
+          <h2>A little space for anemoi.</h2>
+          <p lang="zh-CN">最近沉迷《anemoi》。我想在这里给它留一个入口：先认识作品，再走进我整理的画面与巡礼线索。</p>
+          <div class="anemoi-links">
+            <a class="btn primary" href="/anemoi/intro/" lang="zh-CN">读我的介绍 ↗</a>
+            <a class="btn" href="/anemoi/" lang="zh-CN">浏览原图收藏 ↗</a>
+          </div>
+        </div>
+        <figure class="anemoi-image">
+          <img src="/anemoi/01-official-key-visuals/fv_main_bg.jpg" alt="Key《anemoi》官方主视觉：五位角色站在风车与麦田前" />
+          <figcaption>Official key visual © VISUAL ARTS/Key · <a href="https://key.visualarts.gr.jp/anemoi/">source ↗</a> · unofficial fan introduction</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -453,9 +487,17 @@
         </article>
 
         <article class="project">
-          <div class="project-media">
-            <img src="assets/image-factory-batches.png" alt="Image Factory batch management" />
-            <span class="media-caption">Production batch workspace</span>
+          <div class="project-media method-visual factory-visual">
+            <div>
+              <span class="label">Image Factory workflow</span>
+              <div class="method-title">Generate, review, and keep the result.</div>
+            </div>
+            <div class="method-steps">
+              <div class="method-step"><b>A</b><span>Request</span></div>
+              <div class="method-step"><b>B</b><span>Batch</span></div>
+              <div class="method-step"><b>C</b><span>Review</span></div>
+              <div class="method-step"><b>D</b><span>Output</span></div>
+            </div>
           </div>
           <div class="project-info">
             <span class="project-no">P.03 / CREATIVE OPERATIONS</span>
@@ -523,8 +565,11 @@
         </div>
         <div class="writing-grid">
           <article class="writing-card featured">
-            <img src="assets/ecomforge-release.png" alt="Earlier EcomForge Listing prototype" />
-            <div class="writing-overlay"><time>EARLIER PROTOTYPE · PRIVATE</time><h3>EcomForge</h3><p>An earlier exploration of a broader AI Listing platform.</p></div>
+            <div class="archive-art">
+              <small>EARLIER PROTOTYPE · PRIVATE</small>
+              <strong>EcomForge</strong>
+              <span>An earlier exploration of a broader AI Listing platform.</span>
+            </div>
           </article>
           <article class="writing-card">
             <div><time>PERSONAL COLLECTION · PUBLIC</time><h3>anemoi Pilgrimage Gallery</h3><p>A searchable collection of source images and real-world pilgrimage photos.</p></div>
