@@ -18,7 +18,9 @@ The previous generated Hexo pages remain in Git history and their existing paths
 
 入口：[anemoi 巡礼原图收藏](https://bells0.github.io/anemoi/)。
 
-`anemoi/` 是自包含的静态图库：260 张公开来源的原始图片文件及 1 张单独标注的缩略图，按官方素材、游戏场景及巡礼实景分类，支持按地点、人物、文件名和来源搜索。图片直接由 GitHub Pages 提供，不依赖 OSS 或国内服务器。
+`anemoi/` 是自包含的静态图库：260 张公开来源的原始图片文件及 1 张单独标注的缩略图，按官方素材、游戏场景及巡礼实景分类，支持按地点、人物、文件名和来源搜索。列表使用单独生成的 WebP 预览图（最大 720 × 480、保持比例、不裁切、懒加载），只有点击图片或“打开原图”才请求原始文件。图片直接由 GitHub Pages 提供，不依赖 OSS 或国内服务器。
+
+更新预览图：安装 Pillow 后运行 `python3 scripts/build-anemoi-thumbnails.py`。脚本生成 `anemoi/thumbnails/`，更新列表及清单中的预览路径，保留原图与原图链接。
 
 图片尺寸与来源见 `anemoi/image-manifest.json` 和 `anemoi/图片来源与像素.csv`。图片版权归 VISUAL ARTS/Key、客座画师及摄影者；本站是非官方个人巡礼资料整理。原始文件保留来源站水印与像素，不代表美术制作源文件或完整游戏 CG 库。
 

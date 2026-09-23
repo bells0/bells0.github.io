@@ -12,7 +12,11 @@
     "file": "01-official-key-visuals/147227-52-c5bdbf1106f897feb797bd4ecac978b8-1920x1080.png",
     "bytes": 2425525,
     "collected_at": "2026-09-24",
-    "category": "官方主视觉"
+    "category": "官方主视觉",
+    "thumbnail": "thumbnails/01-official-key-visuals/147227-52-c5bdbf1106f897feb797bd4ecac978b8-1920x1080.png.webp",
+    "thumbnail_bytes": 45946,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://prcdn.freetls.fastly.net/release_image/147227/52/147227-52-b676fd040d578cac3eeecdc8f8615154-1920x1080.png",
@@ -27,7 +31,11 @@
     "file": "01-official-key-visuals/147227-52-b676fd040d578cac3eeecdc8f8615154-1920x1080.png",
     "bytes": 2114411,
     "collected_at": "2026-09-24",
-    "category": "官方主视觉"
+    "category": "官方主视觉",
+    "thumbnail": "thumbnails/01-official-key-visuals/147227-52-b676fd040d578cac3eeecdc8f8615154-1920x1080.png.webp",
+    "thumbnail_bytes": 23234,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/fv_main_bg_sp.jpg?b",
@@ -45,7 +53,11 @@
       "https://key.visualarts.gr.jp/anemoi/common/image/fv_main_bg_sp.jpg"
     ],
     "collected_at": "2026-09-24",
-    "category": "官方主视觉"
+    "category": "官方主视觉",
+    "thumbnail": "thumbnails/01-official-key-visuals/fv_main_bg_sp.jpg.webp",
+    "thumbnail_bytes": 16106,
+    "thumbnail_width": 301,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/fv_main_bg.jpg?b",
@@ -60,7 +72,11 @@
     "bytes": 439546,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方主视觉"
+    "category": "官方主视觉",
+    "thumbnail": "thumbnails/01-official-key-visuals/fv_main_bg.jpg.webp",
+    "thumbnail_bytes": 45246,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_1.jpg",
@@ -75,7 +91,11 @@
     "bytes": 367558,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_1.jpg.webp",
+    "thumbnail_bytes": 42476,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_2.jpg",
@@ -90,7 +110,11 @@
     "bytes": 322480,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_2.jpg.webp",
+    "thumbnail_bytes": 36890,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_3.jpg",
@@ -105,7 +129,11 @@
     "bytes": 219406,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_3.jpg.webp",
+    "thumbnail_bytes": 25344,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_4.jpg",
@@ -120,7 +148,11 @@
     "bytes": 316205,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_4.jpg.webp",
+    "thumbnail_bytes": 35432,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_5.jpg",
@@ -135,7 +167,11 @@
     "bytes": 70377,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_5.jpg.webp",
+    "thumbnail_bytes": 6284,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_6.jpg",
@@ -150,7 +186,11 @@
     "bytes": 299334,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_6.jpg.webp",
+    "thumbnail_bytes": 31714,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_7.jpg",
@@ -165,7 +205,11 @@
     "bytes": 319046,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_7.jpg.webp",
+    "thumbnail_bytes": 38730,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_8.jpg",
@@ -180,7 +224,11 @@
     "bytes": 396204,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_8.jpg.webp",
+    "thumbnail_bytes": 45440,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_9.jpg",
@@ -195,7 +243,11 @@
     "bytes": 320937,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_9.jpg.webp",
+    "thumbnail_bytes": 37698,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_10.jpg",
@@ -210,7 +262,11 @@
     "bytes": 256584,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方背景 CG"
+    "category": "官方背景 CG",
+    "thumbnail": "thumbnails/02-official-backgrounds/am_bg_10.jpg.webp",
+    "thumbnail_bytes": 24872,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_1.jpg",
@@ -225,7 +281,11 @@
     "bytes": 162483,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_1.jpg.webp",
+    "thumbnail_bytes": 30046,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_10.jpg",
@@ -240,7 +300,11 @@
     "bytes": 185169,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_10.jpg.webp",
+    "thumbnail_bytes": 39222,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_11.jpg",
@@ -255,7 +319,11 @@
     "bytes": 292471,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_11.jpg.webp",
+    "thumbnail_bytes": 58530,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_12.jpg",
@@ -270,7 +338,11 @@
     "bytes": 274702,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_12.jpg.webp",
+    "thumbnail_bytes": 51082,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_13.jpg",
@@ -285,7 +357,11 @@
     "bytes": 216136,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_13.jpg.webp",
+    "thumbnail_bytes": 44730,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_14.jpg",
@@ -300,7 +376,11 @@
     "bytes": 174447,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_14.jpg.webp",
+    "thumbnail_bytes": 36858,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_15.jpg",
@@ -315,7 +395,11 @@
     "bytes": 148523,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_15.jpg.webp",
+    "thumbnail_bytes": 28998,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_16.jpg",
@@ -330,7 +414,11 @@
     "bytes": 223436,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_16.jpg.webp",
+    "thumbnail_bytes": 46368,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_17.jpg",
@@ -345,7 +433,11 @@
     "bytes": 156090,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_17.jpg.webp",
+    "thumbnail_bytes": 31142,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_18.jpg",
@@ -360,7 +452,11 @@
     "bytes": 151802,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_18.jpg.webp",
+    "thumbnail_bytes": 29198,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_19.jpg",
@@ -375,7 +471,11 @@
     "bytes": 155775,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_19.jpg.webp",
+    "thumbnail_bytes": 29010,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_2.jpg",
@@ -390,7 +490,11 @@
     "bytes": 185734,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_2.jpg.webp",
+    "thumbnail_bytes": 37878,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_20.jpg",
@@ -405,7 +509,11 @@
     "bytes": 221478,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_20.jpg.webp",
+    "thumbnail_bytes": 47068,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_21.jpg",
@@ -420,7 +528,11 @@
     "bytes": 151584,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_21.jpg.webp",
+    "thumbnail_bytes": 27570,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_22.jpg",
@@ -435,7 +547,11 @@
     "bytes": 257692,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_22.jpg.webp",
+    "thumbnail_bytes": 29640,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_23.jpg",
@@ -450,7 +566,11 @@
     "bytes": 186070,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_23.jpg.webp",
+    "thumbnail_bytes": 38212,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_24.jpg",
@@ -465,7 +585,11 @@
     "bytes": 243932,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_24.jpg.webp",
+    "thumbnail_bytes": 54992,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_3.jpg",
@@ -480,7 +604,11 @@
     "bytes": 235977,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_3.jpg.webp",
+    "thumbnail_bytes": 51004,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_4.jpg",
@@ -495,7 +623,11 @@
     "bytes": 237555,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_4.jpg.webp",
+    "thumbnail_bytes": 52252,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_5.jpg",
@@ -510,7 +642,11 @@
     "bytes": 213973,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_5.jpg.webp",
+    "thumbnail_bytes": 45428,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_6.jpg",
@@ -525,7 +661,11 @@
     "bytes": 193958,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_6.jpg.webp",
+    "thumbnail_bytes": 40442,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_7.jpg?a",
@@ -540,7 +680,11 @@
     "bytes": 277371,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_7.jpg.webp",
+    "thumbnail_bytes": 63200,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_8.jpg?a",
@@ -555,7 +699,11 @@
     "bytes": 413765,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_8.jpg.webp",
+    "thumbnail_bytes": 54914,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_9.jpg",
@@ -570,7 +718,11 @@
     "bytes": 179501,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方事件 CG"
+    "category": "官方事件 CG",
+    "thumbnail": "thumbnails/03-official-event-cg/am_g_9.jpg.webp",
+    "thumbnail_bytes": 38062,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img6.jpg",
@@ -585,7 +737,11 @@
     "bytes": 184448,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img6.jpg.webp",
+    "thumbnail_bytes": 27030,
+    "thumbnail_width": 720,
+    "thumbnail_height": 240
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img7.jpg",
@@ -600,7 +756,11 @@
     "bytes": 258689,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img7.jpg.webp",
+    "thumbnail_bytes": 39770,
+    "thumbnail_width": 720,
+    "thumbnail_height": 240
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon3.jpg",
@@ -615,7 +775,11 @@
     "bytes": 126847,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_icon3.jpg.webp",
+    "thumbnail_bytes": 30022,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img3.jpg",
@@ -630,7 +794,11 @@
     "bytes": 854731,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img3.jpg.webp",
+    "thumbnail_bytes": 25866,
+    "thumbnail_width": 221,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/hiiro_sns_icon1.jpg",
@@ -645,7 +813,11 @@
     "bytes": 174176,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/hiiro_sns_icon1.jpg.webp",
+    "thumbnail_bytes": 23686,
+    "thumbnail_width": 400,
+    "thumbnail_height": 400
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon4.jpg",
@@ -660,7 +832,11 @@
     "bytes": 133759,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_icon4.jpg.webp",
+    "thumbnail_bytes": 31572,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img4.jpg",
@@ -675,7 +851,11 @@
     "bytes": 634165,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img4.jpg.webp",
+    "thumbnail_bytes": 19704,
+    "thumbnail_width": 221,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/koyomi_sns_icon1.jpg",
@@ -690,7 +870,11 @@
     "bytes": 180279,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/koyomi_sns_icon1.jpg.webp",
+    "thumbnail_bytes": 22920,
+    "thumbnail_width": 400,
+    "thumbnail_height": 400
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon2.jpg",
@@ -705,7 +889,11 @@
     "bytes": 159738,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_icon2.jpg.webp",
+    "thumbnail_bytes": 38702,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img2.jpg",
@@ -720,7 +908,11 @@
     "bytes": 520169,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img2.jpg.webp",
+    "thumbnail_bytes": 18630,
+    "thumbnail_width": 221,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/aino_sns_icon1.jpg",
@@ -735,7 +927,11 @@
     "bytes": 189059,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/aino_sns_icon1.jpg.webp",
+    "thumbnail_bytes": 25792,
+    "thumbnail_width": 400,
+    "thumbnail_height": 400
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img1.jpg",
@@ -750,7 +946,11 @@
     "bytes": 779691,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img1.jpg.webp",
+    "thumbnail_bytes": 27774,
+    "thumbnail_width": 221,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon1.jpg",
@@ -765,7 +965,11 @@
     "bytes": 136398,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_icon1.jpg.webp",
+    "thumbnail_bytes": 31708,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/spica_sns_icon1.jpg",
@@ -780,7 +984,11 @@
     "bytes": 162687,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/spica_sns_icon1.jpg.webp",
+    "thumbnail_bytes": 21178,
+    "thumbnail_width": 400,
+    "thumbnail_height": 400
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon5.jpg",
@@ -795,7 +1003,11 @@
     "bytes": 117557,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_icon5.jpg.webp",
+    "thumbnail_bytes": 27416,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img5.jpg",
@@ -810,7 +1022,11 @@
     "bytes": 684484,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/sns2_img5.jpg.webp",
+    "thumbnail_bytes": 23868,
+    "thumbnail_width": 221,
+    "thumbnail_height": 480
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/rikka_sns_icon1.jpg",
@@ -825,7 +1041,11 @@
     "bytes": 161848,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方壁纸、头像与横幅"
+    "category": "官方壁纸、头像与横幅",
+    "thumbnail": "thumbnails/04-official-sns/rikka_sns_icon1.jpg.webp",
+    "thumbnail_bytes": 21348,
+    "thumbnail_width": 400,
+    "thumbnail_height": 400
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_11.png",
@@ -840,7 +1060,11 @@
     "bytes": 295797,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_11.png.webp",
+    "thumbnail_bytes": 15440,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_7.png",
@@ -855,7 +1079,11 @@
     "bytes": 324255,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_7.png.webp",
+    "thumbnail_bytes": 17702,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_8.png",
@@ -870,7 +1098,11 @@
     "bytes": 318137,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_8.png.webp",
+    "thumbnail_bytes": 17346,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_14.png",
@@ -885,7 +1117,11 @@
     "bytes": 414535,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_14.png.webp",
+    "thumbnail_bytes": 16352,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_10.png",
@@ -900,7 +1136,11 @@
     "bytes": 509200,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_10.png.webp",
+    "thumbnail_bytes": 19704,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_3.png",
@@ -915,7 +1155,11 @@
     "bytes": 577983,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_3.png.webp",
+    "thumbnail_bytes": 34454,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_4.png",
@@ -930,7 +1174,11 @@
     "bytes": 512550,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_4.png.webp",
+    "thumbnail_bytes": 27620,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_13.png",
@@ -945,7 +1193,11 @@
     "bytes": 470911,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_13.png.webp",
+    "thumbnail_bytes": 17608,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_2.png",
@@ -960,7 +1212,11 @@
     "bytes": 972807,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_2.png.webp",
+    "thumbnail_bytes": 52722,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_12.png",
@@ -975,7 +1231,11 @@
     "bytes": 380001,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_12.png.webp",
+    "thumbnail_bytes": 15354,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_6.png",
@@ -990,7 +1250,11 @@
     "bytes": 271085,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_6.png.webp",
+    "thumbnail_bytes": 14528,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_1.png",
@@ -1005,7 +1269,11 @@
     "bytes": 722447,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_1.png.webp",
+    "thumbnail_bytes": 39276,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_17.png",
@@ -1020,7 +1288,11 @@
     "bytes": 222155,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_17.png.webp",
+    "thumbnail_bytes": 14950,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_16.png",
@@ -1035,7 +1307,11 @@
     "bytes": 352272,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_16.png.webp",
+    "thumbnail_bytes": 15864,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_5.png",
@@ -1050,7 +1326,11 @@
     "bytes": 687030,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_5.png.webp",
+    "thumbnail_bytes": 38216,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_9.png",
@@ -1065,7 +1345,11 @@
     "bytes": 415036,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方角色立绘"
+    "category": "官方角色立绘",
+    "thumbnail": "thumbnails/05-official-characters/character_9.png.webp",
+    "thumbnail_bytes": 24160,
+    "thumbnail_width": 327,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_20.jpg",
@@ -1080,7 +1364,11 @@
     "bytes": 185583,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_20.jpg.webp",
+    "thumbnail_bytes": 26186,
+    "thumbnail_width": 339,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_23.jpg",
@@ -1095,7 +1383,11 @@
     "bytes": 236204,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_23.jpg.webp",
+    "thumbnail_bytes": 30262,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_24.jpg",
@@ -1110,7 +1402,11 @@
     "bytes": 280213,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_24.jpg.webp",
+    "thumbnail_bytes": 22494,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_5.jpg",
@@ -1125,7 +1421,11 @@
     "bytes": 208487,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_5.jpg.webp",
+    "thumbnail_bytes": 22032,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_11.jpg",
@@ -1140,7 +1440,11 @@
     "bytes": 268625,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_11.jpg.webp",
+    "thumbnail_bytes": 37000,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_28.jpg",
@@ -1155,7 +1459,11 @@
     "bytes": 241452,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_28.jpg.webp",
+    "thumbnail_bytes": 30020,
+    "thumbnail_width": 343,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_1.jpg",
@@ -1170,7 +1478,11 @@
     "bytes": 183844,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_1.jpg.webp",
+    "thumbnail_bytes": 24938,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_25.jpg",
@@ -1185,7 +1497,11 @@
     "bytes": 244090,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_25.jpg.webp",
+    "thumbnail_bytes": 33286,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_2.jpg",
@@ -1200,7 +1516,11 @@
     "bytes": 190838,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_2.jpg.webp",
+    "thumbnail_bytes": 27168,
+    "thumbnail_width": 343,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_30.jpg",
@@ -1215,7 +1535,11 @@
     "bytes": 319129,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_30.jpg.webp",
+    "thumbnail_bytes": 50272,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_10.jpg",
@@ -1230,7 +1554,11 @@
     "bytes": 330861,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_10.jpg.webp",
+    "thumbnail_bytes": 25570,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_26.jpg",
@@ -1245,7 +1573,11 @@
     "bytes": 229678,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_26.jpg.webp",
+    "thumbnail_bytes": 30930,
+    "thumbnail_width": 338,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_8.jpg",
@@ -1260,7 +1592,11 @@
     "bytes": 335333,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_8.jpg.webp",
+    "thumbnail_bytes": 40636,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_9.jpg",
@@ -1275,7 +1611,11 @@
     "bytes": 350230,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_9.jpg.webp",
+    "thumbnail_bytes": 29524,
+    "thumbnail_width": 343,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_18.jpg",
@@ -1290,7 +1630,11 @@
     "bytes": 201708,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_18.jpg.webp",
+    "thumbnail_bytes": 25464,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_14.jpg",
@@ -1305,7 +1649,11 @@
     "bytes": 157701,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_14.jpg.webp",
+    "thumbnail_bytes": 21952,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_12.jpg",
@@ -1320,7 +1668,11 @@
     "bytes": 330524,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_12.jpg.webp",
+    "thumbnail_bytes": 45972,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_27.jpg",
@@ -1335,7 +1687,11 @@
     "bytes": 363709,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_27.jpg.webp",
+    "thumbnail_bytes": 49318,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_29.jpg",
@@ -1350,7 +1706,11 @@
     "bytes": 221969,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_29.jpg.webp",
+    "thumbnail_bytes": 23268,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_16.jpg",
@@ -1365,7 +1725,11 @@
     "bytes": 262338,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_16.jpg.webp",
+    "thumbnail_bytes": 33164,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_17.jpg",
@@ -1380,7 +1744,11 @@
     "bytes": 274001,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_17.jpg.webp",
+    "thumbnail_bytes": 41162,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_3.jpg",
@@ -1395,7 +1763,11 @@
     "bytes": 184125,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_3.jpg.webp",
+    "thumbnail_bytes": 24626,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_22.jpg",
@@ -1410,7 +1782,11 @@
     "bytes": 188595,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_22.jpg.webp",
+    "thumbnail_bytes": 25794,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_13.jpg",
@@ -1425,7 +1801,11 @@
     "bytes": 244368,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_13.jpg.webp",
+    "thumbnail_bytes": 29084,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_4.jpg",
@@ -1440,7 +1820,11 @@
     "bytes": 207413,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_4.jpg.webp",
+    "thumbnail_bytes": 23864,
+    "thumbnail_width": 345,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_15.jpg",
@@ -1455,7 +1839,11 @@
     "bytes": 189990,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_15.jpg.webp",
+    "thumbnail_bytes": 24976,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_7.jpg",
@@ -1470,7 +1858,11 @@
     "bytes": 248024,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_7.jpg.webp",
+    "thumbnail_bytes": 35844,
+    "thumbnail_width": 343,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_21.jpg",
@@ -1485,7 +1877,11 @@
     "bytes": 203895,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_21.jpg.webp",
+    "thumbnail_bytes": 27700,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_6.jpg",
@@ -1500,7 +1896,11 @@
     "bytes": 201059,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_6.jpg.webp",
+    "thumbnail_bytes": 26300,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_19.jpg",
@@ -1515,7 +1915,11 @@
     "bytes": 207554,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官网应援插画"
+    "category": "官网应援插画",
+    "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_19.jpg.webp",
+    "thumbnail_bytes": 27360,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215558883.png",
@@ -1534,7 +1938,11 @@
     "bytes": 1485665,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215558883.png.webp",
+    "thumbnail_bytes": 31834,
+    "thumbnail_width": 720,
+    "thumbnail_height": 406
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704222642fd7.png",
@@ -1553,7 +1961,11 @@
     "bytes": 1278197,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704222642fd7.png.webp",
+    "thumbnail_bytes": 19780,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215931d04.png",
@@ -1572,7 +1984,11 @@
     "bytes": 1818517,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215931d04.png.webp",
+    "thumbnail_bytes": 51662,
+    "thumbnail_width": 720,
+    "thumbnail_height": 406
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215930eaa.png",
@@ -1591,7 +2007,11 @@
     "bytes": 1807564,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215930eaa.png.webp",
+    "thumbnail_bytes": 39574,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704222644dbb.png",
@@ -1611,7 +2031,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼游戏截图 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704222644dbb.png.webp",
+    "thumbnail_bytes": 21864,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042156004dd.png",
@@ -1630,7 +2054,11 @@
     "bytes": 1616901,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042156004dd.png.webp",
+    "thumbnail_bytes": 36928,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421555483d.png",
@@ -1649,7 +2077,11 @@
     "bytes": 1535193,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421555483d.png.webp",
+    "thumbnail_bytes": 34542,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215529c36.png",
@@ -1669,7 +2101,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼游戏截图 · wing",
-    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。"
+    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215529c36.png.webp",
+    "thumbnail_bytes": 35154,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421553634b.png",
@@ -1688,7 +2124,11 @@
     "bytes": 1790126,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421553634b.png.webp",
+    "thumbnail_bytes": 43770,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155341b0.png",
@@ -1707,7 +2147,11 @@
     "bytes": 1215627,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155341b0.png.webp",
+    "thumbnail_bytes": 21794,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704223937d25.png",
@@ -1726,7 +2170,11 @@
     "bytes": 1539439,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704223937d25.png.webp",
+    "thumbnail_bytes": 37224,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704222641fd8.png",
@@ -1745,7 +2193,11 @@
     "bytes": 1428529,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704222641fd8.png.webp",
+    "thumbnail_bytes": 30616,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607041923355ca.png",
@@ -1765,7 +2217,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼游戏截图 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607041923355ca.png.webp",
+    "thumbnail_bytes": 36152,
+    "thumbnail_width": 720,
+    "thumbnail_height": 403
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215538e92.png",
@@ -1785,7 +2241,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼游戏截图 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215538e92.png.webp",
+    "thumbnail_bytes": 40422,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215525e2d.png",
@@ -1804,7 +2264,11 @@
     "bytes": 1449757,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215525e2d.png.webp",
+    "thumbnail_bytes": 30776,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421552813c.png",
@@ -1823,7 +2287,11 @@
     "bytes": 1964185,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421552813c.png.webp",
+    "thumbnail_bytes": 62034,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155496d4.png",
@@ -1842,7 +2310,11 @@
     "bytes": 1565042,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155496d4.png.webp",
+    "thumbnail_bytes": 30028,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215538f0b.png",
@@ -1861,7 +2333,11 @@
     "bytes": 1910046,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215538f0b.png.webp",
+    "thumbnail_bytes": 52984,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042156023f0.png",
@@ -1881,7 +2357,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼游戏截图 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042156023f0.png.webp",
+    "thumbnail_bytes": 38774,
+    "thumbnail_width": 720,
+    "thumbnail_height": 406
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704221620e9c.png",
@@ -1900,7 +2380,11 @@
     "bytes": 1127203,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704221620e9c.png.webp",
+    "thumbnail_bytes": 16984,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155213f8.png",
@@ -1919,7 +2403,11 @@
     "bytes": 1229528,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155213f8.png.webp",
+    "thumbnail_bytes": 24588,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155555fa.png",
@@ -1938,7 +2426,11 @@
     "bytes": 1414497,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155555fa.png.webp",
+    "thumbnail_bytes": 27240,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704221619a6b.png",
@@ -1957,7 +2449,11 @@
     "bytes": 1714628,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704221619a6b.png.webp",
+    "thumbnail_bytes": 41484,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704221621a45.png",
@@ -1976,7 +2472,11 @@
     "bytes": 1411838,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704221621a45.png.webp",
+    "thumbnail_bytes": 25724,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215523438.png",
@@ -1995,7 +2495,11 @@
     "bytes": 1269589,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215523438.png.webp",
+    "thumbnail_bytes": 26510,
+    "thumbnail_width": 720,
+    "thumbnail_height": 403
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155577ff.png",
@@ -2014,7 +2518,11 @@
     "bytes": 1672380,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155577ff.png.webp",
+    "thumbnail_bytes": 39462,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704223939fb0.png",
@@ -2033,7 +2541,11 @@
     "bytes": 754093,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704223939fb0.png.webp",
+    "thumbnail_bytes": 5814,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421554129e.png",
@@ -2052,7 +2564,11 @@
     "bytes": 1532948,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421554129e.png.webp",
+    "thumbnail_bytes": 34992,
+    "thumbnail_width": 720,
+    "thumbnail_height": 406
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155328aa.png",
@@ -2071,7 +2587,11 @@
     "bytes": 1719677,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼游戏截图 · wing"
+    "category": "巡礼游戏截图 · wing",
+    "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155328aa.png.webp",
+    "thumbnail_bytes": 39206,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9122.jpg",
@@ -2090,7 +2610,11 @@
     "bytes": 2429279,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9122.jpg.webp",
+    "thumbnail_bytes": 32712,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9119.jpg",
@@ -2109,7 +2633,11 @@
     "bytes": 2309129,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9119.jpg.webp",
+    "thumbnail_bytes": 38568,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9117.jpg",
@@ -2128,7 +2656,11 @@
     "bytes": 2630766,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9117.jpg.webp",
+    "thumbnail_bytes": 32410,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9111.jpg",
@@ -2147,7 +2679,11 @@
     "bytes": 3427306,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9111.jpg.webp",
+    "thumbnail_bytes": 35418,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204117979.jpg",
@@ -2166,7 +2702,11 @@
     "bytes": 527238,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204117979.jpg.webp",
+    "thumbnail_bytes": 26534,
+    "thumbnail_width": 361,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9106.jpg",
@@ -2185,7 +2725,11 @@
     "bytes": 2383485,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9106.jpg.webp",
+    "thumbnail_bytes": 14796,
+    "thumbnail_width": 360,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8914.jpg",
@@ -2204,7 +2748,11 @@
     "bytes": 2730001,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8914.jpg.webp",
+    "thumbnail_bytes": 43056,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9346.jpg",
@@ -2223,7 +2771,11 @@
     "bytes": 2777727,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9346.jpg.webp",
+    "thumbnail_bytes": 43368,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9344.jpg",
@@ -2242,7 +2794,11 @@
     "bytes": 2216844,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9344.jpg.webp",
+    "thumbnail_bytes": 72696,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9343.jpg",
@@ -2261,7 +2817,11 @@
     "bytes": 2071742,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9343.jpg.webp",
+    "thumbnail_bytes": 41022,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9161.jpg",
@@ -2281,7 +2841,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼实景照片 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9161.jpg.webp",
+    "thumbnail_bytes": 40510,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9197.jpg",
@@ -2300,7 +2864,11 @@
     "bytes": 3326572,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9197.jpg.webp",
+    "thumbnail_bytes": 53520,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9195.jpg",
@@ -2319,7 +2887,11 @@
     "bytes": 2908103,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9195.jpg.webp",
+    "thumbnail_bytes": 47346,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9143.jpg",
@@ -2339,7 +2911,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼实景照片 · wing",
-    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。"
+    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9143.jpg.webp",
+    "thumbnail_bytes": 45698,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9144.jpg",
@@ -2359,7 +2935,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼实景照片 · wing",
-    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。"
+    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9144.jpg.webp",
+    "thumbnail_bytes": 65544,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9162.jpg",
@@ -2378,7 +2958,11 @@
     "bytes": 2228601,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9162.jpg.webp",
+    "thumbnail_bytes": 29964,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9164.jpg",
@@ -2397,7 +2981,11 @@
     "bytes": 2914259,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9164.jpg.webp",
+    "thumbnail_bytes": 30402,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_202607042041108d1.jpg",
@@ -2416,7 +3004,11 @@
     "bytes": 353630,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_202607042041108d1.jpg.webp",
+    "thumbnail_bytes": 43640,
+    "thumbnail_width": 638,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204112435.jpg",
@@ -2435,7 +3027,11 @@
     "bytes": 347589,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204112435.jpg.webp",
+    "thumbnail_bytes": 42790,
+    "thumbnail_width": 638,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_2026070422393488d.jpg",
@@ -2454,7 +3050,11 @@
     "bytes": 409006,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_2026070422393488d.jpg.webp",
+    "thumbnail_bytes": 54906,
+    "thumbnail_width": 641,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_202607042041070de.jpg",
@@ -2473,7 +3073,11 @@
     "bytes": 374335,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_202607042041070de.jpg.webp",
+    "thumbnail_bytes": 49660,
+    "thumbnail_width": 643,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204109a4c.jpg",
@@ -2492,7 +3096,11 @@
     "bytes": 304834,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204109a4c.jpg.webp",
+    "thumbnail_bytes": 32704,
+    "thumbnail_width": 641,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704223935b99.jpg",
@@ -2511,7 +3119,11 @@
     "bytes": 323287,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704223935b99.jpg.webp",
+    "thumbnail_bytes": 37578,
+    "thumbnail_width": 639,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9309.jpg",
@@ -2530,7 +3142,11 @@
     "bytes": 3374553,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9309.jpg.webp",
+    "thumbnail_bytes": 44824,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8968.jpg",
@@ -2549,7 +3165,11 @@
     "bytes": 2866559,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8968.jpg.webp",
+    "thumbnail_bytes": 15996,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_2026070420411616e.jpg",
@@ -2569,7 +3189,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼实景照片 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_2026070420411616e.jpg.webp",
+    "thumbnail_bytes": 16414,
+    "thumbnail_width": 360,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9232.jpg",
@@ -2589,7 +3213,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼实景照片 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9232.jpg.webp",
+    "thumbnail_bytes": 46638,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9243.jpg",
@@ -2608,7 +3236,11 @@
     "bytes": 2513699,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9243.jpg.webp",
+    "thumbnail_bytes": 40382,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9314.jpg",
@@ -2627,7 +3259,11 @@
     "bytes": 3365313,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9314.jpg.webp",
+    "thumbnail_bytes": 58442,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204115ee7.jpg",
@@ -2646,7 +3282,11 @@
     "bytes": 310653,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204115ee7.jpg.webp",
+    "thumbnail_bytes": 35516,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9262.jpg",
@@ -2665,7 +3305,11 @@
     "bytes": 3053285,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9262.jpg.webp",
+    "thumbnail_bytes": 50044,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9264.jpg",
@@ -2684,7 +3328,11 @@
     "bytes": 2753098,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9264.jpg.webp",
+    "thumbnail_bytes": 27488,
+    "thumbnail_width": 360,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9263.jpg",
@@ -2703,7 +3351,11 @@
     "bytes": 3229200,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9263.jpg.webp",
+    "thumbnail_bytes": 38906,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9255.jpg",
@@ -2722,7 +3374,11 @@
     "bytes": 4952193,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9255.jpg.webp",
+    "thumbnail_bytes": 99534,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9257.jpg",
@@ -2741,7 +3397,11 @@
     "bytes": 4141303,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9257.jpg.webp",
+    "thumbnail_bytes": 97074,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9253.jpg",
@@ -2760,7 +3420,11 @@
     "bytes": 3515944,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9253.jpg.webp",
+    "thumbnail_bytes": 75340,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9212.jpg",
@@ -2780,7 +3444,11 @@
     "status": "ok",
     "collected_at": "2026-09-24",
     "category": "巡礼实景照片 · wing",
-    "location_status": "玩家推测或取景范围，待现场核对"
+    "location_status": "玩家推测或取景范围，待现场核对",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9212.jpg.webp",
+    "thumbnail_bytes": 62396,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8977.jpg",
@@ -2799,7 +3467,11 @@
     "bytes": 3062409,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8977.jpg.webp",
+    "thumbnail_bytes": 31184,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8982.jpg",
@@ -2818,7 +3490,11 @@
     "bytes": 2162772,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8982.jpg.webp",
+    "thumbnail_bytes": 28156,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8961.jpg",
@@ -2837,7 +3513,11 @@
     "bytes": 4337815,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8961.jpg.webp",
+    "thumbnail_bytes": 81262,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8962.jpg",
@@ -2856,7 +3536,11 @@
     "bytes": 3658537,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8962.jpg.webp",
+    "thumbnail_bytes": 69542,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8964.jpg",
@@ -2875,7 +3559,11 @@
     "bytes": 3575556,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8964.jpg.webp",
+    "thumbnail_bytes": 43520,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8955.jpg",
@@ -2894,7 +3582,11 @@
     "bytes": 3140525,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8955.jpg.webp",
+    "thumbnail_bytes": 52804,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8957.jpg",
@@ -2913,7 +3605,11 @@
     "bytes": 1268658,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8957.jpg.webp",
+    "thumbnail_bytes": 8306,
+    "thumbnail_width": 360,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9235.jpg",
@@ -2932,7 +3628,11 @@
     "bytes": 3421323,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9235.jpg.webp",
+    "thumbnail_bytes": 50504,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9234.jpg",
@@ -2951,7 +3651,11 @@
     "bytes": 2354870,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9234.jpg.webp",
+    "thumbnail_bytes": 24378,
+    "thumbnail_width": 360,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9217.jpg",
@@ -2970,7 +3674,11 @@
     "bytes": 2553383,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "巡礼实景照片 · wing"
+    "category": "巡礼实景照片 · wing",
+    "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9217.jpg.webp",
+    "thumbnail_bytes": 43328,
+    "thumbnail_width": 640,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/3wvv46e_1755529967548.jpg",
@@ -2994,7 +3702,11 @@
     "bytes": 806070,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "note": "社区上传的宣传插画版本，保留来源文件。"
+    "note": "社区上传的宣传插画版本，保留来源文件。",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/3wvv46e_1755529967548.jpg.webp",
+    "thumbnail_bytes": 38662,
+    "thumbnail_width": 335,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2192/bangumi/465493/points/eh2rfwi-1778517904858.jpg",
@@ -3017,7 +3729,11 @@
     "file": "09-anitabi-scene-originals/eh2rfwi-1778517904858.jpg",
     "bytes": 205621,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/eh2rfwi-1778517904858.jpg.webp",
+    "thumbnail_bytes": 15882,
+    "thumbnail_width": 720,
+    "thumbnail_height": 403
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/3wvutqu_1755529130489.jpg",
@@ -3040,7 +3756,11 @@
     "file": "09-anitabi-scene-originals/3wvutqu_1755529130489.jpg",
     "bytes": 292030,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/3wvutqu_1755529130489.jpg.webp",
+    "thumbnail_bytes": 35270,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45l911q_1756055506455.jpg",
@@ -3064,7 +3784,11 @@
     "bytes": 270441,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "note": "公开视频画面，像素为1920×1080，画面本身较软。"
+    "note": "公开视频画面，像素为1920×1080，画面本身较软。",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45l911q_1756055506455.jpg.webp",
+    "thumbnail_bytes": 31526,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alunuhj-1770099474221.jpg",
@@ -3087,7 +3811,11 @@
     "file": "09-anitabi-scene-originals/alunuhj-1770099474221.jpg",
     "bytes": 657528,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/alunuhj-1770099474221.jpg.webp",
+    "thumbnail_bytes": 30848,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/ez1whl4-1779604905732.jpg",
@@ -3110,7 +3838,11 @@
     "file": "09-anitabi-scene-originals/ez1whl4-1779604905732.jpg",
     "bytes": 1139787,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/ez1whl4-1779604905732.jpg.webp",
+    "thumbnail_bytes": 27898,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alve9sm-1770100953108.jpg",
@@ -3134,7 +3866,11 @@
     "bytes": 653632,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/alve9sm-1770100953108.jpg.webp",
+    "thumbnail_bytes": 42424,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/51g15b9_1757981668157.jpg",
@@ -3158,7 +3894,11 @@
     "bytes": 231651,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/51g15b9_1757981668157.jpg.webp",
+    "thumbnail_bytes": 46450,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dw8hbvu-1778477725356.jpg",
@@ -3182,7 +3922,11 @@
     "bytes": 230005,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/dw8hbvu-1778477725356.jpg.webp",
+    "thumbnail_bytes": 17488,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/akcasus-1770008171999.jpg",
@@ -3206,7 +3950,11 @@
     "bytes": 457360,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/akcasus-1770008171999.jpg.webp",
+    "thumbnail_bytes": 36252,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gc05iv7-1782564777075.jpg,jpg",
@@ -3230,7 +3978,11 @@
     "bytes": 707405,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gc05iv7-1782564777075.jpg.webp",
+    "thumbnail_bytes": 26258,
+    "thumbnail_width": 360,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45n2ud1_1756058587661.jpg",
@@ -3253,7 +4005,11 @@
     "file": "09-anitabi-scene-originals/45n2ud1_1756058587661.jpg",
     "bytes": 274058,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45n2ud1_1756058587661.jpg.webp",
+    "thumbnail_bytes": 30732,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dm5fsj3-1776647931349.jpg",
@@ -3276,7 +4032,11 @@
     "file": "09-anitabi-scene-originals/dm5fsj3-1776647931349.jpg",
     "bytes": 250750,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/dm5fsj3-1776647931349.jpg.webp",
+    "thumbnail_bytes": 35870,
+    "thumbnail_width": 658,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbzw3u6-1782564342957.jpg,jpg",
@@ -3300,7 +4060,11 @@
     "bytes": 692208,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区推测或局部相似，待现场核对"
+    "location_status": "社区推测或局部相似，待现场核对",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbzw3u6-1782564342957.jpg.webp",
+    "thumbnail_bytes": 63772,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3iw3x-1769932983749.jpg",
@@ -3323,7 +4087,11 @@
     "file": "09-anitabi-scene-originals/aj3iw3x-1769932983749.jpg",
     "bytes": 308569,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3iw3x-1769932983749.jpg.webp",
+    "thumbnail_bytes": 24996,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbij60z-1782535169147.jpg,jpg",
@@ -3346,7 +4114,11 @@
     "file": "09-anitabi-scene-originals/gbij60z-1782535169147.jpg",
     "bytes": 503746,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbij60z-1782535169147.jpg.webp",
+    "thumbnail_bytes": 39118,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dw7wfau-1777256775188.jpg",
@@ -3370,7 +4142,11 @@
     "bytes": 467112,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/dw7wfau-1777256775188.jpg.webp",
+    "thumbnail_bytes": 39166,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbil6b9-1782535252403.jpg,jpg",
@@ -3394,7 +4170,11 @@
     "bytes": 497538,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbil6b9-1782535252403.jpg.webp",
+    "thumbnail_bytes": 39738,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/akbktyg-1770006950668.jpg",
@@ -3418,7 +4198,11 @@
     "bytes": 420024,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/akbktyg-1770006950668.jpg.webp",
+    "thumbnail_bytes": 32166,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gepamly-1782727943147.jpg",
@@ -3441,7 +4225,11 @@
     "file": "09-anitabi-scene-originals/gepamly-1782727943147.jpg",
     "bytes": 547158,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gepamly-1782727943147.jpg.webp",
+    "thumbnail_bytes": 52498,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2192/bangumi/465493/points/eh2oy6v-1778517791594.jpg",
@@ -3464,7 +4252,11 @@
     "file": "09-anitabi-scene-originals/eh2oy6v-1778517791594.jpg",
     "bytes": 64353,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/eh2oy6v-1778517791594.jpg.webp",
+    "thumbnail_bytes": 30400,
+    "thumbnail_width": 680,
+    "thumbnail_height": 424
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/g94kmlk-1782390762319.jpg,jpg",
@@ -3487,7 +4279,11 @@
     "file": "09-anitabi-scene-originals/g94kmlk-1782390762319.jpg",
     "bytes": 604463,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/g94kmlk-1782390762319.jpg.webp",
+    "thumbnail_bytes": 57618,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbh3cjc-1782532751905.jpg,jpg",
@@ -3510,7 +4306,11 @@
     "file": "09-anitabi-scene-originals/gbh3cjc-1782532751905.jpg",
     "bytes": 452453,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbh3cjc-1782532751905.jpg.webp",
+    "thumbnail_bytes": 35604,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/akbru8e-1770007286827.jpg",
@@ -3534,7 +4334,11 @@
     "bytes": 402347,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/akbru8e-1770007286827.jpg.webp",
+    "thumbnail_bytes": 29890,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/geokidl-1782727353690.jpg",
@@ -3558,7 +4362,11 @@
     "bytes": 348554,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/geokidl-1782727353690.jpg.webp",
+    "thumbnail_bytes": 25946,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8suwi3-1784547922450.jpg",
@@ -3582,7 +4390,11 @@
     "bytes": 401399,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/h8suwi3-1784547922450.jpg.webp",
+    "thumbnail_bytes": 33752,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dymy0us-1777403023820.jpg",
@@ -3606,7 +4418,11 @@
     "bytes": 134322,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区推测或局部相似，待现场核对"
+    "location_status": "社区推测或局部相似，待现场核对",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/dymy0us-1777403023820.jpg.webp",
+    "thumbnail_bytes": 42264,
+    "thumbnail_width": 720,
+    "thumbnail_height": 404
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alv8zs1-1770100476959.jpg",
@@ -3630,7 +4446,11 @@
     "bytes": 603304,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/alv8zs1-1770100476959.jpg.webp",
+    "thumbnail_bytes": 29978,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45ol5u1_1756061160877.jpg",
@@ -3653,7 +4473,11 @@
     "file": "09-anitabi-scene-originals/45ol5u1_1756061160877.jpg",
     "bytes": 147633,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45ol5u1_1756061160877.jpg.webp",
+    "thumbnail_bytes": 27530,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbhusje-1782534014210.jpg,jpg",
@@ -3677,7 +4501,11 @@
     "bytes": 306652,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbhusje-1782534014210.jpg.webp",
+    "thumbnail_bytes": 17586,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/e891wdq-1777984258865.jpg",
@@ -3700,7 +4528,11 @@
     "file": "09-anitabi-scene-originals/e891wdq-1777984258865.jpg",
     "bytes": 561180,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/e891wdq-1777984258865.jpg.webp",
+    "thumbnail_bytes": 51146,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/duzl6dh-1777182467913.jpg",
@@ -3724,7 +4556,11 @@
     "bytes": 561180,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区推测或局部相似，待现场核对"
+    "location_status": "社区推测或局部相似，待现场核对",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/duzl6dh-1777182467913.jpg.webp",
+    "thumbnail_bytes": 51146,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alulys2-1770099399990.jpg",
@@ -3749,7 +4585,11 @@
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
     "location_status": "社区考据；地点对应未获官方逐点确认",
-    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。"
+    "note": "游戏画面与现实建筑方向存在镜像差异；保存文件未翻转。",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/alulys2-1770099399990.jpg.webp",
+    "thumbnail_bytes": 33932,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3f739-1769932792399.jpg",
@@ -3773,7 +4613,11 @@
     "bytes": 457360,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3f739-1769932792399.jpg.webp",
+    "thumbnail_bytes": 36252,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbhsrx9-1782533919010.jpg,jpg",
@@ -3796,7 +4640,11 @@
     "file": "09-anitabi-scene-originals/gbhsrx9-1782533919010.jpg",
     "bytes": 439039,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbhsrx9-1782533919010.jpg.webp",
+    "thumbnail_bytes": 32334,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45kzsdu_1756055080236.jpg",
@@ -3819,7 +4667,11 @@
     "file": "09-anitabi-scene-originals/45kzsdu_1756055080236.jpg",
     "bytes": 322380,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45kzsdu_1756055080236.jpg.webp",
+    "thumbnail_bytes": 35824,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45mmtbe_1756057836311.jpg",
@@ -3842,7 +4694,11 @@
     "file": "09-anitabi-scene-originals/45mmtbe_1756057836311.jpg",
     "bytes": 265342,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45mmtbe_1756057836311.jpg.webp",
+    "thumbnail_bytes": 30252,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45mprd4_1756057975205.jpg",
@@ -3866,7 +4722,11 @@
     "bytes": 262392,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区推测或局部相似，待现场核对"
+    "location_status": "社区推测或局部相似，待现场核对",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45mprd4_1756057975205.jpg.webp",
+    "thumbnail_bytes": 25720,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3p9sv-1769933266128.jpg",
@@ -3889,7 +4749,11 @@
     "file": "09-anitabi-scene-originals/aj3p9sv-1769933266128.jpg",
     "bytes": 72320,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3p9sv-1769933266128.jpg.webp",
+    "thumbnail_bytes": 5014,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alvo7e3-1770101165461.jpg",
@@ -3912,7 +4776,11 @@
     "file": "09-anitabi-scene-originals/alvo7e3-1770101165461.jpg",
     "bytes": 808579,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/alvo7e3-1770101165461.jpg.webp",
+    "thumbnail_bytes": 45396,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3chxn-1769932682727.jpg",
@@ -3936,7 +4804,11 @@
     "bytes": 443216,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3chxn-1769932682727.jpg.webp",
+    "thumbnail_bytes": 35982,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8sozp1-1784547605340.jpg",
@@ -3960,7 +4832,11 @@
     "bytes": 312429,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/h8sozp1-1784547605340.jpg.webp",
+    "thumbnail_bytes": 20336,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbzrvk9-1782564099845.jpg,jpg",
@@ -3983,7 +4859,11 @@
     "file": "09-anitabi-scene-originals/gbzrvk9-1782564099845.jpg",
     "bytes": 500656,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbzrvk9-1782564099845.jpg.webp",
+    "thumbnail_bytes": 45538,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45l3jqr_1756055253625.jpg",
@@ -4006,7 +4886,11 @@
     "file": "09-anitabi-scene-originals/45l3jqr_1756055253625.jpg",
     "bytes": 336265,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45l3jqr_1756055253625.jpg.webp",
+    "thumbnail_bytes": 35120,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/3ww2h93_1755529962285.jpg",
@@ -4029,7 +4913,11 @@
     "file": "09-anitabi-scene-originals/3ww2h93_1755529962285.jpg",
     "bytes": 643326,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/3ww2h93_1755529962285.jpg.webp",
+    "thumbnail_bytes": 34192,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbigshk-1782535035690.jpg,jpg",
@@ -4052,7 +4940,11 @@
     "file": "09-anitabi-scene-originals/gbigshk-1782535035690.jpg",
     "bytes": 285070,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbigshk-1782535035690.jpg.webp",
+    "thumbnail_bytes": 18276,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbh9yad-1782533028646.jpg,jpg",
@@ -4075,7 +4967,11 @@
     "file": "09-anitabi-scene-originals/gbh9yad-1782533028646.jpg",
     "bytes": 298141,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbh9yad-1782533028646.jpg.webp",
+    "thumbnail_bytes": 15254,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45nk0bk_1756059389345.jpg",
@@ -4098,7 +4994,11 @@
     "file": "09-anitabi-scene-originals/45nk0bk_1756059389345.jpg",
     "bytes": 221370,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/45nk0bk_1756059389345.jpg.webp",
+    "thumbnail_bytes": 42670,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbiazd7-1782534821385.jpg,jpg",
@@ -4122,7 +5022,11 @@
     "bytes": 323198,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区考据；地点对应未获官方逐点确认"
+    "location_status": "社区考据；地点对应未获官方逐点确认",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/gbiazd7-1782534821385.jpg.webp",
+    "thumbnail_bytes": 22898,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8t2msf-1784548270488.jpg",
@@ -4145,7 +5049,11 @@
     "file": "09-anitabi-scene-originals/h8t2msf-1784548270488.jpg",
     "bytes": 352549,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/h8t2msf-1784548270488.jpg.webp",
+    "thumbnail_bytes": 25416,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8t4dq0-1784548315944.jpg",
@@ -4169,7 +5077,11 @@
     "bytes": 502371,
     "collected_at": "2026-09-24",
     "category": "巡礼场景 · anitabi",
-    "location_status": "社区推测或局部相似，待现场核对"
+    "location_status": "社区推测或局部相似，待现场核对",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/h8t4dq0-1784548315944.jpg.webp",
+    "thumbnail_bytes": 41658,
+    "thumbnail_width": 720,
+    "thumbnail_height": 405
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dkswd6a-1776566446158.jpg",
@@ -4192,7 +5104,11 @@
     "file": "09-anitabi-scene-originals/dkswd6a-1776566446158.jpg",
     "bytes": 108929,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/dkswd6a-1776566446158.jpg.webp",
+    "thumbnail_bytes": 16184,
+    "thumbnail_width": 647,
+    "thumbnail_height": 480
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dw8207f-1777257352004.jpg",
@@ -4215,7 +5131,11 @@
     "file": "09-anitabi-scene-originals/dw8207f-1777257352004.jpg",
     "bytes": 433031,
     "collected_at": "2026-09-24",
-    "category": "巡礼场景 · anitabi"
+    "category": "巡礼场景 · anitabi",
+    "thumbnail": "thumbnails/09-anitabi-scene-originals/dw8207f-1777257352004.jpg.webp",
+    "thumbnail_bytes": 20942,
+    "thumbnail_width": 392,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_book.jpg?a",
@@ -4230,7 +5150,11 @@
     "bytes": 158807,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_book.jpg.webp",
+    "thumbnail_bytes": 52558,
+    "thumbnail_width": 720,
+    "thumbnail_height": 349
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_cd.jpg?a",
@@ -4245,7 +5169,11 @@
     "bytes": 134283,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_cd.jpg.webp",
+    "thumbnail_bytes": 24994,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_keyholder.jpg?a",
@@ -4260,7 +5188,11 @@
     "bytes": 54632,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_keyholder.jpg.webp",
+    "thumbnail_bytes": 9978,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_lycee_a.jpg?1",
@@ -4275,7 +5207,11 @@
     "bytes": 123539,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_lycee_a.jpg.webp",
+    "thumbnail_bytes": 41980,
+    "thumbnail_width": 720,
+    "thumbnail_height": 244
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_sikisi.jpg?a",
@@ -4290,7 +5226,11 @@
     "bytes": 129145,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_sikisi.jpg.webp",
+    "thumbnail_bytes": 27204,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_sticker.jpg?a",
@@ -4305,7 +5245,11 @@
     "bytes": 164332,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_sticker.jpg.webp",
+    "thumbnail_bytes": 36714,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_ws_a.jpg?b",
@@ -4320,7 +5264,11 @@
     "bytes": 93280,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_ws_a.jpg.webp",
+    "thumbnail_bytes": 29648,
+    "thumbnail_width": 720,
+    "thumbnail_height": 251
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_1.jpg",
@@ -4335,7 +5283,11 @@
     "bytes": 110984,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_1.jpg.webp",
+    "thumbnail_bytes": 42898,
+    "thumbnail_width": 678,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_2.jpg",
@@ -4350,7 +5302,11 @@
     "bytes": 133152,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_2.jpg.webp",
+    "thumbnail_bytes": 30644,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_3.jpg",
@@ -4365,7 +5321,11 @@
     "bytes": 149980,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_3.jpg.webp",
+    "thumbnail_bytes": 35116,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_4.jpg",
@@ -4380,7 +5340,11 @@
     "bytes": 144673,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_4.jpg.webp",
+    "thumbnail_bytes": 33886,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_5.jpg",
@@ -4395,7 +5359,11 @@
     "bytes": 153200,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_5.jpg.webp",
+    "thumbnail_bytes": 38330,
+    "thumbnail_width": 340,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_alicenet.jpg",
@@ -4410,7 +5378,11 @@
     "bytes": 75136,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_alicenet.jpg.webp",
+    "thumbnail_bytes": 33698,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_amiami.jpg",
@@ -4425,7 +5397,11 @@
     "bytes": 65726,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_amiami.jpg.webp",
+    "thumbnail_bytes": 22162,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_bookmate.jpg",
@@ -4440,7 +5416,11 @@
     "bytes": 64295,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_bookmate.jpg.webp",
+    "thumbnail_bytes": 29688,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_ebten.jpg?a",
@@ -4455,7 +5435,11 @@
     "bytes": 162100,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_ebten.jpg.webp",
+    "thumbnail_bytes": 37100,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_fanza.jpg",
@@ -4470,7 +5454,11 @@
     "bytes": 184703,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_fanza.jpg.webp",
+    "thumbnail_bytes": 41608,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_furukawa.jpg",
@@ -4485,7 +5473,11 @@
     "bytes": 138421,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_furukawa.jpg.webp",
+    "thumbnail_bytes": 28418,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_geestore2.jpg",
@@ -4500,7 +5492,11 @@
     "bytes": 72945,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_geestore2.jpg.webp",
+    "thumbnail_bytes": 34944,
+    "thumbnail_width": 500,
+    "thumbnail_height": 420
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_getchu.jpg",
@@ -4515,7 +5511,11 @@
     "bytes": 227669,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_getchu.jpg.webp",
+    "thumbnail_bytes": 52666,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_medio.jpg",
@@ -4530,7 +5530,11 @@
     "bytes": 59782,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_medio.jpg.webp",
+    "thumbnail_bytes": 22424,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_pcmk.jpg",
@@ -4545,7 +5549,11 @@
     "bytes": 130556,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_pcmk.jpg.webp",
+    "thumbnail_bytes": 33266,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_prop.jpg",
@@ -4560,7 +5568,11 @@
     "bytes": 138421,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_prop.jpg.webp",
+    "thumbnail_bytes": 28418,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_surugaya.jpg",
@@ -4575,7 +5587,11 @@
     "bytes": 118789,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_surugaya.jpg.webp",
+    "thumbnail_bytes": 26740,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_takarajima.jpg",
@@ -4590,7 +5606,11 @@
     "bytes": 35827,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_takarajima.jpg.webp",
+    "thumbnail_bytes": 18866,
+    "thumbnail_width": 400,
+    "thumbnail_height": 400
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_toranoana.jpg",
@@ -4605,7 +5625,11 @@
     "bytes": 162462,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_toranoana.jpg.webp",
+    "thumbnail_bytes": 37364,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_trader.jpg",
@@ -4620,7 +5644,11 @@
     "bytes": 107057,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_trader.jpg.webp",
+    "thumbnail_bytes": 53446,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_wondergoo.jpg",
@@ -4635,7 +5663,11 @@
     "bytes": 157337,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_wondergoo.jpg.webp",
+    "thumbnail_bytes": 42004,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_yumeoriya.jpg",
@@ -4650,7 +5682,11 @@
     "bytes": 143239,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方特典展示图"
+    "category": "官方特典展示图",
+    "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_yumeoriya.jpg.webp",
+    "thumbnail_bytes": 30314,
+    "thumbnail_width": 480,
+    "thumbnail_height": 480
   },
   {
     "url": "https://key.visualarts.gr.jp/key25th/common/image/gallery_11.jpg",
@@ -4665,7 +5701,11 @@
     "bytes": 99601,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "官方周年插画"
+    "category": "官方周年插画",
+    "thumbnail": "thumbnails/11-official-anniversary/gallery_11.jpg.webp",
+    "thumbnail_bytes": 11584,
+    "thumbnail_width": 344,
+    "thumbnail_height": 480
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9267s.jpg",
@@ -4685,6 +5725,10 @@
     "bytes": 87120,
     "status": "ok",
     "collected_at": "2026-09-24",
-    "category": "仅找到缩略图"
+    "category": "仅找到缩略图",
+    "thumbnail": "thumbnails/99-thumbnail-only/IMG_9267s.jpg.webp",
+    "thumbnail_bytes": 11390,
+    "thumbnail_width": 300,
+    "thumbnail_height": 225
   }
 ]
