@@ -1,8 +1,8 @@
 # bells0.github.io
 
-Personal portfolio and field notes for wonderbell.
+Personal portfolio for wonderbell.
 
-The homepage presents AI agent systems across commerce, research, creative operations, knowledge workflows, and software delivery. It is intentionally dependency-free and deploys directly through GitHub Pages.
+The homepage presents current Amazon-first research and Listing production work, public Codex tools, and clearly labeled earlier projects. The About page explains the current focus; older blog posts remain available in the archive. The site is dependency-free and deploys directly through GitHub Pages.
 
 ## Local preview
 
