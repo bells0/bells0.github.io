@@ -16,7 +16,7 @@ The previous generated Hexo pages remain in Git history and their existing paths
 
 ## anemoi 巡礼图库
 
-介绍入口：[anemoi · 给风留一页](https://bells0.github.io/anemoi/intro/)；从这里可进入官方作品资料和本站图库。首页专题使用仓库中已有的 Key 官方主视觉，并在图片旁标注来源与非官方性质。
+介绍入口：[anemoi](https://bells0.github.io/anemoi/intro/)；从这里可进入官方作品资料和本站图库。首页专题使用仓库中已有的 Key 官方主视觉，并在图片旁标注来源与非官方性质。
 
 入口：[anemoi 巡礼原图收藏](https://bells0.github.io/anemoi/)。
 

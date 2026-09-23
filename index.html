@@ -154,14 +154,19 @@
     .diagram-steps span { min-height: 90px; padding: 16px 12px; display: flex; flex-direction: column; justify-content: space-between; background: #161d1a; font: 11px/1.4 var(--mono); }
     .diagram-steps b { color: #f2b9a9; font-weight: 400; }
 
-    .anemoi-feature { padding: 92px 0; border-top: 1px solid var(--line); background: #e7f0ed; }
-    .anemoi-grid { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(32px, 6vw, 90px); align-items: center; }
-    .anemoi-copy h2 { max-width: 520px; margin: 16px 0 22px; }
-    .anemoi-copy p:not(.section-index) { max-width: 500px; font-size: 17px; color: #4b5c58; }
-    .anemoi-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .anemoi-feature { padding: clamp(64px, 8vw, 112px) 0; background: #15282b; color: #f4f1e9; }
+    .anemoi-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(42px, 6vw, 98px); align-items: center; }
+    .anemoi-copy { padding: 18px 0; }
+    .anemoi-copy .section-index { color: #a7bdba; }
+    .anemoi-copy h2 { margin: 20px 0 24px; font-size: clamp(76px, 9vw, 144px); line-height: .8; letter-spacing: -.075em; }
+    .anemoi-copy p:not(.section-index) { max-width: 340px; margin: 0; color: #d5deda; font-size: 17px; line-height: 1.65; }
+    .anemoi-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 38px; }
+    .anemoi-links a { padding-bottom: 7px; border-bottom: 1px solid rgba(244,241,233,.7); font: 11px/1.4 var(--mono); letter-spacing: .04em; }
+    .anemoi-links a:hover { color: #b9dadb; border-color: #b9dadb; }
     .anemoi-image { margin: 0; }
-    .anemoi-image img { width: 100%; aspect-ratio: 16/10; object-fit: cover; border: 1px solid rgba(20,23,20,.12); }
-    .anemoi-image figcaption { margin-top: 9px; font: 11px/1.5 var(--mono); color: #536561; }
+    .anemoi-image img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+    .anemoi-image figcaption { margin-top: 12px; font: 10px/1.5 var(--mono); color: #a7bdba; }
+    .anemoi-image figcaption a { border-bottom: 1px solid currentColor; }
 
     .system-loop { display: none; }
     .section { padding: 110px 0; border-top: 1px solid var(--line); }
@@ -330,6 +335,8 @@
       .section { padding: 76px 0; }
       .anemoi-feature { padding: 76px 0; }
       .anemoi-grid { grid-template-columns: 1fr; }
+      .anemoi-copy { padding: 0; }
+      .anemoi-copy h2 { font-size: clamp(72px, 18vw, 112px); }
       .section-head { grid-template-columns: 1fr; gap: 18px; }
       .section-intro { justify-self: start; }
       .project, .project.reverse, body[data-theme="systems"] .project, body[data-theme="systems"] .project.reverse { grid-template-columns: 1fr; padding-bottom: 54px; }
@@ -403,7 +410,6 @@
         <div class="hero-actions">
           <a class="btn primary" href="#projects">Explore projects</a>
           <a class="btn" href="https://github.com/bells0">GitHub ↗</a>
-          <a class="btn" href="/anemoi/intro/">A page for anemoi ↗</a>
         </div>
       </div>
       <div class="hero-visual" aria-label="Evidence to result workflow diagram">
@@ -421,17 +427,17 @@
     <section class="anemoi-feature" id="anemoi">
       <div class="shell anemoi-grid">
         <div class="anemoi-copy">
-          <p class="section-index">Personal note · now playing</p>
-          <h2>A little space for anemoi.</h2>
-          <p lang="zh-CN">最近沉迷《anemoi》。我想在这里给它留一个入口：先认识作品，再走进我整理的画面与巡礼线索。</p>
+          <p class="section-index">A visual note · Key / 2026</p>
+          <h2>anemoi</h2>
+          <p>From the story of Masumi Town to the landscapes beyond the screen.</p>
           <div class="anemoi-links">
-            <a class="btn primary" href="/anemoi/intro/" lang="zh-CN">读我的介绍 ↗</a>
-            <a class="btn" href="/anemoi/" lang="zh-CN">浏览原图收藏 ↗</a>
+            <a href="/anemoi/intro/">Enter the story ↗</a>
+            <a href="/anemoi/">Explore the archive ↗</a>
           </div>
         </div>
         <figure class="anemoi-image">
           <img src="/anemoi/01-official-key-visuals/fv_main_bg.jpg" alt="Key《anemoi》官方主视觉：五位角色站在风车与麦田前" />
-          <figcaption>Official key visual © VISUAL ARTS/Key · <a href="https://key.visualarts.gr.jp/anemoi/">source ↗</a> · unofficial fan introduction</figcaption>
+          <figcaption>Official key visual © VISUAL ARTS/Key · <a href="https://key.visualarts.gr.jp/anemoi/">source ↗</a> · unofficial page</figcaption>
         </figure>
       </div>
     </section>
