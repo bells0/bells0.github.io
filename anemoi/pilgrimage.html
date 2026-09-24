@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="把 anemoi 里的风景，放进自己的旅程。9 个路线地点、游戏与实景对照，以及保存在本机的巡礼清单。">
 <title>去有风的地方 · anemoi 巡礼手帖</title>
-<link rel="icon" href="thumbnails/02-official-backgrounds/am_bg_6.jpg.webp"><link rel="stylesheet" href="pilgrimage.css"><script src="pilgrimage.js" defer></script>
+<link rel="icon" href="thumbnails/02-official-backgrounds/am_bg_6.jpg.webp"><link rel="stylesheet" href="pilgrimage.css"><script src="offline.js" defer></script><script src="pilgrimage.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#places">跳到地点列表</a>
@@ -19,6 +19,7 @@
 <p class="coverage-note">8 个场景地点 + 1 个周边散步点。砂川为条件顺路；这是核心路线清单，不是全部作品圣地。</p><div id="route-scope" class="route-scope" hidden><span id="route-scope-label"></span><button id="clear-route" type="button">查看全部地点</button></div><div class="tools"><div class="view-tabs" role="group" aria-label="查看范围"><button type="button" data-view="all" aria-pressed="true">全部地点 <span id="all-count">9</span></button><button type="button" data-view="saved" aria-pressed="false">我的清单 <span id="saved-count">0</span></button><button type="button" data-view="visited" aria-pressed="false">已到访 <span id="visited-count">0</span></button></div><label class="search"><span class="sr-only">搜索地点</span><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="搜索地点 / 日文地名" autocomplete="off"></label></div>
 <div class="filter-line"><div class="region-filters" role="group" aria-label="按区域筛选"><button type="button" data-region="all" aria-pressed="true">所有区域</button><button type="button" data-region="苫前" aria-pressed="false">苫前</button><button type="button" data-region="羽幌" aria-pressed="false">羽幌</button><button type="button" data-region="初山别" aria-pressed="false">初山别</button><button type="button" data-region="砂川" aria-pressed="false">砂川</button></div><span id="result-count" role="status">正在整理地点…</span></div>
 <p class="storage-note" id="storage-note">清单仅保存在当前设备的浏览器中，不跨设备同步；清除浏览器数据后会丢失。</p>
+<section class="offline-pack" id="offline-pack" aria-labelledby="offline-title"><div><p class="eyebrow">TAKE THE SCENERY WITH YOU</p><h3 id="offline-title">把风景带走，断网也能翻。</h3><p>一份 HTML 文件，装下缩略图、日文地名与取景提示。地图与来源链接需要联网。</p></div><div class="offline-controls"><label for="offline-scope">导出范围</label><select id="offline-scope"><option value="visible">当前显示的地点</option><option value="saved">我的全部收藏</option><option value="all">全部地点</option></select><button type="button" id="download-pack" disabled>下载离线手帖</button></div><p class="offline-status" id="offline-status" role="status" aria-live="polite">正在加载地点…</p><p class="offline-help">下载后保留 .html 后缀，用浏览器打开；手机文件预览可能不完整，出发前请在要携带的设备上试开一次。手帖为只读快照，不包含原图，也不自动同步后续修改。</p></section>
 <div id="place-grid" class="place-grid"></div>
 <div id="empty" class="empty" hidden><span class="empty-icon" aria-hidden="true">♡</span><h3 id="empty-title">清单还没有目的地</h3><p id="empty-text">遇见喜欢的风景，点一下卡片上的爱心。</p><button type="button" id="reset-filters">浏览全部地点</button></div>
 <noscript><p>请启用 JavaScript 查看地点与保存清单。也可以先打开<a href="index.html">原图收藏</a>。</p></noscript>
