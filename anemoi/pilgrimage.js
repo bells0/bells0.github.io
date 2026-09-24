@@ -41,7 +41,7 @@
   }
   function picture(image, name, label) {
     if (!image) return `<figure><div class="missing-photo"><span>待补一张实景</span>期待亲自走到这里</div><figcaption><span>实景对照</span><span>尚未收录</span></figcaption></figure>`;
-    return `<figure><a href="${esc(image.file)}" target="_blank" rel="noopener noreferrer" aria-label="打开${esc(name)}${label}原图"><img src="${esc(image.thumbnail)}" alt="${esc(name)} · ${label}" loading="lazy" decoding="async" width="720" height="540"></a><figcaption><span>${label}</span><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.credit || (label === '玩家实拍' ? 'wing' : '图片来源'))} ↗</a></figcaption></figure>`;
+    return `<figure><a href="${esc(image.file)}" rel="noopener noreferrer" aria-label="打开${esc(name)}${label}原图"><img src="${esc(image.thumbnail)}" alt="${esc(name)} · ${label}" loading="lazy" decoding="async" width="720" height="540"></a><figcaption><span>${label}</span><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.credit || (label === '玩家实拍' ? 'wing' : '图片来源'))} ↗</a></figcaption></figure>`;
   }
   function card(p, i) {
     const map = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.mapQuery || p.coordinates.join(','));
