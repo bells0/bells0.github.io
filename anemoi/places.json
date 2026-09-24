@@ -28,7 +28,11 @@
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=45mprd4",
     "note": "对照风车基座、台阶与背后的海平线。现有实拍可作构图参考，精确站位与朝向待现场确认。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "tomamae"
+    ],
+    "kind": "scene"
   },
   {
     "id": "mirai",
@@ -59,7 +63,11 @@
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=45kzsdu",
     "note": "对照阶梯、灯柱与草坡的相对位置。实拍中的植被与游戏画面不同，到场后可能需要调整机位。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "tomamae"
+    ],
+    "kind": "scene"
   },
   {
     "id": "museum",
@@ -90,7 +98,11 @@
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3chxn",
     "note": "以屋顶山墙、正门雨棚和窗户排列对照外观。这里提供外景参考；入馆开放情况请另行查询。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "tomamae"
+    ],
+    "kind": "scene"
   },
   {
     "id": "haboro",
@@ -123,7 +135,13 @@
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3f739",
     "note": "wing 的「真澄町の道路②」已有对应实拍。可对照左侧建筑、路口斑马线与远方店铺；路灯样式、路面标线及构图与游戏存在差异。地图仍是社区参考点，精确站位与朝向待现场确认。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "tomamae",
+      "north",
+      "return"
+    ],
+    "kind": "scene"
   },
   {
     "id": "chikubetsu",
@@ -154,7 +172,11 @@
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=alulys2",
     "note": "游戏画面与现实建筑存在镜像差异，已保留原图方向。可以对照招牌、门窗和邮筒的位置，从公共区域观察外观。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "north"
+    ],
+    "kind": "scene"
   },
   {
     "id": "observatory",
@@ -185,7 +207,11 @@
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=3wvutqu",
     "note": "正面圆顶、圆窗与入口雨棚是对照线索。现有实拍为外观参考，精确朝向待实地记录；日间与夜间开放安排请查官方信息。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "north"
+    ],
+    "kind": "scene"
   },
   {
     "id": "beach",
@@ -231,6 +257,85 @@
       {
         "label": "Albert 巡礼记录",
         "url": "https://www.albert12345.com/2026/06/Anemoi.html"
+      }
+    ],
+    "routes": [
+      "tomamae"
+    ],
+    "kind": "scene"
+  },
+  {
+    "id": "misaki",
+    "name": "岬台公园 / 天文台周边",
+    "japanese": "みさき台公園",
+    "region": "初山别",
+    "subtitle": "看过天文台，再去海边走走",
+    "kind": "surroundings",
+    "scene": null,
+    "photo": {
+      "file": "pilgrimage-photos/misaki-park.jpg",
+      "thumbnail": "pilgrimage-photos/misaki-park.jpg.webp",
+      "source": "https://www.vill.shosanbetsu.lg.jp/kankomiryoku/kankoshukuhaku/",
+      "provenance": "初山别村官方观光照片",
+      "credit": "初山别村",
+      "label": "官方实景",
+      "width": 760,
+      "height": 507
+    },
+    "mapQuery": "みさき台公園 北海道 初山別村",
+    "locationSource": "https://www.vill.shosanbetsu.lg.jp/kankomiryoku/kankoshukuhaku/",
+    "locationSourceLabel": "初山别村官方介绍",
+    "note": "初山别村官网确认天文台位于岬台公园内。本卡补充天文台周边的散步与看海地点，不把整座公园作为独立 CG 取景认证。照片为官方介绍图，拍摄日期未注明；到场后以现场开放区域和返程时间安排步行。",
+    "evidence": "周边散步点 · 官方地点资料",
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "north"
+    ]
+  },
+  {
+    "id": "sunagawa",
+    "name": "砂川服务区（返程顺路）",
+    "japanese": "砂川SA・上り（札幌方面）",
+    "region": "砂川",
+    "subtitle": "如果巴士停靠，就留下一张合影",
+    "kind": "conditional",
+    "scene": {
+      "file": "09-anitabi-scene-originals/duzl6dh-1777182467913.jpg",
+      "thumbnail": "thumbnails/09-anitabi-scene-originals/duzl6dh-1777182467913.jpg.webp",
+      "source": "https://www.anitabi.cn/map?bangumiId=465493&pid=duzl6dh",
+      "provenance": "anitabi 社区场景资料",
+      "width": 2048,
+      "height": 1152
+    },
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_8914.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8914.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024,
+      "credit": "wing",
+      "label": "砂川SA 实拍"
+    },
+    "coordinates": [
+      43.529159,
+      141.92956
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=duzl6dh",
+    "note": "仅在返程巴士实际停靠、允许下车且休息时间足够时顺路拍摄，不单独下车追点。地图指向上行（札幌方向）参考点；上下行设施相似，现有玩家实拍的行车方向尚未独立核实。拍摄前先辨认所在侧与集合位置，以司机通知的发车时间为准。",
+    "evidence": "条件顺路 · 停靠与时间待确认",
+    "sourceDate": "2026-09-24",
+    "routes": [
+      "return"
+    ],
+    "additionalSources": [
+      {
+        "label": "NEXCO 上行设施",
+        "url": "https://www.driveplaza.com/sapa/1050/1050166/1/shisetsu_service.html"
+      },
+      {
+        "label": "沿岸巴士官方信息",
+        "url": "https://www.engan-bus.co.jp/01_expressbus/81_haboro_express/index.html"
       }
     ]
   }

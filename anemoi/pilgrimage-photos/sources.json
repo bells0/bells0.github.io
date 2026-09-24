@@ -24,5 +24,18 @@
     "bytes": 706510,
     "collected_at": "2026-09-24",
     "relationship": "原作者制作的实拍与游戏拼图；作者明确说明忘记拍摄同机位，使用附近照片。"
+  },
+  {
+    "file": "pilgrimage-photos/misaki-park.jpg",
+    "thumbnail": "pilgrimage-photos/misaki-park.jpg.webp",
+    "source": "https://www.vill.shosanbetsu.lg.jp/kankomiryoku/kankoshukuhaku/",
+    "provenance": "初山别村官方观光照片",
+    "credit": "初山别村",
+    "label": "官方实景",
+    "width": 760,
+    "height": 507,
+    "url": "https://www.vill.shosanbetsu.lg.jp/files/00000000/00000027/img_km1.jpg",
+    "collected_at": "2026-09-24",
+    "relationship": "天文台周边公园；作为行程散步点，不宣称独立游戏 CG 对应。"
   }
 ]

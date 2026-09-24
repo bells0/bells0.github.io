@@ -3,6 +3,14 @@
   const KEY = 'anemoi-pilgrimage-v1';
   const $ = selector => document.querySelector(selector);
   const grid = $('#place-grid');
+  const routeNames = {tomamae:'苫前海岸与町内', north:'羽幌・筑别・初山别', return:'返程与条件顺路'};
+  let activeRoute = new URLSearchParams(location.search).get('route');
+  if (!Object.hasOwn(routeNames, activeRoute)) activeRoute = null;
+  function clearRoute() {
+    activeRoute = null;
+    const url = new URL(location.href); url.searchParams.delete('route');
+    history.replaceState(null, '', url.pathname + url.search + url.hash);
+  }
   let places = [], state = {}, view = location.hash === '#saved' ? 'saved' : 'all', region = 'all';
   let storageAvailable = true;
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -36,14 +44,14 @@
     return `<figure><a href="${esc(image.file)}" target="_blank" rel="noopener noreferrer" aria-label="打开${esc(name)}${label}原图"><img src="${esc(image.thumbnail)}" alt="${esc(name)} · ${label}" loading="lazy" decoding="async" width="720" height="540"></a><figcaption><span>${label}</span><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.credit || (label === '玩家实拍' ? 'wing' : '图片来源'))} ↗</a></figcaption></figure>`;
   }
   function card(p, i) {
-    const map = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.coordinates.join(','));
+    const map = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.mapQuery || p.coordinates.join(','));
     return `<article class="place-card" id="place-${esc(p.id)}" data-place="${esc(p.id)}">
       <div class="card-top"><span class="region-tag">${String(i+1).padStart(2,'0')} / ${esc(p.region)}</span><button class="save-button" type="button" data-action="saved" data-id="${esc(p.id)}" aria-pressed="false" aria-label="收藏${esc(p.name)}"><span aria-hidden="true">♡</span>想去</button></div>
       <div class="card-title"><h3>${esc(p.name)}</h3><p class="japanese" lang="ja">${esc(p.japanese)}</p></div>
-      <div class="compare">${picture(p.scene,p.name,'游戏画面')}${picture(p.photo,p.name,p.photo?.label || '玩家实拍')}</div>
+      <div class="compare ${p.scene ? '' : 'single-photo'}">${p.scene ? picture(p.scene,p.name,'游戏画面') : ''}${picture(p.photo,p.name,p.photo?.label || '玩家实拍')}</div>
       <div class="card-content"><p class="subtitle">${esc(p.subtitle)}</p><span class="evidence">${esc(p.evidence)}</span>
-      <div class="card-actions"><a class="map-link" href="${map}" target="_blank" rel="noopener noreferrer" aria-label="在地图中查看${esc(p.name)}社区参考点">打开地图 <span aria-hidden="true">↗</span></a><button class="visit-button" type="button" data-action="visited" data-id="${esc(p.id)}" aria-pressed="false" aria-label="标记${esc(p.name)}为已到访">○ 标记已到访</button></div>
-      <details class="place-details"><summary>取景提示与来源</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">anitabi 点位考据 ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">${esc(p.photo.credit || 'wing')} 巡礼记录 ↗</a>` : ''}${(p.additionalSources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join('')}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>地图为社区参考坐标，不代表已确认的入口或拍摄站位。</p></details></div></article>`;
+      <div class="card-actions"><a class="map-link" href="${map}" target="_blank" rel="noopener noreferrer" aria-label="在地图中查看${esc(p.name)}">打开地图 <span aria-hidden="true">↗</span></a><button class="visit-button" type="button" data-action="visited" data-id="${esc(p.id)}" aria-pressed="false" aria-label="标记${esc(p.name)}为已到访">○ 标记已到访</button></div>
+      <details class="place-details"><summary>取景提示与来源</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">${esc(p.locationSourceLabel || 'anitabi 点位考据')} ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">${esc(p.photo.credit || 'wing')} 图片出处 ↗</a>` : ''}${(p.additionalSources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join('')}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>${p.mapQuery ? '地图按地点名称搜索，请核对实际入口。' : '地图为社区参考坐标，不代表已确认的入口或拍摄站位。'}</p></details></div></article>`;
   }
   function update() {
     const query = $('#place-search').value.trim().toLocaleLowerCase();
@@ -51,7 +59,7 @@
     for (const p of places) {
       const s = state[p.id] || {};
       const node = document.getElementById('place-' + p.id);
-      const match = (view === 'all' || s[view]) && (region === 'all' || p.region === region) && `${p.name} ${p.japanese} ${p.region}`.toLocaleLowerCase().includes(query);
+      const match = (!activeRoute || p.routes?.includes(activeRoute)) && (view === 'all' || s[view]) && (region === 'all' || p.region === region) && `${p.name} ${p.japanese} ${p.region}`.toLocaleLowerCase().includes(query);
       node.hidden = !match;
       if (match) shown++;
       const saveButton = node.querySelector('[data-action="saved"]');
@@ -68,15 +76,19 @@
     $('#saved-count').textContent = $('#nav-count').textContent = saved;
     $('#visited-count').textContent = visited;
     $('#result-count').textContent = `${shown} 个地点`;
+    $('#all-count').textContent = places.length;
+    $('#place-total').textContent = String(places.length).padStart(2, '0');
+    $('#route-scope').hidden = !activeRoute;
+    $('#route-scope-label').textContent = activeRoute ? '当前路线：' + routeNames[activeRoute] : '';
     document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
     document.querySelectorAll('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===region)));
     $('#empty').hidden = shown > 0;
-    $('#empty-title').textContent = query || region !== 'all' ? '没有找到符合条件的地点' : view === 'visited' ? '旅程，等你留下第一个脚印' : '清单还没有目的地';
-    $('#empty-text').textContent = query || region !== 'all' ? '试试其他地名，或清除筛选条件。' : view === 'visited' ? '到达现场后，点一下「标记已到访」。' : '遇见喜欢的风景，点一下卡片上的爱心。';
+    $('#empty-title').textContent = query || region !== 'all' || activeRoute ? '没有找到符合条件的地点' : view === 'visited' ? '旅程，等你留下第一个脚印' : '清单还没有目的地';
+    $('#empty-text').textContent = query || region !== 'all' || activeRoute ? '试试其他地名，或清除筛选条件。' : view === 'visited' ? '到达现场后，点一下「标记已到访」。' : '遇见喜欢的风景，点一下卡片上的爱心。';
   }
   function switchView(next, reset = false) {
     view = next;
-    if (reset) { region = 'all'; $('#place-search').value = ''; }
+    if (reset) { clearRoute(); region = 'all'; $('#place-search').value = ''; }
     update();
   }
   grid.addEventListener('click', e => {
@@ -100,6 +112,7 @@
     history.replaceState(null,'', view === 'saved' ? '#saved' : '#places');
   }));
   document.querySelectorAll('[data-region]').forEach(b=>b.addEventListener('click',()=>{region=b.dataset.region;update();}));
+  $('#clear-route').addEventListener('click',()=>switchView('all',true));
   $('#place-search').addEventListener('input',update);
   $('#reset-filters').addEventListener('click',()=>{switchView('all',true);history.replaceState(null,'','#places');});
   $('#saved-link').addEventListener('click',e=>{e.preventDefault();switchView('saved',true);history.replaceState(null,'','#saved');$('#places').scrollIntoView({behavior:'auto'});});
@@ -107,7 +120,9 @@
   window.addEventListener('storage',e=>{if(e.key===KEY || e.key===null){load();if(places.length)update();}});
   fetch('places.json').then(r=>{if(!r.ok)throw new Error('Unable to load places');return r.json();}).then(data=>{
     places=data; load(); grid.innerHTML=places.map(card).join(''); update();
-    if(location.hash==='#saved') $('#places').scrollIntoView({behavior:'auto'});
+    if(location.hash==='#saved') { clearRoute(); update(); $('#places').scrollIntoView({behavior:'auto'}); }
+    else if(location.hash==='#places') $('#places').scrollIntoView({behavior:'auto'});
+    else if(location.hash.startsWith('#place-')) document.getElementById(location.hash.slice(1))?.scrollIntoView({behavior:'auto'});
   }).catch(()=>{
     $('#result-count').textContent='地点暂时加载失败';
     grid.innerHTML='<p>请刷新页面重试，或先<a href="index.html">打开原图收藏</a>。</p>';

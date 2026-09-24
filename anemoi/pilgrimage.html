@@ -2,22 +2,22 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="把 anemoi 里的风景，放进自己的旅程。7 个巡礼地点、游戏与实景对照，以及保存在本机的巡礼清单。">
+<meta name="description" content="把 anemoi 里的风景，放进自己的旅程。9 个路线地点、游戏与实景对照，以及保存在本机的巡礼清单。">
 <title>去有风的地方 · anemoi 巡礼手帖</title>
 <link rel="icon" href="thumbnails/02-official-backgrounds/am_bg_6.jpg.webp"><link rel="stylesheet" href="pilgrimage.css"><script src="pilgrimage.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#places">跳到地点列表</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="pilgrimage.html">anemoi <span>巡礼手帖</span></a><nav aria-label="主要导航"><a href="pilgrimage.html" aria-current="page">去巡礼</a><a href="index.html">找图片 ↗</a><a href="#saved" id="saved-link">我的清单 <span id="nav-count">0</span></a></nav></div></header>
+<header class="site-header"><div class="header-inner"><a class="brand" href="pilgrimage.html">anemoi <span>巡礼手帖</span></a><nav aria-label="主要导航"><a href="pilgrimage.html" aria-current="page">去巡礼</a><a href="routes.html">路线入门</a><a href="index.html">找图片 ↗</a><a href="#saved" id="saved-link">我的清单 <span id="nav-count">0</span></a></nav></div></header>
 <main>
 <section class="hero" aria-labelledby="hero-title">
-<div class="hero-copy"><p class="eyebrow">ANEMOI · HOKKAIDO FIELD NOTES</p><h1 id="hero-title">去有风的地方，<br>遇见故事里的风景。</h1><p class="intro">从游戏中的一个画面，到北海道的一次驻足。<br class="desktop-break">把想去的地方收进清单，带着熟悉的风景出发。</p><a class="primary" href="#places">翻开巡礼地点 <span>↓</span></a><div class="hero-stats"><span><b>07</b> 个重点地点</span><span><b>03</b> 个区域</span><span>游戏画面 × 实景对照</span></div></div>
+<div class="hero-copy"><p class="eyebrow">ANEMOI · HOKKAIDO FIELD NOTES</p><h1 id="hero-title">去有风的地方，<br>遇见故事里的风景。</h1><p class="intro">从游戏中的一个画面，到北海道的一次驻足。<br class="desktop-break">把想去的地方收进清单，带着熟悉的风景出发。</p><a class="primary" href="#places">翻开巡礼地点 <span>↓</span></a><a class="route-intro-link" href="routes.html">先看看怎么串起来 →</a><div class="hero-stats"><span><b id="place-total">09</b> 个路线地点</span><span><b>03</b> 段路线</span><span>游戏画面 × 实景对照</span></div></div>
 <figure class="hero-image"><img src="thumbnails/02-official-backgrounds/am_bg_6.jpg.webp" alt="anemoi 中蓝天下的初山别天文台" width="720" height="405" fetchpriority="high"><figcaption><span>01 / 风景来信</span><b>初山别天文台</b><span>游戏画面 · © VISUAL ARTS / Key</span></figcaption></figure>
 </section>
 <section class="collection" id="places" aria-labelledby="places-title">
 <div class="section-heading"><div><p class="eyebrow">YOUR NEXT STOP</p><h2 id="places-title">把心动的地方，记下来。</h2></div><p>点击 ♡ 收藏地点，到了现场再打个勾。</p></div>
-<div class="tools"><div class="view-tabs" role="group" aria-label="查看范围"><button type="button" data-view="all" aria-pressed="true">全部地点 <span>7</span></button><button type="button" data-view="saved" aria-pressed="false">我的清单 <span id="saved-count">0</span></button><button type="button" data-view="visited" aria-pressed="false">已到访 <span id="visited-count">0</span></button></div><label class="search"><span class="sr-only">搜索地点</span><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="搜索地点 / 日文地名" autocomplete="off"></label></div>
-<div class="filter-line"><div class="region-filters" role="group" aria-label="按区域筛选"><button type="button" data-region="all" aria-pressed="true">所有区域</button><button type="button" data-region="苫前" aria-pressed="false">苫前</button><button type="button" data-region="羽幌" aria-pressed="false">羽幌</button><button type="button" data-region="初山别" aria-pressed="false">初山别</button></div><span id="result-count" role="status">正在整理地点…</span></div>
+<p class="coverage-note">8 个场景地点 + 1 个周边散步点。砂川为条件顺路；这是核心路线清单，不是全部作品圣地。</p><div id="route-scope" class="route-scope" hidden><span id="route-scope-label"></span><button id="clear-route" type="button">查看全部地点</button></div><div class="tools"><div class="view-tabs" role="group" aria-label="查看范围"><button type="button" data-view="all" aria-pressed="true">全部地点 <span id="all-count">9</span></button><button type="button" data-view="saved" aria-pressed="false">我的清单 <span id="saved-count">0</span></button><button type="button" data-view="visited" aria-pressed="false">已到访 <span id="visited-count">0</span></button></div><label class="search"><span class="sr-only">搜索地点</span><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="搜索地点 / 日文地名" autocomplete="off"></label></div>
+<div class="filter-line"><div class="region-filters" role="group" aria-label="按区域筛选"><button type="button" data-region="all" aria-pressed="true">所有区域</button><button type="button" data-region="苫前" aria-pressed="false">苫前</button><button type="button" data-region="羽幌" aria-pressed="false">羽幌</button><button type="button" data-region="初山别" aria-pressed="false">初山别</button><button type="button" data-region="砂川" aria-pressed="false">砂川</button></div><span id="result-count" role="status">正在整理地点…</span></div>
 <p class="storage-note" id="storage-note">清单仅保存在当前设备的浏览器中，不跨设备同步；清除浏览器数据后会丢失。</p>
 <div id="place-grid" class="place-grid"></div>
 <div id="empty" class="empty" hidden><span class="empty-icon" aria-hidden="true">♡</span><h3 id="empty-title">清单还没有目的地</h3><p id="empty-text">遇见喜欢的风景，点一下卡片上的爱心。</p><button type="button" id="reset-filters">浏览全部地点</button></div>
@@ -25,6 +25,6 @@
 </section>
 <aside class="field-note"><span class="field-note-mark" aria-hidden="true">✳</span><div><h2>这本手帖，等待脚步补完。</h2><p>地点对应来自玩家考据，并非官方逐点认证。地图标记是寻找线索，具体机位、朝向和通行情况仍待实地核实。每张卡片都保留图片与点位来源；欢迎带着它去看，也带回自己的发现。</p></div></aside>
 </main>
-<footer><a class="brand" href="pilgrimage.html">anemoi <span>巡礼手帖</span></a><p>一个玩家整理的风景收藏。游戏图片 © VISUAL ARTS / Key；实拍版权归 wing、shiroha 等原作者；各图附来源。<br>资料采集于 2026-09-24 · 开放时间与交通安排请以当地最新公告为准。</p><a href="index.html">回到原图收藏 ↗</a></footer>
+<footer><a class="brand" href="pilgrimage.html">anemoi <span>巡礼手帖</span></a><p>一个玩家整理的风景收藏。游戏图片 © VISUAL ARTS / Key；实拍及官方照片版权归各来源作者或机构；各图附出处。<br>资料采集于 2026-09-24 · 开放时间与交通安排请以当地最新公告为准。</p><a href="index.html">回到原图收藏 ↗</a></footer>
 <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
 </body></html>
