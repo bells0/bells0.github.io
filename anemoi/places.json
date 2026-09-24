@@ -106,13 +106,22 @@
       "width": 1280,
       "height": 720
     },
-    "photo": null,
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_9195.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9195.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024,
+      "credit": "wing",
+      "label": "玩家实拍"
+    },
     "coordinates": [
       44.358393,
       141.693424
     ],
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3f739",
-    "note": "社区坐标仅作街区寻找线索，尚未核实精确路口与拍摄方向。请先在社区地图中查看考据，勿将点位当作确定机位。",
+    "note": "wing 的「真澄町の道路②」已有对应实拍。可对照左侧建筑、路口斑马线与远方店铺；路灯样式、路面标线及构图与游戏存在差异。地图仍是社区参考点，精确站位与朝向待现场确认。",
     "evidence": "社区考据 · 机位待实地核实",
     "sourceDate": "2026-09-24"
   },
@@ -192,14 +201,37 @@
       "width": 3840,
       "height": 2160
     },
-    "photo": null,
+    "photo": {
+      "file": "pilgrimage-photos/shiroha-beach-surroundings.jpg",
+      "thumbnail": "pilgrimage-photos/shiroha-beach-surroundings.jpg.webp",
+      "source": "https://scrapbox.io/shiroha-playlist/【聖地巡礼_anemoi】真澄町（北海道_苫前町・羽幌町）%231：2026%2F5%2F22",
+      "url": "https://scrapbox.io/files/6a12c12365e24daf8cb32a9c.JPG",
+      "credit": "shiroha's playlist",
+      "provenance": "shiroha's playlist 巡礼实拍",
+      "width": 1376,
+      "height": 1032,
+      "bytes": 298560,
+      "collected_at": "2026-09-24",
+      "relationship": "同地点周边实拍，非游戏同机位；作者说明右侧道路自行车附近是候选拍摄位置，未在该位置拍摄。",
+      "label": "周边实拍 · 非同机位"
+    },
     "coordinates": [
       44.315572,
       141.661742
     ],
     "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=ez1whl4",
-    "note": "先以社区地图中的海岸点位寻找画面。本卡尚缺对应实拍，具体路段、朝向和步行入口均待现场核实。",
+    "note": "已有同一处海岸、风车与道路的周边实拍。shiroha 作者说明，照片右侧道路、自行车附近是候选取景位置，但本人没有在该机位拍摄。Albert 的巡礼记录也提供了附近照片与此 CG 的对照。卡片照片保留原构图，并非游戏同机位复刻；具体站位与朝向仍待核实。",
     "evidence": "社区考据 · 机位待实地核实",
-    "sourceDate": "2026-09-24"
+    "sourceDate": "2026-09-24",
+    "additionalSources": [
+      {
+        "label": "Albert 的原始对照图",
+        "url": "pilgrimage-photos/albert-beach-comparison.jpg"
+      },
+      {
+        "label": "Albert 巡礼记录",
+        "url": "https://www.albert12345.com/2026/06/Anemoi.html"
+      }
+    ]
   }
 ]

@@ -33,17 +33,17 @@
   }
   function picture(image, name, label) {
     if (!image) return `<figure><div class="missing-photo"><span>待补一张实景</span>期待亲自走到这里</div><figcaption><span>实景对照</span><span>尚未收录</span></figcaption></figure>`;
-    return `<figure><a href="${esc(image.file)}" target="_blank" rel="noopener noreferrer" aria-label="打开${esc(name)}${label}原图"><img src="${esc(image.thumbnail)}" alt="${esc(name)} · ${label}" loading="lazy" decoding="async" width="720" height="540"></a><figcaption><span>${label}</span><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${label === '玩家实拍' ? 'wing ↗' : '图片来源 ↗'}</a></figcaption></figure>`;
+    return `<figure><a href="${esc(image.file)}" target="_blank" rel="noopener noreferrer" aria-label="打开${esc(name)}${label}原图"><img src="${esc(image.thumbnail)}" alt="${esc(name)} · ${label}" loading="lazy" decoding="async" width="720" height="540"></a><figcaption><span>${label}</span><a href="${esc(image.source)}" target="_blank" rel="noopener noreferrer">${esc(image.credit || (label === '玩家实拍' ? 'wing' : '图片来源'))} ↗</a></figcaption></figure>`;
   }
   function card(p, i) {
     const map = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p.coordinates.join(','));
     return `<article class="place-card" id="place-${esc(p.id)}" data-place="${esc(p.id)}">
       <div class="card-top"><span class="region-tag">${String(i+1).padStart(2,'0')} / ${esc(p.region)}</span><button class="save-button" type="button" data-action="saved" data-id="${esc(p.id)}" aria-pressed="false" aria-label="收藏${esc(p.name)}"><span aria-hidden="true">♡</span>想去</button></div>
       <div class="card-title"><h3>${esc(p.name)}</h3><p class="japanese" lang="ja">${esc(p.japanese)}</p></div>
-      <div class="compare">${picture(p.scene,p.name,'游戏画面')}${picture(p.photo,p.name,'玩家实拍')}</div>
+      <div class="compare">${picture(p.scene,p.name,'游戏画面')}${picture(p.photo,p.name,p.photo?.label || '玩家实拍')}</div>
       <div class="card-content"><p class="subtitle">${esc(p.subtitle)}</p><span class="evidence">${esc(p.evidence)}</span>
       <div class="card-actions"><a class="map-link" href="${map}" target="_blank" rel="noopener noreferrer" aria-label="在地图中查看${esc(p.name)}社区参考点">打开地图 <span aria-hidden="true">↗</span></a><button class="visit-button" type="button" data-action="visited" data-id="${esc(p.id)}" aria-pressed="false" aria-label="标记${esc(p.name)}为已到访">○ 标记已到访</button></div>
-      <details class="place-details"><summary>取景提示与来源</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">anitabi 点位考据 ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">wing 巡礼记录 ↗</a>` : ''}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>地图为社区参考坐标，不代表已确认的入口或拍摄站位。</p></details></div></article>`;
+      <details class="place-details"><summary>取景提示与来源</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">anitabi 点位考据 ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">${esc(p.photo.credit || 'wing')} 巡礼记录 ↗</a>` : ''}${(p.additionalSources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join('')}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>地图为社区参考坐标，不代表已确认的入口或拍摄站位。</p></details></div></article>`;
   }
   function update() {
     const query = $('#place-search').value.trim().toLocaleLowerCase();
