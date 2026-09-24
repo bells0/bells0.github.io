@@ -1,0 +1,205 @@
+[
+  {
+    "id": "furai",
+    "name": "风来望",
+    "japanese": "苫前夕陽ヶ丘風力発電所「風来望」",
+    "region": "苫前",
+    "subtitle": "海风经过的地方",
+    "scene": {
+      "file": "02-official-backgrounds/am_bg_2.jpg",
+      "thumbnail": "thumbnails/02-official-backgrounds/am_bg_2.jpg.webp",
+      "source": "https://key.visualarts.gr.jp/anemoi/gallery.html",
+      "provenance": "Key 官网",
+      "width": 1280,
+      "height": 720
+    },
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_8955.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8955.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024
+    },
+    "coordinates": [
+      44.316851,
+      141.66439
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=45mprd4",
+    "note": "对照风车基座、台阶与背后的海平线。现有实拍可作构图参考，精确站位与朝向待现场确认。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  },
+  {
+    "id": "mirai",
+    "name": "未来港公园",
+    "japanese": "苫前夕陽ヶ丘未来港公園",
+    "region": "苫前",
+    "subtitle": "在熟悉的广场停一下",
+    "scene": {
+      "file": "02-official-backgrounds/am_bg_8.jpg",
+      "thumbnail": "thumbnails/02-official-backgrounds/am_bg_8.jpg.webp",
+      "source": "https://key.visualarts.gr.jp/anemoi/gallery.html",
+      "provenance": "Key 官网",
+      "width": 1280,
+      "height": 720
+    },
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_8961.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8961.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024
+    },
+    "coordinates": [
+      44.315393,
+      141.658479
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=45kzsdu",
+    "note": "对照阶梯、灯柱与草坡的相对位置。实拍中的植被与游戏画面不同，到场后可能需要调整机位。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  },
+  {
+    "id": "museum",
+    "name": "苫前町乡土资料馆",
+    "japanese": "苫前町郷土資料館",
+    "region": "苫前",
+    "subtitle": "故事里的旧建筑",
+    "scene": {
+      "file": "02-official-backgrounds/am_bg_7.jpg",
+      "thumbnail": "thumbnails/02-official-backgrounds/am_bg_7.jpg.webp",
+      "source": "https://key.visualarts.gr.jp/anemoi/gallery.html",
+      "provenance": "Key 官网",
+      "width": 1280,
+      "height": 720
+    },
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_9235.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9235.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024
+    },
+    "coordinates": [
+      44.307713,
+      141.65829
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3chxn",
+    "note": "以屋顶山墙、正门雨棚和窗户排列对照外观。这里提供外景参考；入馆开放情况请另行查询。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  },
+  {
+    "id": "haboro",
+    "name": "羽幌街口",
+    "japanese": "羽幌町・街角",
+    "region": "羽幌",
+    "subtitle": "走进真澄町的日常",
+    "scene": {
+      "file": "02-official-backgrounds/am_bg_9.jpg",
+      "thumbnail": "thumbnails/02-official-backgrounds/am_bg_9.jpg.webp",
+      "source": "https://key.visualarts.gr.jp/anemoi/gallery.html",
+      "provenance": "Key 官网",
+      "width": 1280,
+      "height": 720
+    },
+    "photo": null,
+    "coordinates": [
+      44.358393,
+      141.693424
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3f739",
+    "note": "社区坐标仅作街区寻找线索，尚未核实精确路口与拍摄方向。请先在社区地图中查看考据，勿将点位当作确定机位。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  },
+  {
+    "id": "chikubetsu",
+    "name": "筑别邮局",
+    "japanese": "築別郵便局",
+    "region": "羽幌",
+    "subtitle": "在小小的邮局前相遇",
+    "scene": {
+      "file": "09-anitabi-scene-originals/alulys2-1770099399990.jpg",
+      "thumbnail": "thumbnails/09-anitabi-scene-originals/alulys2-1770099399990.jpg.webp",
+      "source": "https://www.anitabi.cn/map?bangumiId=465493&pid=alulys2",
+      "provenance": "anitabi 社区场景资料",
+      "width": 2048,
+      "height": 1152
+    },
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_9143.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9143.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024
+    },
+    "coordinates": [
+      44.411483,
+      141.735768
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=alulys2",
+    "note": "游戏画面与现实建筑存在镜像差异，已保留原图方向。可以对照招牌、门窗和邮筒的位置，从公共区域观察外观。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  },
+  {
+    "id": "observatory",
+    "name": "初山别天文台",
+    "japanese": "しょさんべつ天文台",
+    "region": "初山别",
+    "subtitle": "去看看那片星空",
+    "scene": {
+      "file": "02-official-backgrounds/am_bg_6.jpg",
+      "thumbnail": "thumbnails/02-official-backgrounds/am_bg_6.jpg.webp",
+      "source": "https://key.visualarts.gr.jp/anemoi/gallery.html",
+      "provenance": "Key 官网",
+      "width": 1280,
+      "height": 720
+    },
+    "photo": {
+      "file": "08-pilgrimage-real-photos/IMG_9122.jpg",
+      "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9122.jpg.webp",
+      "source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "provenance": "wing 巡礼实拍",
+      "width": 4032,
+      "height": 3024
+    },
+    "coordinates": [
+      44.562556,
+      141.774344
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=3wvutqu",
+    "note": "正面圆顶、圆窗与入口雨棚是对照线索。现有实拍为外观参考，精确朝向待实地记录；日间与夜间开放安排请查官方信息。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  },
+  {
+    "id": "beach",
+    "name": "白色沙滩 / 海岸道路",
+    "japanese": "とままえ夕陽ケ丘ホワイトビーチ",
+    "region": "苫前",
+    "subtitle": "沿着海岸，把夏天留住",
+    "scene": {
+      "file": "09-anitabi-scene-originals/ez1whl4-1779604905732.jpg",
+      "thumbnail": "thumbnails/09-anitabi-scene-originals/ez1whl4-1779604905732.jpg.webp",
+      "source": "https://www.anitabi.cn/map?bangumiId=465493&pid=ez1whl4",
+      "provenance": "anitabi 社区场景资料",
+      "width": 3840,
+      "height": 2160
+    },
+    "photo": null,
+    "coordinates": [
+      44.315572,
+      141.661742
+    ],
+    "locationSource": "https://www.anitabi.cn/map?bangumiId=465493&pid=ez1whl4",
+    "note": "先以社区地图中的海岸点位寻找画面。本卡尚缺对应实拍，具体路段、朝向和步行入口均待现场核实。",
+    "evidence": "社区考据 · 机位待实地核实",
+    "sourceDate": "2026-09-24"
+  }
+]
