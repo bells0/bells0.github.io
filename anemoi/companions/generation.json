@@ -42,5 +42,47 @@
     "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
     "verified_at": "2026-09-25",
     "kind": "AI生成同人插画；人物组合有公开设定依据，具体场景为创作，不是游戏CG或剧情复刻。"
+  },
+  {
+    "key": "aino",
+    "file": "aino-workshop",
+    "sourceFile": "exec-b0a0aef6-0563-4f03-8c26-e5e81f8a31e5.png",
+    "references": [
+      2
+    ],
+    "basis": "官方人物设定：修理风车、擅长机械、尝试自制飞机；单人制作模型的日常想象。",
+    "prompt": "Use case: illustration-story. Landscape 1536x1024 anemoi fan-site vignette. Use the supplied official Aino image as exact character identity and outfit reference. ONE character: Aino, long ash-beige flowing hair, amber eyes, aviator goggles on her head, oversized dark jacket with lime green trim over white/blue sailor dress. Canonical setting: a capable mechanic who repairs wind turbines and experiments with self-made aircraft. Show her at a small open workshop bench carefully adjusting a tiny wooden wing-frame model with a small screwdriver; a white wind turbine stands far outside the open window against blue summer sky. Delight and concentration rather than a generic greeting pose; hands clearly occupied with simple plausible parts, tiny wooden plane resting on bench, no dangerous action. Modest waist-up eye-level framing, natural anatomy. Delicate Japanese visual novel 2D fine linework, restrained cel shading, airy blue green and ivory, softly painted countryside; preserve facial appearance and clothing, not chibi or 3D. Soft brushy irregular vignette edges dissolve into warm paper #fcfcf7 on all four sides with ample blank margins. No second person, no romance, no plot spoilers or invented relationship. No text, logos or watermarks. Scene is an imagined everyday moment grounded in her published setting, not an actual CG.",
+    "tool": "built-in image_gen",
+    "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
+    "verified_at": "2026-09-25",
+    "kind": "AI生成同人插画；具体场景为创作，不是游戏CG或剧情复刻。"
+  },
+  {
+    "key": "koyomi",
+    "file": "koyomi-letters",
+    "sourceFile": "exec-823a53b4-67cd-4e1f-a94f-65f6b80ee0a5.png",
+    "references": [
+      4
+    ],
+    "basis": "官方人物设定：镇上的邮递员，认真投递信件；单人整理信件的日常想象，不映射实际邮局外观。",
+    "prompt": "Use case: illustration-story. Landscape 1536x1024 anemoi fan-site everyday vignette. Use supplied official Koyomi image for exact character identity: dark blue hair in TWO braids, amber golden eyes, red post carrier cap with dark visor and white feather, red crossbody postal satchel, white and blue sailor dress. ONE CHARACTER ONLY. Canonical setting: the earnest town postal worker devoted to delivering letters. Koyomi stands at a quiet small-town street beside a modest wooden postal doorway, carefully sorting two closed envelopes against her red satchel before setting out, attentive sincere expression, soft shy smile but no camera flirt. A summer breeze moves her braids. A red mail box and low traditional town buildings in soft distant background, not an exact real-world postal location. Comfortable eye-level waist-up composition, modest natural posture, accurate fingers holding envelopes without unreadable writing. Delicate Japanese visual novel 2D art, thin controlled lines, soft restrained cel shading, warm summer daylight, blue green and ivory palette, not chibi, not glossy 3D. Compact vignette surrounded by ample #fcfcf7 paper margins, loose soft painted edges blending into #fcfcf7 at every outer border. No other characters, no invented relationship, no spoilers, no legible text or logos or watermarks. A fan interpretation of ordinary mail delivery, not an official game CG.",
+    "tool": "built-in image_gen",
+    "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
+    "verified_at": "2026-09-25",
+    "kind": "AI生成同人插画；具体场景为创作，不是游戏CG或剧情复刻。"
+  },
+  {
+    "key": "honoka",
+    "file": "honoka-wave",
+    "sourceFile": "exec-a4e5f10e-255e-4e39-b3fe-1cb35e329d05.png",
+    "references": [
+      17
+    ],
+    "basis": "使用官网幼年人物立绘的外貌服装，创作单人日常挥手；不复刻结局出发CG、不展示家庭关系。",
+    "prompt": "Use case: illustration-story. Landscape 1536x1024 anemoi fan-site welcome vignette. Supplied official Honoka image is the exact identity and outfit reference. ONE small CHILD ONLY, clearly the same young child in the reference: very long silver hair tied in a side ponytail with cherry hair tie and tiny blue ribbon ornaments, bright cyan blue eyes, straight bangs, cheerful round youthful face. Preserve her official casual clothes: oversized pale pink hooded coat over a burgundy long T-shirt with a simple pizza motif WITHOUT lettering, navy cropped leggings, colorful sneakers if visible. Innocent energetic greeting, one open hand raised in a friendly wave near the side of her head, the other holding her coat strap or hem. Natural child proportions, absolutely do not age up, no adult body, no stylized glamour, no school uniform substitution. Eye-level waist-up to knees framing, bright ordinary daytime rural footpath and blue summer sky, joyful anticipation. No other people or mascots, no family relationships, no ending scene reconstruction or plot spoilers. Delicate Japanese visual novel 2D illustration matching reference, thin controlled lines and restrained soft cel shading; warm ivory sky blue and pale pink, not chibi, not 3D. Soft irregular painterly edges dissolve into #fcfcf7 paper margins on all four sides, wide layout for editorial website. No writing, no logo, no watermark. An affectionate everyday fan illustration, not actual game CG.",
+    "tool": "built-in image_gen",
+    "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
+    "verified_at": "2026-09-25",
+    "kind": "AI生成同人插画；具体场景为创作，不是游戏CG或剧情复刻。"
   }
 ]
