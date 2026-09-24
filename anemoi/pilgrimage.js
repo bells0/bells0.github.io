@@ -49,7 +49,7 @@
       <div class="card-top"><span class="region-tag">${String(i+1).padStart(2,'0')} / ${esc(p.region)}</span><button class="save-button" type="button" data-action="saved" data-id="${esc(p.id)}" aria-pressed="false" aria-label="收藏${esc(p.name)}"><span aria-hidden="true">♡</span>想去</button></div>
       <div class="card-title"><h3>${esc(p.name)}</h3><p class="japanese" lang="ja">${esc(p.japanese)}</p></div>
       <div class="compare ${p.scene ? '' : 'single-photo'}">${p.scene ? picture(p.scene,p.name,'游戏画面') : ''}${picture(p.photo,p.name,p.photo?.label || '玩家实拍')}</div>
-      <div class="card-content"><p class="subtitle">${esc(p.subtitle)}</p><p class="evidence">${esc(p.evidence)}</p>
+      <div class="card-content"><p class="subtitle">${esc(p.subtitle)}</p><p class="field-tip"><span>现场对照</span>${esc(p.fieldTip)}</p><p class="evidence">${esc(p.evidence)}</p>
       <div class="card-actions"><a class="map-link" href="${map}" target="_blank" rel="noopener noreferrer" aria-label="在地图中查看${esc(p.name)}">去地图里找它 <span aria-hidden="true">↗</span></a><button class="visit-button" type="button" data-action="visited" data-id="${esc(p.id)}" aria-pressed="false" aria-label="标记${esc(p.name)}为已到访">○ 标记已到访</button></div>
       <details class="place-details"><summary>关于这里 · 取景与出处</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">${esc(p.locationSourceLabel || 'anitabi 点位考据')} ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">${esc(p.photo.credit || 'wing')} 图片出处 ↗</a>` : ''}${(p.additionalSources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join('')}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>${p.mapQuery ? '地图按地点名称搜索，请核对实际入口。' : '地图为社区参考坐标，不代表已确认的入口或拍摄站位。'}</p></details></div></article>`;
   }
@@ -127,7 +127,7 @@
   $('#saved-link').addEventListener('click',e=>{e.preventDefault();switchView('saved',true);history.replaceState(null,'','#saved');$('#places').scrollIntoView({behavior:'auto'});});
   window.addEventListener('hashchange',()=>{if(places.length && location.hash==='#saved') {switchView('saved',true);$('#places').scrollIntoView();}});
   window.addEventListener('storage',e=>{if(e.key===KEY || e.key===null){load();if(places.length)update();}});
-  fetch('places.json').then(r=>{if(!r.ok)throw new Error('Unable to load places');return r.json();}).then(data=>{
+  fetch('places.json?v=journey-final1').then(r=>{if(!r.ok)throw new Error('Unable to load places');return r.json();}).then(data=>{
     places=data; load(); grid.innerHTML=places.map(card).join(''); update();
     if(location.hash==='#saved') { clearRoute(); update(); $('#places').scrollIntoView({behavior:'auto'}); }
     else if(location.hash==='#places') $('#places').scrollIntoView({behavior:'auto'});

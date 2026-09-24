@@ -32,7 +32,8 @@
     "routes": [
       "tomamae"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "先找风车基座与台阶，再看身后的海平线；机位待现场确认。"
   },
   {
     "id": "mirai",
@@ -67,7 +68,8 @@
     "routes": [
       "tomamae"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "看看阶梯、灯柱和草坡怎样排在一起。"
   },
   {
     "id": "museum",
@@ -102,7 +104,8 @@
     "routes": [
       "tomamae"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "从公共区域对照屋顶山墙、正门雨棚与窗户。"
   },
   {
     "id": "haboro",
@@ -141,7 +144,8 @@
       "north",
       "return"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "从路口斑马线往远处看，找左侧建筑和店铺。"
   },
   {
     "id": "chikubetsu",
@@ -176,7 +180,8 @@
     "routes": [
       "north"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "对照招牌、门窗与邮筒；游戏画面有镜像差异。"
   },
   {
     "id": "observatory",
@@ -211,7 +216,8 @@
     "routes": [
       "north"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "先认圆顶、圆窗和入口雨棚，再找自己的拍摄角度。"
   },
   {
     "id": "beach",
@@ -262,7 +268,8 @@
     "routes": [
       "tomamae"
     ],
-    "kind": "scene"
+    "kind": "scene",
+    "fieldTip": "沿海岸找风车与道路；现有实拍不是同机位复刻。"
   },
   {
     "id": "misaki",
@@ -290,7 +297,8 @@
     "sourceDate": "2026-09-24",
     "routes": [
       "north"
-    ]
+    ],
+    "fieldTip": "天文台周边散步看海；这里不是独立认证的 CG 机位。"
   },
   {
     "id": "sunagawa",
@@ -337,6 +345,7 @@
         "label": "沿岸巴士官方信息",
         "url": "https://www.engan-bus.co.jp/01_expressbus/81_haboro_express/index.html"
       }
-    ]
+    ],
+    "fieldTip": "只有巴士停靠且允许下车时，才辨认所在侧并拍照。"
   }
 ]

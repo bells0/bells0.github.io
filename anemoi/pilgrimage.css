@@ -7,3 +7,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .departure-line .quote-translation{display:block;font:12px/1.9 var(--serif);letter-spacing:2px;color:var(--muted);margin:3px 0 0 14px}
+
+/* A small field note stays visible while source and camera uncertainty remain in details. */
+.field-tip{margin:8px 0 13px;padding:9px 12px;border-left:2px solid #9cbfc2;background:#f0f6f3;color:#476878;font:11px/1.85 var(--serif)}.field-tip span{display:block;color:#758c87;font:9px/1.7 system-ui;letter-spacing:2px;margin-bottom:2px}
