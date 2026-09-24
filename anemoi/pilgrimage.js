@@ -12,7 +12,7 @@
     history.replaceState(null, '', url.pathname + url.search + url.hash);
   }
   let places = [], state = {}, view = location.hash === '#saved' ? 'saved' : 'all', region = 'all';
-  let storageAvailable = true, exporting = false;
+  let storageAvailable = true;
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function normalize(raw) {
     const clean = {};
@@ -82,50 +82,10 @@
     $('#route-scope-label').textContent = activeRoute ? '当前路线：' + routeNames[activeRoute] : '';
     document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
     document.querySelectorAll('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===region)));
-    updateExport();
     $('#empty').hidden = shown > 0;
     $('#empty-title').textContent = query || region !== 'all' || activeRoute ? '没有找到符合条件的地点' : view === 'visited' ? '旅程，等你留下第一个脚印' : '清单还没有目的地';
     $('#empty-text').textContent = query || region !== 'all' || activeRoute ? '试试其他地名，或清除筛选条件。' : view === 'visited' ? '到达现场后，点一下「标记已到访」。' : '遇见喜欢的风景，点一下卡片上的爱心。';
   }
-  function exportPlaces() {
-    const scope = $('#offline-scope').value;
-    return places.filter(p => scope === 'all' || (scope === 'saved' ? state[p.id]?.saved : !document.getElementById('place-' + p.id).hidden));
-  }
-  function updateExport() {
-    const count = exportPlaces().length;
-    $('#download-pack').disabled = exporting || !count;
-    if (!exporting) $('#offline-status').textContent = count ? `将导出 ${count} 个地点 · 只打包缩略图` : '当前范围没有地点，请先收藏或调整筛选。';
-  }
-  $('#offline-scope').addEventListener('change', updateExport);
-  $('#download-pack').addEventListener('click', async () => {
-    if (exporting) return;
-    const selected = exportPlaces();
-    if (!selected.length) return;
-    const snapshot = JSON.parse(JSON.stringify(state));
-    const scope = $('#offline-scope').selectedOptions[0].textContent;
-    exporting = true; updateExport();
-    $('#offline-scope').disabled = true;
-    $('#download-pack').textContent = '正在打包…';
-    $('#offline-status').textContent = `正在准备 ${selected.length} 个地点…`;
-    let message;
-    try {
-      const blob = await window.buildPilgrimagePack(selected, snapshot, scope, (done,total) => {
-        $('#offline-status').textContent = `正在保存缩略图 ${done} / ${total} · ${selected.length} 个地点`;
-      });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a'); a.href = url;
-      a.download = `anemoi-离线手帖-${selected.length}个地点-${new Date().toISOString().slice(0,10)}.html`;
-      document.body.append(a); a.click(); a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 60000);
-      message = `已生成 ${selected.length} 个地点的手帖（${(blob.size/1000000).toFixed(2)} MB），已发起下载。请在浏览器下载列表中保存并试开文件。`;
-    } catch {
-      message = '打包未完成，没有生成文件。请检查网络后重试；所有缩略图保存成功才会开始下载。';
-    } finally {
-      exporting = false; $('#offline-scope').disabled = false;
-      $('#download-pack').textContent = '下载离线手帖';
-      updateExport(); $('#offline-status').textContent = message;
-    }
-  });
   function switchView(next, reset = false) {
     view = next;
     if (reset) { clearRoute(); region = 'all'; $('#place-search').value = ''; }
