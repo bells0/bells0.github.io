@@ -3,7 +3,7 @@
   const KEY = 'anemoi-pilgrimage-v1';
   const $ = selector => document.querySelector(selector);
   const grid = $('#place-grid');
-  const routeNames = {tomamae:'苫前海岸与町内', north:'羽幌・筑别・初山别', return:'返程与条件顺路'};
+  const routeNames = {tomamae:'苫前的风车与海岸', north:'从小镇路口走向天文台', return:'归途再看一眼'};
   let activeRoute = new URLSearchParams(location.search).get('route');
   if (!Object.hasOwn(routeNames, activeRoute)) activeRoute = null;
   function clearRoute() {
@@ -49,9 +49,9 @@
       <div class="card-top"><span class="region-tag">${String(i+1).padStart(2,'0')} / ${esc(p.region)}</span><button class="save-button" type="button" data-action="saved" data-id="${esc(p.id)}" aria-pressed="false" aria-label="收藏${esc(p.name)}"><span aria-hidden="true">♡</span>想去</button></div>
       <div class="card-title"><h3>${esc(p.name)}</h3><p class="japanese" lang="ja">${esc(p.japanese)}</p></div>
       <div class="compare ${p.scene ? '' : 'single-photo'}">${p.scene ? picture(p.scene,p.name,'游戏画面') : ''}${picture(p.photo,p.name,p.photo?.label || '玩家实拍')}</div>
-      <div class="card-content"><p class="subtitle">${esc(p.subtitle)}</p><span class="evidence">${esc(p.evidence)}</span>
-      <div class="card-actions"><a class="map-link" href="${map}" target="_blank" rel="noopener noreferrer" aria-label="在地图中查看${esc(p.name)}">打开地图 <span aria-hidden="true">↗</span></a><button class="visit-button" type="button" data-action="visited" data-id="${esc(p.id)}" aria-pressed="false" aria-label="标记${esc(p.name)}为已到访">○ 标记已到访</button></div>
-      <details class="place-details"><summary>取景提示与来源</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">${esc(p.locationSourceLabel || 'anitabi 点位考据')} ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">${esc(p.photo.credit || 'wing')} 图片出处 ↗</a>` : ''}${(p.additionalSources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join('')}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>${p.mapQuery ? '地图按地点名称搜索，请核对实际入口。' : '地图为社区参考坐标，不代表已确认的入口或拍摄站位。'}</p></details></div></article>`;
+      <div class="card-content"><p class="subtitle">${esc(p.subtitle)}</p><p class="evidence">${esc(p.evidence)}</p>
+      <div class="card-actions"><a class="map-link" href="${map}" target="_blank" rel="noopener noreferrer" aria-label="在地图中查看${esc(p.name)}">去地图里找它 <span aria-hidden="true">↗</span></a><button class="visit-button" type="button" data-action="visited" data-id="${esc(p.id)}" aria-pressed="false" aria-label="标记${esc(p.name)}为已到访">○ 标记已到访</button></div>
+      <details class="place-details"><summary>关于这里 · 取景与出处</summary><p class="detail-note">${esc(p.note)}</p><div class="source-links"><a href="${esc(p.locationSource)}" target="_blank" rel="noopener noreferrer">${esc(p.locationSourceLabel || 'anitabi 点位考据')} ↗</a>${p.photo ? `<a href="${esc(p.photo.source)}" target="_blank" rel="noopener noreferrer">${esc(p.photo.credit || 'wing')} 图片出处 ↗</a>` : ''}${(p.additionalSources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>`).join('')}${p.id === 'observatory' ? '<a href="https://www.vill.shosanbetsu.lg.jp/kankoumiryoku/tenmondai/annai/index.html" target="_blank" rel="noopener noreferrer">天文台官方信息 ↗</a>' : ''}</div><p class="source-date">来源采集：${esc(p.sourceDate)} · 现场机位尚未核实<br>${p.mapQuery ? '地图按地点名称搜索，请核对实际入口。' : '地图为社区参考坐标，不代表已确认的入口或拍摄站位。'}</p></details></div></article>`;
   }
   function update() {
     const query = $('#place-search').value.trim().toLocaleLowerCase();
@@ -69,8 +69,17 @@
       const visitButton = node.querySelector('[data-action="visited"]');
       visitButton.setAttribute('aria-pressed',String(!!s.visited));
       visitButton.setAttribute('aria-label', (s.visited ? '取消' : '标记') + p.name + (s.visited ? '的到访标记' : '为已到访'));
-      visitButton.textContent = s.visited ? '✓ 已到访' : '○ 标记已到访';
+      visitButton.textContent = s.visited ? '✓ 来过这里' : '在这里留个脚印';
     }
+    const headings = {
+      all:['把喜欢的画面，写进下一次出发','有些风景，想亲自去看看。','心动的地方先记下来，走到那里，再留一个脚印。'],
+      saved:['留给下一次出发的小小心愿','那些想亲眼看见的风景。','也许还没有出发，心已经先到了一步。'],
+      visited:['故事里的地方，也有了你的脚步','原来，我也走到了这里。','把来过的地方记下来，让旅途留在这本手帖里。']
+    };
+    const [eyebrow,title,intro] = headings[view];
+    $('#collection-eyebrow').textContent = eyebrow;
+    $('#places-title').textContent = title;
+    $('#collection-intro').textContent = intro;
     const saved = places.filter(p=>state[p.id]?.saved).length;
     const visited = places.filter(p=>state[p.id]?.visited).length;
     $('#saved-count').textContent = $('#nav-count').textContent = saved;
@@ -79,12 +88,12 @@
     $('#all-count').textContent = places.length;
     $('#place-total').textContent = String(places.length).padStart(2, '0');
     $('#route-scope').hidden = !activeRoute;
-    $('#route-scope-label').textContent = activeRoute ? '当前路线：' + routeNames[activeRoute] : '';
+    $('#route-scope-label').textContent = activeRoute ? '这一程 · ' + routeNames[activeRoute] : '';
     document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
     document.querySelectorAll('[data-region]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.region===region)));
     $('#empty').hidden = shown > 0;
-    $('#empty-title').textContent = query || region !== 'all' || activeRoute ? '没有找到符合条件的地点' : view === 'visited' ? '旅程，等你留下第一个脚印' : '清单还没有目的地';
-    $('#empty-text').textContent = query || region !== 'all' || activeRoute ? '试试其他地名，或清除筛选条件。' : view === 'visited' ? '到达现场后，点一下「标记已到访」。' : '遇见喜欢的风景，点一下卡片上的爱心。';
+    $('#empty-title').textContent = query || region !== 'all' || activeRoute ? '没有找到符合条件的地点' : view === 'visited' ? '旅程，等你留下第一个脚印' : '下一次出发，还等着你落笔。';
+    $('#empty-text').textContent = query || region !== 'all' || activeRoute ? '试试其他地名，或清除筛选条件。' : view === 'visited' ? '到达现场后，点一下「在这里留个脚印」。' : '遇见喜欢的风景，点一下卡片上的爱心。';
   }
   function switchView(next, reset = false) {
     view = next;

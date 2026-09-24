@@ -3,28 +3,26 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="把 anemoi 里的风景，放进自己的旅程。9 个路线地点、游戏与实景对照，以及保存在本机的巡礼清单。">
-<title>去有风的地方 · anemoi 巡礼手帖</title>
+<title>去有风的地方 · anemoi 风景与旅途</title>
 <link rel="icon" href="thumbnails/02-official-backgrounds/am_bg_6.jpg.webp"><link rel="stylesheet" href="pilgrimage.css"><link rel="stylesheet" href="lightbox.css"><script src="lightbox.js" defer></script><script src="pilgrimage.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#places">跳到地点列表</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="pilgrimage.html">anemoi <span>巡礼手帖</span></a><nav aria-label="主要导航"><a href="pilgrimage.html" aria-current="page">去巡礼</a><a href="routes.html">路线入门</a><a href="index.html">找图片 ↗</a><a href="#saved" id="saved-link">我的清单 <span id="nav-count">0</span></a></nav></div></header>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html">anemoi <span>风景与旅途</span></a><nav aria-label="主要导航"><a href="pilgrimage.html" aria-current="page">去巡礼</a><a href="routes.html">沿途路线</a><a href="index.html">翻相册</a><a href="#saved" id="saved-link">想去的地方 <span id="nav-count">0</span></a></nav></div></header>
 <main>
-<section class="hero" aria-labelledby="hero-title">
-<div class="hero-copy"><p class="eyebrow">ANEMOI · HOKKAIDO FIELD NOTES</p><h1 id="hero-title">去有风的地方，<br>遇见故事里的风景。</h1><p class="intro">从游戏中的一个画面，到北海道的一次驻足。<br class="desktop-break">把想去的地方收进清单，带着熟悉的风景出发。</p><a class="primary" href="#places">翻开巡礼地点 <span>↓</span></a><a class="route-intro-link" href="routes.html">先看看怎么串起来 →</a><div class="hero-stats"><span><b id="place-total">09</b> 个路线地点</span><span><b>03</b> 段路线</span><span>游戏画面 × 实景对照</span></div></div>
-<figure class="hero-image"><img src="thumbnails/02-official-backgrounds/am_bg_6.jpg.webp" alt="anemoi 中蓝天下的初山别天文台" width="720" height="405" fetchpriority="high"><figcaption><span>01 / 风景来信</span><b>初山别天文台</b><span>游戏画面 · © VISUAL ARTS / Key</span></figcaption></figure>
-</section>
+<section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><p class="eyebrow">故事里的风，也会吹向这里</p><h1 id="hero-title">这一次，<br>走进风的来处。</h1><p class="intro">在风车下停一会儿，去小镇路口认一认方向。<br>那些反复看过的画面，终于可以亲眼看见。</p><div class="hero-invitation"><a class="primary" href="#places">翻开沿途的风景 <span>↓</span></a><a class="route-intro-link" href="routes.html">先选一段喜欢的旅程 →</a></div><p class="departure-line"><span lang="ja">「いってきまーす！」</span><small>—— 穂乃夏</small></p></div><figure class="hero-image"><a href="02-official-backgrounds/am_bg_2.jpg" aria-label="查看风来望游戏画面原图"><img src="thumbnails/02-official-backgrounds/am_bg_2.jpg.webp" alt="游戏中风来望的白色风车，原野尽头是蓝色海面" width="720" height="405" fetchpriority="high"></a><figcaption><span>苫前 · 風来望</span><span>游戏画面 © VISUAL ARTS / Key</span></figcaption></figure></section>
+
 <section class="collection" id="places" aria-labelledby="places-title">
-<div class="section-heading"><div><p class="eyebrow">YOUR NEXT STOP</p><h2 id="places-title">把心动的地方，记下来。</h2></div><p>点击 ♡ 收藏地点，到了现场再打个勾。</p></div>
-<p class="coverage-note">8 个场景地点 + 1 个周边散步点。砂川为条件顺路；这是核心路线清单，不是全部作品圣地。</p><div id="route-scope" class="route-scope" hidden><span id="route-scope-label"></span><button id="clear-route" type="button">查看全部地点</button></div><div class="tools"><div class="view-tabs" role="group" aria-label="查看范围"><button type="button" data-view="all" aria-pressed="true">全部地点 <span id="all-count">9</span></button><button type="button" data-view="saved" aria-pressed="false">我的清单 <span id="saved-count">0</span></button><button type="button" data-view="visited" aria-pressed="false">已到访 <span id="visited-count">0</span></button></div><label class="search"><span class="sr-only">搜索地点</span><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="搜索地点 / 日文地名" autocomplete="off"></label></div>
+<div class="section-heading"><div><p class="eyebrow" id="collection-eyebrow">把喜欢的画面，写进下一次出发</p><h2 id="places-title">有些风景，想亲自去看看。</h2></div><p id="collection-intro">心动的地方先记下来，走到那里，再留一个脚印。</p></div>
+<div id="route-scope" class="route-scope" hidden><span id="route-scope-label"></span><button id="clear-route" type="button">查看全部地点</button></div><div class="tools"><div class="view-tabs" role="group" aria-label="查看范围"><button type="button" data-view="all" aria-pressed="true">沿途风景 <span id="all-count">9</span></button><button type="button" data-view="saved" aria-pressed="false">想去的地方 <span id="saved-count">0</span></button><button type="button" data-view="visited" aria-pressed="false">留下的足迹 <span id="visited-count">0</span></button></div><label class="search"><span class="sr-only">搜索地点</span><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="找一处风景 / 日文地名" autocomplete="off"></label></div>
 <div class="filter-line"><div class="region-filters" role="group" aria-label="按区域筛选"><button type="button" data-region="all" aria-pressed="true">所有区域</button><button type="button" data-region="苫前" aria-pressed="false">苫前</button><button type="button" data-region="羽幌" aria-pressed="false">羽幌</button><button type="button" data-region="初山别" aria-pressed="false">初山别</button><button type="button" data-region="砂川" aria-pressed="false">砂川</button></div><span id="result-count" role="status">正在整理地点…</span></div>
-<p class="storage-note" id="storage-note">清单仅保存在当前设备的浏览器中，不跨设备同步；清除浏览器数据后会丢失。</p>
-<div id="place-grid" class="place-grid"></div>
+<p class="storage-note" id="storage-note">这些心愿先记在当前浏览器里；不会跨设备同步，清除浏览器数据会丢失。</p>
+<p class="comparison-letter">把故事里的画面，和现实中的风景放在一起。<span>实拍未必为同一机位，具体说明留在每张卡片里。</span></p><div id="place-grid" class="place-grid"></div>
 <div id="empty" class="empty" hidden><span class="empty-icon" aria-hidden="true">♡</span><h3 id="empty-title">清单还没有目的地</h3><p id="empty-text">遇见喜欢的风景，点一下卡片上的爱心。</p><button type="button" id="reset-filters">浏览全部地点</button></div>
 <noscript><p>请启用 JavaScript 查看地点与保存清单。也可以先打开<a href="index.html">原图收藏</a>。</p></noscript>
 </section>
-<aside class="field-note"><span class="field-note-mark" aria-hidden="true">✳</span><div><h2>这本手帖，等待脚步补完。</h2><p>地点对应来自玩家考据，并非官方逐点认证。地图标记是寻找线索，具体机位、朝向和通行情况仍待实地核实。每张卡片都保留图片与点位来源；欢迎带着它去看，也带回自己的发现。</p></div></aside>
-</main>
-<footer><a class="brand" href="pilgrimage.html">anemoi <span>巡礼手帖</span></a><p>一个玩家整理的风景收藏。游戏图片 © VISUAL ARTS / Key；实拍及官方照片版权归各来源作者或机构；各图附出处。<br>资料采集于 2026-09-24 · 开放时间与交通安排请以当地最新公告为准。</p><a href="index.html">回到原图收藏 ↗</a></footer>
+<aside class="field-note"><span class="field-note-mark" aria-hidden="true">〰</span><div><h2>这本手帖，等待脚步补完。</h2><p>地点对应来自玩家考据，并非官方逐点认证。地图标记是寻找线索，具体机位、朝向和通行情况仍待实地核实。每张卡片都保留图片与点位来源；欢迎带着它去看，也带回自己的发现。</p></div></aside>
+<details class="collection-notes"><summary>关于这些地点与图片</summary><p>手帖目前记下了 <span id="place-total">09</span> 处：8 个场景地点与 1 个周边散步点。砂川为条件顺路，并非全部作品圣地。地点对应来自玩家考据，地图坐标不代表已确认的入口或机位。</p><p>游戏图片 © VISUAL ARTS / Key，实拍归各摄影者或机构，出处保留在图片旁。穂乃夏短句已对照游戏截图核实，<a href="index.html#quote-sources">文字出处见相册页</a>。其余中文为本站原创引导文字，并非游戏原句。</p><p>资料采集于 2026-09-24，开放情况和交通班次请以官方最新信息为准。</p></details></main>
+<footer><p class="closing-line">等风吹来的时候，我们再出发。</p><p>一个喜欢 anemoi 的玩家，留在这里的风景与旅途。</p><nav aria-label="页脚导航"><a href="index.html">回到风景相册</a><a href="routes.html">沿途路线</a><a href="https://key.visualarts.gr.jp/anemoi/" target="_blank" rel="noopener noreferrer">游戏官网 ↗</a></nav></footer>
 <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
 </body></html>
