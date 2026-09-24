@@ -1,0 +1,46 @@
+[
+  {
+    "key": "spica",
+    "file": "spica-wheat-v2",
+    "sourceFile": "exec-5689fc42-8cc1-476a-be4e-d393e6bf2306.png",
+    "references": [
+      1
+    ],
+    "basis": "官方人物简介：独居镇外，和镇民保持距离，照料麦田。采用单人画面，不推断与其他人的亲近程度。",
+    "prompt": "Use case: illustration-story. A new landscape 1536x1024 anemoi fan-site vignette, grounded in the canonical character description. Reference image is Spica's exact visual design: long silver hair with side braided bun, cyan eyes, white blue dress, loose pale pink outer coat. ONE CHARACTER ONLY: Spica, alone beside the wheat field she tends on the outskirts of town. Her posture quiet and self-contained, calm reserved expression, looking across the wheat rather than welcoming the viewer, one hand gently checking a stalk. She lives apart from the townspeople: convey her solitude and affinity with the field, not loneliness needing rescue, no imaginary companion, no second character or silhouette. Medium waist-up view, wind moving her hair and coat, natural modest pose. Airy summer field and distant blue sea with a small understated trailer in background. Fine Japanese visual novel 2D linework and restrained cel shading matching reference, not chibi, not glossy 3D. Picture surrounded by ample ivory #fcfcf7 negative space, soft brushy edges dissolving into that color on all sides, for a paper-like pilgrimage website. No text, logos or watermarks. This is a fan interpretation based on her published setting, not a claim to reproduce an actual CG.",
+    "tool": "built-in image_gen",
+    "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
+    "verified_at": "2026-09-25",
+    "kind": "AI生成同人插画；人物组合有公开设定依据，具体场景为创作，不是游戏CG或剧情复刻。"
+  },
+  {
+    "key": "friends",
+    "file": "hiiro-tsuzura-map-v2",
+    "sourceFile": "exec-e263a167-3994-4a12-8609-b25b9015b645.png",
+    "references": [
+      3,
+      6
+    ],
+    "basis": "官方つづら简介明确提及会陪同陽彩的奇行；陽彩寻找美景并记录在地图。采用陽彩主动提议、つづら平静回应的互动，不声称官方定义为最亲密的朋友。",
+    "prompt": "Use case: illustration-story. Landscape 1536x1024 editorial fan illustration for an anemoi route-planning page. Input image 1 Hiiro and image 2 Tsuzura are EXACT identity references. Hiiro: long very pale pink ponytail, pink eyes, slim red glasses, flower hairpin, white/navy dress. Tsuzura: short straight dark brown bob, green eyes, slim glasses, crossed pink hairclips, white/navy sailor dress. Relationship and behavior are essential: the canonical character profile says Tsuzura goes along with Hiiro's eccentric escapades. Hiiro is animated, confidently pointing with her index finger far out of the open window as she proposes a beautiful place to visit. Tsuzura sits across the table, calm almost deadpan but willing to join, looking at Hiiro, with a closed thick book resting upright under her hand. A hand drawn landscape map lies on the table. Keep enough physical space, distinct chairs, relaxed familiar companionship; not romance, not blushy faces leaning together, not gazing as a couple, not generic two friends smiling into camera. Hiiro more lively, Tsuzura understated. Setting the old station library cafe Tsuzura runs, subtle bookshelves and window framing green summer outside. Medium half-body eye-level composition. Fine Japanese visual novel 2D linework and soft cel shading, exact costumes, modest, natural hands, pale sky blue and warm ivory tones, no 3D or chibi. Soft brushy vignette edges fade into #fcfcf7 surrounding margins on all four sides. No lettering, logos or watermarks; map contains no legible place names. A relationship-grounded fan vignette, not an actual game CG.",
+    "tool": "built-in image_gen",
+    "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
+    "verified_at": "2026-09-25",
+    "kind": "AI生成同人插画；人物组合有公开设定依据，具体场景为创作，不是游戏CG或剧情复刻。"
+  },
+  {
+    "key": "siblings",
+    "file": "mugi-rikka-journey-v2",
+    "sourceFile": "exec-d816b427-5a67-4344-a156-96384c3b7dce.png",
+    "references": [
+      5,
+      16
+    ],
+    "basis": "官方故事与人物简介明确两人为兄妹并一同北上。画面为兄妹旅途休息，不是约会或多角恋。",
+    "prompt": "Use case: illustration-story. Landscape 1536x1024 fan illustration for an anemoi web photo album. Exact visual references: image 1 Rikka (long dark indigo hair fading lavender, low side bunches, violet eyes, white beret with purple piping and star hairclip, white navy sailor dress); image 2 Mugi (short dark navy hair, dark eyes, navy short sleeve shirt with cyan narrow edging, beige cargo trousers). CANONICAL RELATIONSHIP: these two are brother and younger sister travelling north together. Show a natural sibling travel pause, NOT a date or love triangle. Only these two people. They sit on a simple rural station bench with a clear comfortable gap, each owning their space; Mugi on left flipping through a small album of landscape postcards resting on HIS knees, relaxed older brother expression. Rikka on right, cheerful and proud of her brother, pointing at one postcard with one hand, a small closed travel bag next to her. Warm familial trust, no intimate leaning, no touching faces, no hand holding, no romantic blush, no flirty gaze. Both looking at the album rather than posing. Scenic quiet summer countryside visible past the station shelter, soft breeze in Rikka's hair. Eye-level medium framing, anatomy natural, modest clothing exactly from references, not chibi. Fine Japanese visual novel 2D lines and restrained soft cel shading, no glossy 3D. Warm ivory and blue palette, vignette dissolving into #fcfcf7 with ample margins around entire image. No captions, no text, logos or watermarks; no actual plot event or major spoiler depicted.",
+    "tool": "built-in image_gen",
+    "reference_source": "https://key.visualarts.gr.jp/anemoi/character.html",
+    "verified_at": "2026-09-25",
+    "kind": "AI生成同人插画；人物组合有公开设定依据，具体场景为创作，不是游戏CG或剧情复刻。"
+  }
+]
