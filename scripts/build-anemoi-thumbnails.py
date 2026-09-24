@@ -35,7 +35,7 @@ def build(gallery):
         thumbnail_src = f'<img src="{html.escape(thumbnail.as_posix(), quote=True)}"'
         if original_src in page:
             page = page.replace(original_src, thumbnail_src + ' decoding="async"')
-        elif thumbnail_src not in page:
+        elif thumbnail_src not in page and thumbnail_src.replace('<img src=', '<img data-src=') not in page:
             raise ValueError(f"No gallery image element for {relative}")
         record.update(thumbnail=thumbnail.as_posix(), thumbnail_bytes=target.stat().st_size,
                       thumbnail_width=width, thumbnail_height=height)

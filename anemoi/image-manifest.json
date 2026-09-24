@@ -16,7 +16,8 @@
     "thumbnail": "thumbnails/01-official-key-visuals/147227-52-c5bdbf1106f897feb797bd4ecac978b8-1920x1080.png.webp",
     "thumbnail_bytes": 45946,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://prcdn.freetls.fastly.net/release_image/147227/52/147227-52-b676fd040d578cac3eeecdc8f8615154-1920x1080.png",
@@ -35,7 +36,8 @@
     "thumbnail": "thumbnails/01-official-key-visuals/147227-52-b676fd040d578cac3eeecdc8f8615154-1920x1080.png.webp",
     "thumbnail_bytes": 23234,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/fv_main_bg_sp.jpg?b",
@@ -57,7 +59,8 @@
     "thumbnail": "thumbnails/01-official-key-visuals/fv_main_bg_sp.jpg.webp",
     "thumbnail_bytes": 16106,
     "thumbnail_width": 301,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/fv_main_bg.jpg?b",
@@ -76,7 +79,8 @@
     "thumbnail": "thumbnails/01-official-key-visuals/fv_main_bg.jpg.webp",
     "thumbnail_bytes": 45246,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_1.jpg",
@@ -95,7 +99,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_1.jpg.webp",
     "thumbnail_bytes": 42476,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_2.jpg",
@@ -114,7 +119,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_2.jpg.webp",
     "thumbnail_bytes": 36890,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_3.jpg",
@@ -133,7 +139,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_3.jpg.webp",
     "thumbnail_bytes": 25344,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_4.jpg",
@@ -152,7 +159,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_4.jpg.webp",
     "thumbnail_bytes": 35432,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_5.jpg",
@@ -171,7 +179,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_5.jpg.webp",
     "thumbnail_bytes": 6284,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_6.jpg",
@@ -190,7 +199,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_6.jpg.webp",
     "thumbnail_bytes": 31714,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_7.jpg",
@@ -209,7 +219,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_7.jpg.webp",
     "thumbnail_bytes": 38730,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_8.jpg",
@@ -228,7 +239,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_8.jpg.webp",
     "thumbnail_bytes": 45440,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_9.jpg",
@@ -247,7 +259,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_9.jpg.webp",
     "thumbnail_bytes": 37698,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_bg_10.jpg",
@@ -266,7 +279,8 @@
     "thumbnail": "thumbnails/02-official-backgrounds/am_bg_10.jpg.webp",
     "thumbnail_bytes": 24872,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_1.jpg",
@@ -285,7 +299,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_1.jpg.webp",
     "thumbnail_bytes": 30046,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_10.jpg",
@@ -304,7 +319,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_10.jpg.webp",
     "thumbnail_bytes": 39222,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_11.jpg",
@@ -323,7 +339,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_11.jpg.webp",
     "thumbnail_bytes": 58530,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_12.jpg",
@@ -342,7 +359,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_12.jpg.webp",
     "thumbnail_bytes": 51082,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_13.jpg",
@@ -361,7 +379,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_13.jpg.webp",
     "thumbnail_bytes": 44730,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_14.jpg",
@@ -380,7 +399,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_14.jpg.webp",
     "thumbnail_bytes": 36858,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_15.jpg",
@@ -399,7 +419,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_15.jpg.webp",
     "thumbnail_bytes": 28998,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_16.jpg",
@@ -418,7 +439,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_16.jpg.webp",
     "thumbnail_bytes": 46368,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_17.jpg",
@@ -437,7 +459,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_17.jpg.webp",
     "thumbnail_bytes": 31142,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_18.jpg",
@@ -456,7 +479,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_18.jpg.webp",
     "thumbnail_bytes": 29198,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_19.jpg",
@@ -475,7 +499,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_19.jpg.webp",
     "thumbnail_bytes": 29010,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_2.jpg",
@@ -494,7 +519,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_2.jpg.webp",
     "thumbnail_bytes": 37878,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_20.jpg",
@@ -513,7 +539,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_20.jpg.webp",
     "thumbnail_bytes": 47068,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_21.jpg",
@@ -532,7 +559,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_21.jpg.webp",
     "thumbnail_bytes": 27570,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_22.jpg",
@@ -551,7 +579,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_22.jpg.webp",
     "thumbnail_bytes": 29640,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_23.jpg",
@@ -570,7 +599,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_23.jpg.webp",
     "thumbnail_bytes": 38212,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_24.jpg",
@@ -589,7 +619,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_24.jpg.webp",
     "thumbnail_bytes": 54992,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_3.jpg",
@@ -608,7 +639,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_3.jpg.webp",
     "thumbnail_bytes": 51004,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_4.jpg",
@@ -627,7 +659,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_4.jpg.webp",
     "thumbnail_bytes": 52252,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_5.jpg",
@@ -646,7 +679,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_5.jpg.webp",
     "thumbnail_bytes": 45428,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_6.jpg",
@@ -665,7 +699,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_6.jpg.webp",
     "thumbnail_bytes": 40442,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_7.jpg?a",
@@ -684,7 +719,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_7.jpg.webp",
     "thumbnail_bytes": 63200,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_8.jpg?a",
@@ -703,7 +739,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_8.jpg.webp",
     "thumbnail_bytes": 54914,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_g_9.jpg",
@@ -722,7 +759,8 @@
     "thumbnail": "thumbnails/03-official-event-cg/am_g_9.jpg.webp",
     "thumbnail_bytes": 38062,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img6.jpg",
@@ -741,7 +779,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img6.jpg.webp",
     "thumbnail_bytes": 27030,
     "thumbnail_width": 720,
-    "thumbnail_height": 240
+    "thumbnail_height": 240,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img7.jpg",
@@ -760,7 +799,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img7.jpg.webp",
     "thumbnail_bytes": 39770,
     "thumbnail_width": 720,
-    "thumbnail_height": 240
+    "thumbnail_height": 240,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon3.jpg",
@@ -779,7 +819,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_icon3.jpg.webp",
     "thumbnail_bytes": 30022,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img3.jpg",
@@ -798,7 +839,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img3.jpg.webp",
     "thumbnail_bytes": 25866,
     "thumbnail_width": 221,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/hiiro_sns_icon1.jpg",
@@ -817,7 +859,8 @@
     "thumbnail": "thumbnails/04-official-sns/hiiro_sns_icon1.jpg.webp",
     "thumbnail_bytes": 23686,
     "thumbnail_width": 400,
-    "thumbnail_height": 400
+    "thumbnail_height": 400,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon4.jpg",
@@ -836,7 +879,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_icon4.jpg.webp",
     "thumbnail_bytes": 31572,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img4.jpg",
@@ -855,7 +899,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img4.jpg.webp",
     "thumbnail_bytes": 19704,
     "thumbnail_width": 221,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/koyomi_sns_icon1.jpg",
@@ -874,7 +919,8 @@
     "thumbnail": "thumbnails/04-official-sns/koyomi_sns_icon1.jpg.webp",
     "thumbnail_bytes": 22920,
     "thumbnail_width": 400,
-    "thumbnail_height": 400
+    "thumbnail_height": 400,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon2.jpg",
@@ -893,7 +939,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_icon2.jpg.webp",
     "thumbnail_bytes": 38702,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img2.jpg",
@@ -912,7 +959,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img2.jpg.webp",
     "thumbnail_bytes": 18630,
     "thumbnail_width": 221,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/aino_sns_icon1.jpg",
@@ -931,7 +979,8 @@
     "thumbnail": "thumbnails/04-official-sns/aino_sns_icon1.jpg.webp",
     "thumbnail_bytes": 25792,
     "thumbnail_width": 400,
-    "thumbnail_height": 400
+    "thumbnail_height": 400,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img1.jpg",
@@ -950,7 +999,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img1.jpg.webp",
     "thumbnail_bytes": 27774,
     "thumbnail_width": 221,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon1.jpg",
@@ -969,7 +1019,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_icon1.jpg.webp",
     "thumbnail_bytes": 31708,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/spica_sns_icon1.jpg",
@@ -988,7 +1039,8 @@
     "thumbnail": "thumbnails/04-official-sns/spica_sns_icon1.jpg.webp",
     "thumbnail_bytes": 21178,
     "thumbnail_width": 400,
-    "thumbnail_height": 400
+    "thumbnail_height": 400,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_icon5.jpg",
@@ -1007,7 +1059,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_icon5.jpg.webp",
     "thumbnail_bytes": 27416,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/sns2_img5.jpg",
@@ -1026,7 +1079,8 @@
     "thumbnail": "thumbnails/04-official-sns/sns2_img5.jpg.webp",
     "thumbnail_bytes": 23868,
     "thumbnail_width": 221,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://va-trialdist.azureedge.net/key/anemoi/sns_icon/rikka_sns_icon1.jpg",
@@ -1045,7 +1099,8 @@
     "thumbnail": "thumbnails/04-official-sns/rikka_sns_icon1.jpg.webp",
     "thumbnail_bytes": 21348,
     "thumbnail_width": 400,
-    "thumbnail_height": 400
+    "thumbnail_height": 400,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_11.png",
@@ -1064,7 +1119,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_11.png.webp",
     "thumbnail_bytes": 15440,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_7.png",
@@ -1083,7 +1139,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_7.png.webp",
     "thumbnail_bytes": 17702,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_8.png",
@@ -1102,7 +1159,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_8.png.webp",
     "thumbnail_bytes": 17346,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_14.png",
@@ -1121,7 +1179,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_14.png.webp",
     "thumbnail_bytes": 16352,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_10.png",
@@ -1140,7 +1199,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_10.png.webp",
     "thumbnail_bytes": 19704,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_3.png",
@@ -1159,7 +1219,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_3.png.webp",
     "thumbnail_bytes": 34454,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_4.png",
@@ -1178,7 +1239,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_4.png.webp",
     "thumbnail_bytes": 27620,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_13.png",
@@ -1197,7 +1259,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_13.png.webp",
     "thumbnail_bytes": 17608,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_2.png",
@@ -1216,7 +1279,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_2.png.webp",
     "thumbnail_bytes": 52722,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_12.png",
@@ -1235,7 +1299,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_12.png.webp",
     "thumbnail_bytes": 15354,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_6.png",
@@ -1254,7 +1319,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_6.png.webp",
     "thumbnail_bytes": 14528,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_1.png",
@@ -1273,7 +1339,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_1.png.webp",
     "thumbnail_bytes": 39276,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_17.png",
@@ -1292,7 +1359,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_17.png.webp",
     "thumbnail_bytes": 14950,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_16.png",
@@ -1311,7 +1379,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_16.png.webp",
     "thumbnail_bytes": 15864,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_5.png",
@@ -1330,7 +1399,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_5.png.webp",
     "thumbnail_bytes": 38216,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/character_9.png",
@@ -1349,7 +1419,8 @@
     "thumbnail": "thumbnails/05-official-characters/character_9.png.webp",
     "thumbnail_bytes": 24160,
     "thumbnail_width": 327,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_20.jpg",
@@ -1368,7 +1439,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_20.jpg.webp",
     "thumbnail_bytes": 26186,
     "thumbnail_width": 339,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_23.jpg",
@@ -1387,7 +1459,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_23.jpg.webp",
     "thumbnail_bytes": 30262,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_24.jpg",
@@ -1406,7 +1479,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_24.jpg.webp",
     "thumbnail_bytes": 22494,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_5.jpg",
@@ -1425,7 +1499,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_5.jpg.webp",
     "thumbnail_bytes": 22032,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_11.jpg",
@@ -1444,7 +1519,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_11.jpg.webp",
     "thumbnail_bytes": 37000,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_28.jpg",
@@ -1463,7 +1539,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_28.jpg.webp",
     "thumbnail_bytes": 30020,
     "thumbnail_width": 343,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_1.jpg",
@@ -1482,7 +1559,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_1.jpg.webp",
     "thumbnail_bytes": 24938,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_25.jpg",
@@ -1501,7 +1579,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_25.jpg.webp",
     "thumbnail_bytes": 33286,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_2.jpg",
@@ -1520,7 +1599,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_2.jpg.webp",
     "thumbnail_bytes": 27168,
     "thumbnail_width": 343,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_30.jpg",
@@ -1539,7 +1619,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_30.jpg.webp",
     "thumbnail_bytes": 50272,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_10.jpg",
@@ -1558,7 +1639,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_10.jpg.webp",
     "thumbnail_bytes": 25570,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_26.jpg",
@@ -1577,7 +1659,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_26.jpg.webp",
     "thumbnail_bytes": 30930,
     "thumbnail_width": 338,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_8.jpg",
@@ -1596,7 +1679,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_8.jpg.webp",
     "thumbnail_bytes": 40636,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_9.jpg",
@@ -1615,7 +1699,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_9.jpg.webp",
     "thumbnail_bytes": 29524,
     "thumbnail_width": 343,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_18.jpg",
@@ -1634,7 +1719,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_18.jpg.webp",
     "thumbnail_bytes": 25464,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_14.jpg",
@@ -1653,7 +1739,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_14.jpg.webp",
     "thumbnail_bytes": 21952,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_12.jpg",
@@ -1672,7 +1759,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_12.jpg.webp",
     "thumbnail_bytes": 45972,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_27.jpg",
@@ -1691,7 +1779,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_27.jpg.webp",
     "thumbnail_bytes": 49318,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_29.jpg",
@@ -1710,7 +1799,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_29.jpg.webp",
     "thumbnail_bytes": 23268,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_16.jpg",
@@ -1729,7 +1819,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_16.jpg.webp",
     "thumbnail_bytes": 33164,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_17.jpg",
@@ -1748,7 +1839,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_17.jpg.webp",
     "thumbnail_bytes": 41162,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_3.jpg",
@@ -1767,7 +1859,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_3.jpg.webp",
     "thumbnail_bytes": 24626,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_22.jpg",
@@ -1786,7 +1879,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_22.jpg.webp",
     "thumbnail_bytes": 25794,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_13.jpg",
@@ -1805,7 +1899,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_13.jpg.webp",
     "thumbnail_bytes": 29084,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_4.jpg",
@@ -1824,7 +1919,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_4.jpg.webp",
     "thumbnail_bytes": 23864,
     "thumbnail_width": 345,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_15.jpg",
@@ -1843,7 +1939,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_15.jpg.webp",
     "thumbnail_bytes": 24976,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_7.jpg",
@@ -1862,7 +1959,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_7.jpg.webp",
     "thumbnail_bytes": 35844,
     "thumbnail_width": 343,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_21.jpg",
@@ -1881,7 +1979,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_21.jpg.webp",
     "thumbnail_bytes": 27700,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_6.jpg",
@@ -1900,7 +1999,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_6.jpg.webp",
     "thumbnail_bytes": 26300,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/ouen/image/ouen_img_19.jpg",
@@ -1919,7 +2019,8 @@
     "thumbnail": "thumbnails/06-official-guest-illustrations/ouen_img_19.jpg.webp",
     "thumbnail_bytes": 27360,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215558883.png",
@@ -1942,7 +2043,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215558883.png.webp",
     "thumbnail_bytes": 31834,
     "thumbnail_width": 720,
-    "thumbnail_height": 406
+    "thumbnail_height": 406,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704222642fd7.png",
@@ -1965,7 +2067,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704222642fd7.png.webp",
     "thumbnail_bytes": 19780,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215931d04.png",
@@ -1988,7 +2091,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215931d04.png.webp",
     "thumbnail_bytes": 51662,
     "thumbnail_width": 720,
-    "thumbnail_height": 406
+    "thumbnail_height": 406,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215930eaa.png",
@@ -2011,7 +2115,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215930eaa.png.webp",
     "thumbnail_bytes": 39574,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704222644dbb.png",
@@ -2035,7 +2140,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704222644dbb.png.webp",
     "thumbnail_bytes": 21864,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042156004dd.png",
@@ -2058,7 +2164,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042156004dd.png.webp",
     "thumbnail_bytes": 36928,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421555483d.png",
@@ -2081,7 +2188,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421555483d.png.webp",
     "thumbnail_bytes": 34542,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215529c36.png",
@@ -2105,7 +2213,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215529c36.png.webp",
     "thumbnail_bytes": 35154,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421553634b.png",
@@ -2128,7 +2237,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421553634b.png.webp",
     "thumbnail_bytes": 43770,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155341b0.png",
@@ -2151,7 +2261,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155341b0.png.webp",
     "thumbnail_bytes": 21794,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704223937d25.png",
@@ -2174,7 +2285,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704223937d25.png.webp",
     "thumbnail_bytes": 37224,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704222641fd8.png",
@@ -2197,7 +2309,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704222641fd8.png.webp",
     "thumbnail_bytes": 30616,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607041923355ca.png",
@@ -2221,7 +2334,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607041923355ca.png.webp",
     "thumbnail_bytes": 36152,
     "thumbnail_width": 720,
-    "thumbnail_height": 403
+    "thumbnail_height": 403,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215538e92.png",
@@ -2245,7 +2359,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215538e92.png.webp",
     "thumbnail_bytes": 40422,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215525e2d.png",
@@ -2268,7 +2383,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215525e2d.png.webp",
     "thumbnail_bytes": 30776,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421552813c.png",
@@ -2291,7 +2407,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421552813c.png.webp",
     "thumbnail_bytes": 62034,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155496d4.png",
@@ -2314,7 +2431,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155496d4.png.webp",
     "thumbnail_bytes": 30028,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215538f0b.png",
@@ -2337,7 +2455,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215538f0b.png.webp",
     "thumbnail_bytes": 52984,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042156023f0.png",
@@ -2361,7 +2480,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042156023f0.png.webp",
     "thumbnail_bytes": 38774,
     "thumbnail_width": 720,
-    "thumbnail_height": 406
+    "thumbnail_height": 406,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704221620e9c.png",
@@ -2384,7 +2504,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704221620e9c.png.webp",
     "thumbnail_bytes": 16984,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155213f8.png",
@@ -2407,7 +2528,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155213f8.png.webp",
     "thumbnail_bytes": 24588,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155555fa.png",
@@ -2430,7 +2552,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155555fa.png.webp",
     "thumbnail_bytes": 27240,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704221619a6b.png",
@@ -2453,7 +2576,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704221619a6b.png.webp",
     "thumbnail_bytes": 41484,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704221621a45.png",
@@ -2476,7 +2600,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704221621a45.png.webp",
     "thumbnail_bytes": 25724,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704215523438.png",
@@ -2499,7 +2624,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704215523438.png.webp",
     "thumbnail_bytes": 26510,
     "thumbnail_width": 720,
-    "thumbnail_height": 403
+    "thumbnail_height": 403,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155577ff.png",
@@ -2522,7 +2648,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155577ff.png.webp",
     "thumbnail_bytes": 39462,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/20260704223939fb0.png",
@@ -2545,7 +2672,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/20260704223939fb0.png.webp",
     "thumbnail_bytes": 5814,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/2026070421554129e.png",
@@ -2568,7 +2696,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/2026070421554129e.png.webp",
     "thumbnail_bytes": 34992,
     "thumbnail_width": 720,
-    "thumbnail_height": 406
+    "thumbnail_height": 406,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/202607042155328aa.png",
@@ -2591,7 +2720,8 @@
     "thumbnail": "thumbnails/07-pilgrimage-game-scenes/202607042155328aa.png.webp",
     "thumbnail_bytes": 39206,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9122.jpg",
@@ -2614,7 +2744,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9122.jpg.webp",
     "thumbnail_bytes": 32712,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9119.jpg",
@@ -2637,7 +2768,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9119.jpg.webp",
     "thumbnail_bytes": 38568,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9117.jpg",
@@ -2660,7 +2792,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9117.jpg.webp",
     "thumbnail_bytes": 32410,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9111.jpg",
@@ -2683,7 +2816,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9111.jpg.webp",
     "thumbnail_bytes": 35418,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204117979.jpg",
@@ -2706,7 +2840,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204117979.jpg.webp",
     "thumbnail_bytes": 26534,
     "thumbnail_width": 361,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9106.jpg",
@@ -2729,7 +2864,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9106.jpg.webp",
     "thumbnail_bytes": 14796,
     "thumbnail_width": 360,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8914.jpg",
@@ -2752,7 +2888,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8914.jpg.webp",
     "thumbnail_bytes": 43056,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9346.jpg",
@@ -2775,7 +2912,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9346.jpg.webp",
     "thumbnail_bytes": 43368,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9344.jpg",
@@ -2798,7 +2936,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9344.jpg.webp",
     "thumbnail_bytes": 72696,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9343.jpg",
@@ -2821,7 +2960,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9343.jpg.webp",
     "thumbnail_bytes": 41022,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9161.jpg",
@@ -2845,7 +2985,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9161.jpg.webp",
     "thumbnail_bytes": 40510,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9197.jpg",
@@ -2868,7 +3009,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9197.jpg.webp",
     "thumbnail_bytes": 53520,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9195.jpg",
@@ -2891,7 +3033,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9195.jpg.webp",
     "thumbnail_bytes": 47346,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9143.jpg",
@@ -2915,7 +3058,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9143.jpg.webp",
     "thumbnail_bytes": 45698,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9144.jpg",
@@ -2939,7 +3083,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9144.jpg.webp",
     "thumbnail_bytes": 65544,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9162.jpg",
@@ -2962,7 +3107,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9162.jpg.webp",
     "thumbnail_bytes": 29964,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9164.jpg",
@@ -2985,7 +3131,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9164.jpg.webp",
     "thumbnail_bytes": 30402,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_202607042041108d1.jpg",
@@ -3008,7 +3155,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_202607042041108d1.jpg.webp",
     "thumbnail_bytes": 43640,
     "thumbnail_width": 638,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204112435.jpg",
@@ -3031,7 +3179,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204112435.jpg.webp",
     "thumbnail_bytes": 42790,
     "thumbnail_width": 638,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_2026070422393488d.jpg",
@@ -3054,7 +3203,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_2026070422393488d.jpg.webp",
     "thumbnail_bytes": 54906,
     "thumbnail_width": 641,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_202607042041070de.jpg",
@@ -3077,7 +3227,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_202607042041070de.jpg.webp",
     "thumbnail_bytes": 49660,
     "thumbnail_width": 643,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204109a4c.jpg",
@@ -3100,7 +3251,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204109a4c.jpg.webp",
     "thumbnail_bytes": 32704,
     "thumbnail_width": 641,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704223935b99.jpg",
@@ -3123,7 +3275,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704223935b99.jpg.webp",
     "thumbnail_bytes": 37578,
     "thumbnail_width": 639,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9309.jpg",
@@ -3146,7 +3299,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9309.jpg.webp",
     "thumbnail_bytes": 44824,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8968.jpg",
@@ -3169,7 +3323,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8968.jpg.webp",
     "thumbnail_bytes": 15996,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_2026070420411616e.jpg",
@@ -3193,7 +3348,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_2026070420411616e.jpg.webp",
     "thumbnail_bytes": 16414,
     "thumbnail_width": 360,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9232.jpg",
@@ -3217,7 +3373,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9232.jpg.webp",
     "thumbnail_bytes": 46638,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9243.jpg",
@@ -3240,7 +3397,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9243.jpg.webp",
     "thumbnail_bytes": 40382,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9314.jpg",
@@ -3263,7 +3421,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9314.jpg.webp",
     "thumbnail_bytes": 58442,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/fc2blog_20260704204115ee7.jpg",
@@ -3286,7 +3445,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/fc2blog_20260704204115ee7.jpg.webp",
     "thumbnail_bytes": 35516,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9262.jpg",
@@ -3309,7 +3469,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9262.jpg.webp",
     "thumbnail_bytes": 50044,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9264.jpg",
@@ -3332,7 +3493,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9264.jpg.webp",
     "thumbnail_bytes": 27488,
     "thumbnail_width": 360,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9263.jpg",
@@ -3355,7 +3517,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9263.jpg.webp",
     "thumbnail_bytes": 38906,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9255.jpg",
@@ -3378,7 +3541,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9255.jpg.webp",
     "thumbnail_bytes": 99534,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9257.jpg",
@@ -3401,7 +3565,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9257.jpg.webp",
     "thumbnail_bytes": 97074,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9253.jpg",
@@ -3424,7 +3589,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9253.jpg.webp",
     "thumbnail_bytes": 75340,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9212.jpg",
@@ -3448,7 +3614,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9212.jpg.webp",
     "thumbnail_bytes": 62396,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8977.jpg",
@@ -3471,7 +3638,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8977.jpg.webp",
     "thumbnail_bytes": 31184,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8982.jpg",
@@ -3494,7 +3662,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8982.jpg.webp",
     "thumbnail_bytes": 28156,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8961.jpg",
@@ -3517,7 +3686,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8961.jpg.webp",
     "thumbnail_bytes": 81262,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8962.jpg",
@@ -3540,7 +3710,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8962.jpg.webp",
     "thumbnail_bytes": 69542,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8964.jpg",
@@ -3563,7 +3734,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8964.jpg.webp",
     "thumbnail_bytes": 43520,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8955.jpg",
@@ -3586,7 +3758,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8955.jpg.webp",
     "thumbnail_bytes": 52804,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_8957.jpg",
@@ -3609,7 +3782,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_8957.jpg.webp",
     "thumbnail_bytes": 8306,
     "thumbnail_width": 360,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9235.jpg",
@@ -3632,7 +3806,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9235.jpg.webp",
     "thumbnail_bytes": 50504,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9234.jpg",
@@ -3655,7 +3830,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9234.jpg.webp",
     "thumbnail_bytes": 24378,
     "thumbnail_width": 360,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9217.jpg",
@@ -3678,7 +3854,8 @@
     "thumbnail": "thumbnails/08-pilgrimage-real-photos/IMG_9217.jpg.webp",
     "thumbnail_bytes": 43328,
     "thumbnail_width": 640,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/3wvv46e_1755529967548.jpg",
@@ -3706,7 +3883,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/3wvv46e_1755529967548.jpg.webp",
     "thumbnail_bytes": 38662,
     "thumbnail_width": 335,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2192/bangumi/465493/points/eh2rfwi-1778517904858.jpg",
@@ -3733,7 +3911,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/eh2rfwi-1778517904858.jpg.webp",
     "thumbnail_bytes": 15882,
     "thumbnail_width": 720,
-    "thumbnail_height": 403
+    "thumbnail_height": 403,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/3wvutqu_1755529130489.jpg",
@@ -3760,7 +3939,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/3wvutqu_1755529130489.jpg.webp",
     "thumbnail_bytes": 35270,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45l911q_1756055506455.jpg",
@@ -3788,7 +3968,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45l911q_1756055506455.jpg.webp",
     "thumbnail_bytes": 31526,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alunuhj-1770099474221.jpg",
@@ -3815,7 +3996,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/alunuhj-1770099474221.jpg.webp",
     "thumbnail_bytes": 30848,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/ez1whl4-1779604905732.jpg",
@@ -3842,7 +4024,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/ez1whl4-1779604905732.jpg.webp",
     "thumbnail_bytes": 27898,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alve9sm-1770100953108.jpg",
@@ -3870,7 +4053,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/alve9sm-1770100953108.jpg.webp",
     "thumbnail_bytes": 42424,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/51g15b9_1757981668157.jpg",
@@ -3898,7 +4082,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/51g15b9_1757981668157.jpg.webp",
     "thumbnail_bytes": 46450,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dw8hbvu-1778477725356.jpg",
@@ -3926,7 +4111,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/dw8hbvu-1778477725356.jpg.webp",
     "thumbnail_bytes": 17488,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/akcasus-1770008171999.jpg",
@@ -3954,7 +4140,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/akcasus-1770008171999.jpg.webp",
     "thumbnail_bytes": 36252,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gc05iv7-1782564777075.jpg,jpg",
@@ -3982,7 +4169,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gc05iv7-1782564777075.jpg.webp",
     "thumbnail_bytes": 26258,
     "thumbnail_width": 360,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45n2ud1_1756058587661.jpg",
@@ -4009,7 +4197,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45n2ud1_1756058587661.jpg.webp",
     "thumbnail_bytes": 30732,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dm5fsj3-1776647931349.jpg",
@@ -4036,7 +4225,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/dm5fsj3-1776647931349.jpg.webp",
     "thumbnail_bytes": 35870,
     "thumbnail_width": 658,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbzw3u6-1782564342957.jpg,jpg",
@@ -4064,7 +4254,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbzw3u6-1782564342957.jpg.webp",
     "thumbnail_bytes": 63772,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3iw3x-1769932983749.jpg",
@@ -4091,7 +4282,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3iw3x-1769932983749.jpg.webp",
     "thumbnail_bytes": 24996,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbij60z-1782535169147.jpg,jpg",
@@ -4118,7 +4310,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbij60z-1782535169147.jpg.webp",
     "thumbnail_bytes": 39118,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dw7wfau-1777256775188.jpg",
@@ -4146,7 +4339,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/dw7wfau-1777256775188.jpg.webp",
     "thumbnail_bytes": 39166,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbil6b9-1782535252403.jpg,jpg",
@@ -4174,7 +4368,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbil6b9-1782535252403.jpg.webp",
     "thumbnail_bytes": 39738,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/akbktyg-1770006950668.jpg",
@@ -4202,7 +4397,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/akbktyg-1770006950668.jpg.webp",
     "thumbnail_bytes": 32166,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gepamly-1782727943147.jpg",
@@ -4229,7 +4425,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gepamly-1782727943147.jpg.webp",
     "thumbnail_bytes": 52498,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2192/bangumi/465493/points/eh2oy6v-1778517791594.jpg",
@@ -4256,7 +4453,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/eh2oy6v-1778517791594.jpg.webp",
     "thumbnail_bytes": 30400,
     "thumbnail_width": 680,
-    "thumbnail_height": 424
+    "thumbnail_height": 424,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/g94kmlk-1782390762319.jpg,jpg",
@@ -4283,7 +4481,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/g94kmlk-1782390762319.jpg.webp",
     "thumbnail_bytes": 57618,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbh3cjc-1782532751905.jpg,jpg",
@@ -4310,7 +4509,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbh3cjc-1782532751905.jpg.webp",
     "thumbnail_bytes": 35604,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/akbru8e-1770007286827.jpg",
@@ -4338,7 +4538,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/akbru8e-1770007286827.jpg.webp",
     "thumbnail_bytes": 29890,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/geokidl-1782727353690.jpg",
@@ -4366,7 +4567,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/geokidl-1782727353690.jpg.webp",
     "thumbnail_bytes": 25946,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8suwi3-1784547922450.jpg",
@@ -4394,7 +4596,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/h8suwi3-1784547922450.jpg.webp",
     "thumbnail_bytes": 33752,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dymy0us-1777403023820.jpg",
@@ -4422,7 +4625,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/dymy0us-1777403023820.jpg.webp",
     "thumbnail_bytes": 42264,
     "thumbnail_width": 720,
-    "thumbnail_height": 404
+    "thumbnail_height": 404,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alv8zs1-1770100476959.jpg",
@@ -4450,7 +4654,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/alv8zs1-1770100476959.jpg.webp",
     "thumbnail_bytes": 29978,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45ol5u1_1756061160877.jpg",
@@ -4477,7 +4682,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45ol5u1_1756061160877.jpg.webp",
     "thumbnail_bytes": 27530,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbhusje-1782534014210.jpg,jpg",
@@ -4505,7 +4711,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbhusje-1782534014210.jpg.webp",
     "thumbnail_bytes": 17586,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/e891wdq-1777984258865.jpg",
@@ -4532,7 +4739,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/e891wdq-1777984258865.jpg.webp",
     "thumbnail_bytes": 51146,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/duzl6dh-1777182467913.jpg",
@@ -4560,7 +4768,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/duzl6dh-1777182467913.jpg.webp",
     "thumbnail_bytes": 51146,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alulys2-1770099399990.jpg",
@@ -4589,7 +4798,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/alulys2-1770099399990.jpg.webp",
     "thumbnail_bytes": 33932,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "scenery"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3f739-1769932792399.jpg",
@@ -4617,7 +4827,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3f739-1769932792399.jpg.webp",
     "thumbnail_bytes": 36252,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbhsrx9-1782533919010.jpg,jpg",
@@ -4644,7 +4855,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbhsrx9-1782533919010.jpg.webp",
     "thumbnail_bytes": 32334,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45kzsdu_1756055080236.jpg",
@@ -4671,7 +4883,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45kzsdu_1756055080236.jpg.webp",
     "thumbnail_bytes": 35824,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45mmtbe_1756057836311.jpg",
@@ -4698,7 +4911,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45mmtbe_1756057836311.jpg.webp",
     "thumbnail_bytes": 30252,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45mprd4_1756057975205.jpg",
@@ -4726,7 +4940,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45mprd4_1756057975205.jpg.webp",
     "thumbnail_bytes": 25720,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3p9sv-1769933266128.jpg",
@@ -4753,7 +4968,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3p9sv-1769933266128.jpg.webp",
     "thumbnail_bytes": 5014,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/alvo7e3-1770101165461.jpg",
@@ -4780,7 +4996,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/alvo7e3-1770101165461.jpg.webp",
     "thumbnail_bytes": 45396,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2206/bangumi/465493/points/aj3chxn-1769932682727.jpg",
@@ -4808,7 +5025,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/aj3chxn-1769932682727.jpg.webp",
     "thumbnail_bytes": 35982,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8sozp1-1784547605340.jpg",
@@ -4836,7 +5054,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/h8sozp1-1784547605340.jpg.webp",
     "thumbnail_bytes": 20336,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbzrvk9-1782564099845.jpg,jpg",
@@ -4863,7 +5082,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbzrvk9-1782564099845.jpg.webp",
     "thumbnail_bytes": 45538,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45l3jqr_1756055253625.jpg",
@@ -4890,7 +5110,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45l3jqr_1756055253625.jpg.webp",
     "thumbnail_bytes": 35120,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/3ww2h93_1755529962285.jpg",
@@ -4917,7 +5138,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/3ww2h93_1755529962285.jpg.webp",
     "thumbnail_bytes": 34192,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbigshk-1782535035690.jpg,jpg",
@@ -4944,7 +5166,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbigshk-1782535035690.jpg.webp",
     "thumbnail_bytes": 18276,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbh9yad-1782533028646.jpg,jpg",
@@ -4971,7 +5194,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbh9yad-1782533028646.jpg.webp",
     "thumbnail_bytes": 15254,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/points/465493/45nk0bk_1756059389345.jpg",
@@ -4998,7 +5222,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/45nk0bk_1756059389345.jpg.webp",
     "thumbnail_bytes": 42670,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/gbiazd7-1782534821385.jpg,jpg",
@@ -5026,7 +5251,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/gbiazd7-1782534821385.jpg.webp",
     "thumbnail_bytes": 22898,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8t2msf-1784548270488.jpg",
@@ -5053,7 +5279,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/h8t2msf-1784548270488.jpg.webp",
     "thumbnail_bytes": 25416,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/2208/bangumi/465493/points/h8t4dq0-1784548315944.jpg",
@@ -5081,7 +5308,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/h8t4dq0-1784548315944.jpg.webp",
     "thumbnail_bytes": 41658,
     "thumbnail_width": 720,
-    "thumbnail_height": 405
+    "thumbnail_height": 405,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dkswd6a-1776566446158.jpg",
@@ -5108,7 +5336,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/dkswd6a-1776566446158.jpg.webp",
     "thumbnail_bytes": 16184,
     "thumbnail_width": 647,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://image-anitabi.magiconch.com/user/0/bangumi/465493/points/dw8207f-1777257352004.jpg",
@@ -5135,7 +5364,8 @@
     "thumbnail": "thumbnails/09-anitabi-scene-originals/dw8207f-1777257352004.jpg.webp",
     "thumbnail_bytes": 20942,
     "thumbnail_width": 392,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_book.jpg?a",
@@ -5154,7 +5384,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_book.jpg.webp",
     "thumbnail_bytes": 52558,
     "thumbnail_width": 720,
-    "thumbnail_height": 349
+    "thumbnail_height": 349,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_cd.jpg?a",
@@ -5173,7 +5404,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_cd.jpg.webp",
     "thumbnail_bytes": 24994,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_keyholder.jpg?a",
@@ -5192,7 +5424,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_keyholder.jpg.webp",
     "thumbnail_bytes": 9978,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_lycee_a.jpg?1",
@@ -5211,7 +5444,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_lycee_a.jpg.webp",
     "thumbnail_bytes": 41980,
     "thumbnail_width": 720,
-    "thumbnail_height": 244
+    "thumbnail_height": 244,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_sikisi.jpg?a",
@@ -5230,7 +5464,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_sikisi.jpg.webp",
     "thumbnail_bytes": 27204,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_sticker.jpg?a",
@@ -5249,7 +5484,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_sticker.jpg.webp",
     "thumbnail_bytes": 36714,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/am_tokuten_ws_a.jpg?b",
@@ -5268,7 +5504,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/am_tokuten_ws_a.jpg.webp",
     "thumbnail_bytes": 29648,
     "thumbnail_width": 720,
-    "thumbnail_height": 251
+    "thumbnail_height": 251,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_1.jpg",
@@ -5287,7 +5524,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_1.jpg.webp",
     "thumbnail_bytes": 42898,
     "thumbnail_width": 678,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_2.jpg",
@@ -5306,7 +5544,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_2.jpg.webp",
     "thumbnail_bytes": 30644,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_3.jpg",
@@ -5325,7 +5564,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_3.jpg.webp",
     "thumbnail_bytes": 35116,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_4.jpg",
@@ -5344,7 +5584,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_4.jpg.webp",
     "thumbnail_bytes": 33886,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_5.jpg",
@@ -5363,7 +5604,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_5.jpg.webp",
     "thumbnail_bytes": 38330,
     "thumbnail_width": 340,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_alicenet.jpg",
@@ -5382,7 +5624,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_alicenet.jpg.webp",
     "thumbnail_bytes": 33698,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_amiami.jpg",
@@ -5401,7 +5644,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_amiami.jpg.webp",
     "thumbnail_bytes": 22162,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_bookmate.jpg",
@@ -5420,7 +5664,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_bookmate.jpg.webp",
     "thumbnail_bytes": 29688,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_ebten.jpg?a",
@@ -5439,7 +5684,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_ebten.jpg.webp",
     "thumbnail_bytes": 37100,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_fanza.jpg",
@@ -5458,7 +5704,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_fanza.jpg.webp",
     "thumbnail_bytes": 41608,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_furukawa.jpg",
@@ -5477,7 +5724,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_furukawa.jpg.webp",
     "thumbnail_bytes": 28418,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_geestore2.jpg",
@@ -5496,7 +5744,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_geestore2.jpg.webp",
     "thumbnail_bytes": 34944,
     "thumbnail_width": 500,
-    "thumbnail_height": 420
+    "thumbnail_height": 420,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_getchu.jpg",
@@ -5515,7 +5764,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_getchu.jpg.webp",
     "thumbnail_bytes": 52666,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_medio.jpg",
@@ -5534,7 +5784,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_medio.jpg.webp",
     "thumbnail_bytes": 22424,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_pcmk.jpg",
@@ -5553,7 +5804,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_pcmk.jpg.webp",
     "thumbnail_bytes": 33266,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_prop.jpg",
@@ -5572,7 +5824,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_prop.jpg.webp",
     "thumbnail_bytes": 28418,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_surugaya.jpg",
@@ -5591,7 +5844,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_surugaya.jpg.webp",
     "thumbnail_bytes": 26740,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_takarajima.jpg",
@@ -5610,7 +5864,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_takarajima.jpg.webp",
     "thumbnail_bytes": 18866,
     "thumbnail_width": 400,
-    "thumbnail_height": 400
+    "thumbnail_height": 400,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_toranoana.jpg",
@@ -5629,7 +5884,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_toranoana.jpg.webp",
     "thumbnail_bytes": 37364,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_trader.jpg",
@@ -5648,7 +5904,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_trader.jpg.webp",
     "thumbnail_bytes": 53446,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_wondergoo.jpg",
@@ -5667,7 +5924,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_wondergoo.jpg.webp",
     "thumbnail_bytes": 42004,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/anemoi/common/image/shop_tokuten_yumeoriya.jpg",
@@ -5686,7 +5944,8 @@
     "thumbnail": "thumbnails/10-official-bonus-previews/shop_tokuten_yumeoriya.jpg.webp",
     "thumbnail_bytes": 30314,
     "thumbnail_width": 480,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://key.visualarts.gr.jp/key25th/common/image/gallery_11.jpg",
@@ -5705,7 +5964,8 @@
     "thumbnail": "thumbnails/11-official-anniversary/gallery_11.jpg.webp",
     "thumbnail_bytes": 11584,
     "thumbnail_width": 344,
-    "thumbnail_height": 480
+    "thumbnail_height": 480,
+    "browse_mode": "reveal"
   },
   {
     "url": "https://blog-imgs-183.fc2.com/v/i/b/vibgyor516/IMG_9267s.jpg",
@@ -5729,6 +5989,7 @@
     "thumbnail": "thumbnails/99-thumbnail-only/IMG_9267s.jpg.webp",
     "thumbnail_bytes": 11390,
     "thumbnail_width": 300,
-    "thumbnail_height": 225
+    "thumbnail_height": 225,
+    "browse_mode": "reveal"
   }
 ]
