@@ -1,0 +1,56 @@
+[
+  {
+    "oldFile": "spica-wheat-v2",
+    "newFile": "spica-wheat-cg-bg-v3",
+    "generatedSourceFile": "exec-ae5f4dc3-9c21-49c8-90df-cb425dbf1d1a.png",
+    "gameSceneReference": "0508.png / 03-official-event-cg/am_g_12.jpg",
+    "change": "风车旁向地平线延伸的金色麦田；去掉海、房车和城镇",
+    "date": "2026-09-25",
+    "kind": "基于游戏 CG / 游戏背景画面进行背景改写的同人插画；人物、角色关系及道具延续旧图，不是游戏原 CG。"
+  },
+  {
+    "oldFile": "honoka-wave",
+    "newFile": "honoka-wave-cg-bg-v2",
+    "generatedSourceFile": "exec-81bf4038-75b7-40e8-9aaf-a39a1a19e933.png",
+    "gameSceneReference": "0160.png",
+    "change": "大片蓝天、夏云、低山与田间小路；去掉虚构海边小镇",
+    "date": "2026-09-25",
+    "kind": "基于游戏 CG / 游戏背景画面进行背景改写的同人插画；人物、角色关系及道具延续旧图，不是游戏原 CG。"
+  },
+  {
+    "oldFile": "hiiro-tsuzura-map-v2",
+    "newFile": "hiiro-tsuzura-map-cg-bg-v3",
+    "generatedSourceFile": "exec-6b90255b-6efa-45a0-92bd-477bd78775a3.png",
+    "gameSceneReference": "0578.png",
+    "change": "游戏 CG 中的木质书屋、书架与窗光；去掉虚构海景",
+    "date": "2026-09-25",
+    "kind": "基于游戏 CG / 游戏背景画面进行背景改写的同人插画；人物、角色关系及道具延续旧图，不是游戏原 CG。"
+  },
+  {
+    "oldFile": "mugi-rikka-journey-v2",
+    "newFile": "mugi-rikka-journey-cg-bg-v3",
+    "generatedSourceFile": "exec-b4c4c63d-fbdc-4283-8592-7229a31d4eed.png",
+    "gameSceneReference": "02-official-backgrounds/am_bg_1.jpg",
+    "change": "原野上延伸至远方的直路；把虚构站台改为路边小憩",
+    "date": "2026-09-25",
+    "kind": "基于游戏 CG / 游戏背景画面进行背景改写的同人插画；人物、角色关系及道具延续旧图，不是游戏原 CG。"
+  },
+  {
+    "oldFile": "aino-workshop",
+    "newFile": "aino-workshop-cg-bg-v2",
+    "generatedSourceFile": "exec-64a47567-90a7-4344-8a4d-a95f55e19813.png",
+    "gameSceneReference": "02-official-backgrounds/am_bg_2.jpg",
+    "change": "工房窗外换成带金属外楼梯的风车塔基、草地、海和远处灯塔",
+    "date": "2026-09-25",
+    "kind": "基于游戏 CG / 游戏背景画面进行背景改写的同人插画；人物、角色关系及道具延续旧图，不是游戏原 CG。"
+  },
+  {
+    "oldFile": "koyomi-letters",
+    "newFile": "koyomi-letters-cg-bg-v2",
+    "generatedSourceFile": "exec-502e2dfa-4fa3-4311-990f-ec5e58223344.png",
+    "gameSceneReference": "02-official-backgrounds/am_bg_9.jpg",
+    "change": "游戏中的开阔小镇路口、信号灯、电线与低矮建筑；去掉虚构木街和邮箱",
+    "date": "2026-09-25",
+    "kind": "基于游戏 CG / 游戏背景画面进行背景改写的同人插画；人物、角色关系及道具延续旧图，不是游戏原 CG。"
+  }
+]
