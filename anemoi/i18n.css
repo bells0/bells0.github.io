@@ -1,0 +1,16 @@
+/* The same quiet language control sits at the right edge of each page header. */
+.locale-switch{display:flex;align-items:center;gap:3px;flex:none;padding:3px;border:1px solid rgba(85,125,126,.3);border-radius:999px;background:rgba(255,255,255,.75);white-space:nowrap;line-height:1}
+.locale-switch button{appearance:none;border:0;border-radius:999px;background:transparent;color:inherit;cursor:pointer;font:500 12px/1.2 -apple-system,BlinkMacSystemFont,"Noto Sans",sans-serif;letter-spacing:0;padding:7px 9px}
+.locale-switch button[aria-pressed="true"]{background:#2c6e71;color:#fff}
+.locale-switch button:focus-visible{outline:2px solid #2c6e71;outline-offset:2px}
+@media(max-width:1120px){.memory-header .topbar,.site-header .header-inner,.topbar .topbar-inner{flex-wrap:wrap}.memory-header .topbar nav,.site-header .header-inner nav,.topbar .topbar-inner nav{flex-wrap:wrap;gap:12px 18px}}
+@media(max-width:700px){.locale-switch{margin-left:auto}.locale-switch button{padding:6px 8px;font-size:11px}}
+
+html[data-locale="ja"] .quote-translation{display:none}
+
+html[data-locale="en"] .hero-copy h1{font-size:clamp(30px,3.2vw,43px);line-height:1.35;letter-spacing:.01em;max-width:620px}
+@media(max-width:700px){
+  .memory-header .topbar,.site-header .header-inner,.topbar .topbar-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 12px}
+  .memory-header .topbar nav,.site-header .header-inner nav,.topbar .topbar-inner nav{grid-column:1/-1;grid-row:2}
+  .locale-switch{grid-column:2;grid-row:1;margin-left:0}
+}

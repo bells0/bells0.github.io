@@ -59,7 +59,7 @@
     for (const p of places) {
       const s = state[p.id] || {};
       const node = document.getElementById('place-' + p.id);
-      const match = (!activeRoute || p.routes?.includes(activeRoute)) && (view === 'all' || s[view]) && (region === 'all' || p.region === region) && `${p.name} ${p.japanese} ${p.region}`.toLocaleLowerCase().includes(query);
+      const match = (!activeRoute || p.routes?.includes(activeRoute)) && (view === 'all' || s[view]) && (region === 'all' || p.region === region) && `${p.name} ${p.japanese} ${p.region} ${window.anemoiI18n?.t(p.name) || ''} ${window.anemoiI18n?.t(p.region) || ''}`.toLocaleLowerCase().includes(query);
       node.hidden = !match;
       if (match) shown++;
       const saveButton = node.querySelector('[data-action="saved"]');
@@ -118,14 +118,15 @@
   });
   document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{
     switchView(b.dataset.view);
-    history.replaceState(null,'', view === 'saved' ? '#saved' : '#places');
+    history.replaceState(null,'', location.pathname + location.search + (view === 'saved' ? '#saved' : '#places'));
   }));
   document.querySelectorAll('[data-region]').forEach(b=>b.addEventListener('click',()=>{region=b.dataset.region;update();}));
   $('#clear-route').addEventListener('click',()=>switchView('all',true));
   $('#place-search').addEventListener('input',update);
-  $('#reset-filters').addEventListener('click',()=>{switchView('all',true);history.replaceState(null,'','#places');});
-  $('#saved-link').addEventListener('click',e=>{e.preventDefault();switchView('saved',true);history.replaceState(null,'','#saved');$('#places').scrollIntoView({behavior:'auto'});});
+  $('#reset-filters').addEventListener('click',()=>{switchView('all',true);history.replaceState(null,'',location.pathname + location.search + '#places');});
+  $('#saved-link').addEventListener('click',e=>{e.preventDefault();switchView('saved',true);history.replaceState(null,'',location.pathname + location.search + '#saved');$('#places').scrollIntoView({behavior:'auto'});});
   window.addEventListener('hashchange',()=>{if(places.length && location.hash==='#saved') {switchView('saved',true);$('#places').scrollIntoView();}});
+  window.addEventListener('anemoi:languagechange',()=>{if(places.length)update();});
   window.addEventListener('storage',e=>{if(e.key===KEY || e.key===null){load();if(places.length)update();}});
   fetch('places.json?v=journey-final1').then(r=>{if(!r.ok)throw new Error('Unable to load places');return r.json();}).then(data=>{
     places=data; load(); grid.innerHTML=places.map(card).join(''); update();

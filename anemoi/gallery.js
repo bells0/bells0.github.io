@@ -9,7 +9,7 @@
     const search = query.value.trim().toLocaleLowerCase();
     let shown = 0, withheld = 0;
     for (const card of cards) {
-      const matches = card.dataset.search.includes(search);
+      const matches = `${card.dataset.search} ${card.querySelector('.name')?.textContent || ''}`.toLocaleLowerCase().includes(search);
       const allowed = mode === 'all' || card.dataset.browse === 'scenery';
       card.hidden = !matches || !allowed;
       if (matches && !allowed) withheld++;
@@ -61,5 +61,6 @@
   document.querySelector('#clear-search').addEventListener('click', () => { query.value = ''; filter(); query.focus(); });
   window.addEventListener('hashchange', hashNotice);
   // Opt-in is not persisted; opening or refreshing the gallery starts in scenery mode.
+  window.addEventListener('anemoi:languagechange', filter);
   filter();
 })();
