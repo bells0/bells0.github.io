@@ -1,10 +1,12 @@
 // Copy selected, already-exported images intact. No resizing or photo edits.
-// Usage: node scripts/import-anemoi-guide-assets.mjs /absolute/path/to/图片巡礼补全
+// Usage: node scripts/import-anemoi-guide-assets.mjs /absolute/path/to/图片巡礼补全 /absolute/path/to/2026-10-01-selected
 import {readFile,copyFile,mkdir,writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=process.argv[2];
 if(!root || !path.isAbsolute(root)) throw new Error('Provide the absolute collection directory.');
+const departureRoot=process.argv[3];
+if(!departureRoot || !path.isAbsolute(departureRoot)) throw new Error('Provide the absolute October 1 selected-export directory.');
 const target=fileURLToPath(new URL('../anemoi/guide/assets/',import.meta.url));
 const manifest=JSON.parse(await readFile(path.join(root,'巡礼补全清单.json'),'utf8'));
 const names={
@@ -46,5 +48,13 @@ for(const [name,input] of Object.entries({
   await copyFile(path.join(root,'照片预览',input+'.jpg'),path.join(target,name+'.jpg'));
   sources.push({file:name+'.jpg',title:name,photo_date:input.slice(0,10),photo_source:'巡礼实拍的现有预览导出'});
 }
+for(const [name,input,title] of [
+  ['sapporo-station','IMG_20261001_151131','札幌站南侧实拍'],
+  ['sapporo-stop5','IMG_20261001_152138','札幌駅前5番站牌：滝川・留萌方向'],
+  ['chuo-bus','IMG_20261001_163606','札幌站前中央巴士现场照片，外观不用于独立判定线路']
+]){
+  await copyFile(path.join(departureRoot,input+'.jpg'),path.join(target,name+'.jpg'));
+  sources.push({file:name+'.jpg',title,photo_date:'2026-10-01',photo_source:'已从vivo导入的手机原片所制现有无EXIF精选副本'});
+}
 await writeFile(path.join(target,'sources.json'),JSON.stringify({updated:'2026-10-03',copyright:'游戏画面 © VISUAL ARTS / Key；实景摄影版权归摄影者。非官方巡礼资料。',sources},null,2)+'\n');
-console.log(`Copied ${sources.length} images; 20 existing comparison exports reused without modification.`);
+console.log(`Copied ${sources.length} images; 20 comparison exports and 3 Sapporo departure photos reused without modification.`);

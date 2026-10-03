@@ -1,5 +1,9 @@
 // Facility searches stay distinct from community scene pins and photo locations.
 const places = {
+  sapporo:{query:'JR 札幌駅'},
+  sapporo5:{query:'札幌駅前 高速バス 5番のりば'}, // Search area only: match the photo + official platform map.
+  sapporo32:{query:'札幌駅前 32のりば 北5条西1丁目'},
+  rumoiTerminal:{query:'北海道中央バス 留萌ターミナル'},
   rumoi:{query:'留萌駅前',id:'ChIJVTmvlI1oDF8RvIM6Tzt_hdM'},
   tomamae:{query:'苫前上町',id:'ChIJBw7MVS0sDF8RQ-cuXmFSdfw'},
   minshuku:{query:'民宿30ノット 苫前町 栄浜121'},
@@ -22,10 +26,10 @@ const googlePlace = key => {
   const p=places[key];
   return 'https://www.google.com/maps/search/?'+new URLSearchParams({api:'1',query:p.query,...(p.id?{query_place_id:p.id}:{})});
 };
-const googleRoute = (keys) => {
+const googleRoute = (keys, mode='walking') => {
   const list=keys.split(',').map(k=>places[k]);
   const a=list[0], b=list.at(-1);
-  return 'https://www.google.com/maps/dir/?'+new URLSearchParams({api:'1',origin:a.query,destination:b.query,travelmode:'walking',...(a.id?{origin_place_id:a.id}:{}),...(b.id?{destination_place_id:b.id}:{}),...(list.length>2?{waypoints:list.slice(1,-1).map(p=>p.query).join('|')}:{})});
+  return 'https://www.google.com/maps/dir/?'+new URLSearchParams({api:'1',origin:a.query,destination:b.query,travelmode:mode,...(a.id?{origin_place_id:a.id}:{}),...(b.id?{destination_place_id:b.id}:{}),...(list.length>2?{waypoints:list.slice(1,-1).map(p=>p.query).join('|')}:{})});
 };
 const community = id => 'https://www.anitabi.cn/map?bangumiId=465493&pid='+id;
 const scenes = [
@@ -64,6 +68,37 @@ const image = (filename, alt, caption='上：游戏／宣传画面 · 下：实�
 const external = (label,href,className='') => {
   const a=document.createElement('a');a.textContent=label;a.href=href;a.target='_blank';a.rel='noopener';a.className=className;return a;
 };
+const localTimetable='https://www.engan-bus.co.jp/02_omnibus/01_routebus/12_horonobe_rumoi/index.html';
+const expressTimetable='https://www.engan-bus.co.jp/01_expressbus/81_haboro_express/index.html';
+const localStation = (lat,lng) => 'https://www.google.com/maps/d/viewer?'+new URLSearchParams({mid:'1bO7MHPAQLLZApTrgpgVafz2l0kA',ll:lat+','+lng,z:'19'});
+const booking='https://secure.j-bus.co.jp/hon/Route/Highway?gpcd=010045&rocd=0001';
+const busSteps=[
+  {n:1,title:'札幌 → 留萌',scope:'入口 A · 留萌过夜',bus:'北海道中央巴士 · 高速るもい号',time:'16:40 → 19:42',duration:'3小时02分',from:'札幌駅前 5番',board:'室外站牌写着「⑤／滝川・留萌方向」，按上方照片认牌；不是32番，也不是笼统的JR车站入口。',to:'留萌ターミナル',after:'留萌休息一晚。次日换到留萌駅前2番北上，换站路线见下方。',keys:'sapporo5,rumoiTerminal',fare:'¥2,910 · 非预约制，不预订座位',extra:'另一班11:00 → 14:02可早点到留萌。',station:'https://transfer.navitime.biz/chuo-bus/pc/diagram/BusAboardMap?stCode=00300912',official:'https://www.chuo-bus.co.jp/highway/index.cgi?n=14+&o=1&ope=pnt&t=21',walk:'sapporo,sapporo5',walkLabel:'JR札幌站 → 候车区域',stopKey:'rumoiTerminal'},
+  {n:2,title:'留萌 → 苫前',scope:'工作日班次示例',bus:'沿岸巴士 · 12系統 幌延留萌線（北行）',time:'10:40 → 11:45',duration:'1小时05分',from:'留萌駅前 2のりば',board:'看往小平／羽幌／幌延方向的2号站牌。昨晚抵达的留萌ターミナル不是这一站。',to:'苫前上町',after:'下车后开始苫前环线：民宿街道 → 风车 → 海岸 → 公园 → 町内。',keys:'rumoi,tomamae',fare:'¥1,350 · 一般路线，不预订座位',extra:'下车点和返程候车侧不能靠同名推断，先看官方站位。',station:'https://www.google.com/maps/d/viewer?ll=43.941731,141.6508611&mid=1ORkGVxz_XtF2nVgEJyxoAdXapB0&z=19',official:localTimetable,walk:'rumoiTerminal,rumoi',walkLabel:'留萌到达站 → 北上站区',stopKey:'tomamae',scene:'#tomamae',sceneLabel:'下车，接苫前图卡'},
+  {n:3,title:'苫前 → 羽幌',scope:'巡礼结束后 · 工作日示例',bus:'沿岸巴士 · 12系統 幌延留萌線（北行）',time:'16:50 → 17:06',duration:'16分钟',from:'苫前上町 · 羽幌方向站牌',board:'建议16:35回到站区；确认北行往羽幌方向。站区地图不代替现场站牌／候车侧确认。',to:'羽幌ターミナル',after:'先去酒店放行李，再看羽幌街口。17:06是到达，17:08是继续发车。',keys:'tomamae,haboroBus',fare:'运价按官方表／车内显示 · 不预订座位',extra:'不是高速るもい号，也不是回札幌的特急はぼろ号。',station:localStation('44.3109077','141.6560883'),official:localTimetable,walk:'museum,tomamae',walkLabel:'资料馆 → 回程站区',stopKey:'haboroBus',scene:'#haboro',sceneLabel:'到羽幌，接街口／住宿'},
+  {n:4,title:'羽幌 → 初山别温泉',scope:'周末／节假日早班示例',bus:'沿岸巴士 · 12系統 幌延留萌線（北行）',time:'09:03 → 09:36',duration:'33分钟',from:'羽幌ターミナル／沿岸巴士羽幌营业所',board:'在南7条4丁目营业所站区上车；不是本社ターミナル，也不是渡轮码头。认往初山别／幌延方向的车。',to:'しょさんべつ温泉',after:'在岬の湯酒店前下车；步行进岬台公园、天文台。不要在初山别村中心提前下车。',keys:'haboroBus,onsen',fare:'¥1,250 · 一般路线，不预订座位',extra:'平日早班07:43 → 08:16；12:03 → 12:36另查运行日。',station:localStation('44.360797','141.705957'),official:localTimetable,walk:'workman,haboroBus',walkLabel:'羽幌住宿示例 → 巴士站',stopKey:'onsen',scene:'#shosanbetsu',sceneLabel:'下车，接公园／天文台'},
+  {n:5,title:'初山别温泉 → 羽幌',scope:'返程 · 南行',bus:'沿岸巴士 · 12系統 幌延留萌線（南行）',time:'16:53 → 17:31',duration:'38分钟',from:'しょさんべつ温泉 · 酒店前回车场',board:'与去程同一酒店前站区，双向共用。建议16:35回来，确认往羽幌／留萌，不搭北行车。',to:'羽幌ターミナル',after:'17:28是本社ターミナル，不是本页住宿接续用的总站；羽幌总站17:31到、17:33续发。',keys:'onsen,haboroBus',fare:'¥1,250 · 一般路线，不预订座位',extra:'想看日落／夜间观星，可住岬の湯，不必赶这一班；次日交通需另查。',station:localStation('44.563396','141.7770949'),official:localTimetable,walk:'observatory,onsen',walkLabel:'天文台 → 温泉候车区域',stopKey:'haboroBus'},
+  {n:6,title:'羽幌 → 札幌',scope:'返札幌 · 完全预约制',bus:'沿岸巴士 · 特急はぼろ号 0041便',time:'13:04 → 16:27',duration:'3小时23分',from:'羽幌ターミナル／沿岸巴士羽幌营业所',board:'回到羽幌总站，建议提前15–20分钟；按自己乘车票上的日期、站名、车次候车。',to:'札幌駅前 32のりば',after:'回到JR札幌站附近。不是去程中央巴士的5番；下车点以乘车票及当日停车安排为准。',keys:'haboroBus,sapporo32',fare:'普通¥4,700／网付¥4,420 · 全席指定，必须预约',extra:'付款后保存邮件乘车票；不必换实体票，收据不是乘车票。',station:localStation('44.360797','141.705957'),official:expressTimetable,walk:'workman,haboroBus',walkLabel:'羽幌住宿示例 → 巴士站',stopKey:'sapporo32',book:true}
+];
+for(const s of busSteps){
+  const article=document.createElement('article');article.id='bus-'+s.n;article.className='bus-card bus-step'+(s.book?' reserved':'');
+  const heading=document.createElement('div');heading.className='bus-step-heading';
+  const number=document.createElement('span');number.className='number';number.textContent=s.n;
+  const wrap=document.createElement('div'),scope=document.createElement('span'),title=document.createElement('h3');scope.className='bus-label';scope.textContent=s.scope;title.textContent=s.title;wrap.append(scope,title);heading.append(number,wrap);article.append(heading);
+  const bus=document.createElement('p');bus.className='bus-name';bus.textContent=s.bus;article.append(bus);
+  const time=document.createElement('p');time.className='leg-time';time.textContent=s.time;
+  const duration=document.createElement('span');duration.textContent='车程 '+s.duration;time.append(duration);article.append(time);
+  const stops=document.createElement('dl');stops.className='stop-facts';
+  for(const [label,name,note] of [['在哪里上车',s.from,s.board],['坐到哪里',s.to,s.after]]){const dt=document.createElement('dt'),dd=document.createElement('dd'),strong=document.createElement('strong'),p=document.createElement('p');dt.textContent=label;strong.textContent=name;p.textContent=note;dd.append(strong,p);stops.append(dt,dd);}article.append(stops);
+  const fare=document.createElement('p');fare.className='leg-fare';fare.textContent=s.fare;article.append(fare);
+  const links=document.createElement('div');links.className='scene-actions';links.append(external('步行：'+s.walkLabel+' ↗',googleRoute(s.walk)),external('Google 公交：本段区间 ↗',googleRoute(s.keys,'transit'),'next'),external('官方上车站位 ↗',s.station),external('下车地点／区域 ↗',googlePlace(s.stopKey)),external('核对班次／运行日 ↗',s.official));if(s.book)links.append(external('选择自己的日期并订票 ↗',booking));article.append(links);
+  const extra=document.createElement('p');extra.className='small';extra.textContent=s.extra;article.append(extra);
+  if(s.scene){const next=document.createElement('a');next.href=s.scene;next.className='text-link';next.textContent=s.sceneLabel+' ↓';article.append(next);}
+  document.querySelector('#bus-steps').append(article);
+}
+const flow=[['札幌 ⑤','#bus-1','sapporo5,rumoiTerminal'],['留萌','#bus-2','rumoi,tomamae'],['苫前','#tomamae','tomamae,haboroBus'],['羽幌','#haboro','haboroBus,onsen'],['初山别温泉','#shosanbetsu','onsen,haboroBus'],['羽幌','#bus-6','haboroBus,sapporo32'],['札幌 32','#bus-6']];
+const flowRoot=document.querySelector('#transport-flow');
+for(const [label,anchor,keys] of flow){const stop=document.createElement('a');stop.className='flow-stop';stop.href=anchor;stop.textContent=label;flowRoot.append(stop);if(keys){const leg=external('→',googleRoute(keys,'transit'),'flow-leg');leg.setAttribute('aria-label',label+'出发的下一段公交路线');flowRoot.append(leg);}}
 for (const s of scenes) {
   const article=document.createElement('article');article.className='scene';article.id='scene-'+s.n;
   const head=document.createElement('div');head.className='scene-title';
@@ -83,3 +118,4 @@ for(const s of scenes.filter(s=>s.group==='tomamae')){const li=document.createEl
 for (const [label,keys] of [['到站 → 栄浜 → 风车 → 海岸 · 1.7km / 22分','tomamae,minshuku,wind,beach'],['海岸 → 公园 → 道の駅 · 1.4km / 20分','beach,park,rest'],['道の駅 → 便利店 → 寺院 → 资料馆 → 返站 · 2.3km / 33分','rest,seico,temple,museum,tomamae']]) document.querySelector('#tomamae-walks').append(external(label+' ↗',googleRoute(keys),'button'));
 document.querySelectorAll('[data-place]').forEach(a=>a.href=googlePlace(a.dataset.place));
 document.querySelectorAll('[data-route]').forEach(a=>a.href=googleRoute(a.dataset.route));
+document.querySelectorAll('[data-transit]').forEach(a=>a.href=googleRoute(a.dataset.transit,'transit'));
