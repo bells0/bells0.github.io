@@ -1,0 +1,281 @@
+{
+  "updated": "2026-10-03",
+  "copyright": "游戏画面 © VISUAL ARTS / Key；实景摄影版权归摄影者。非官方巡礼资料。",
+  "sources": [
+    {
+      "file": "sakaehama-street.jpg",
+      "title": "01-栄浜街道",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=alv8zs1",
+      "scene_points": [
+        "alv8zs1"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "道路弯向、左侧站牌、右侧房屋与风车共同对应。"
+    },
+    {
+      "file": "windmill-base.jpg",
+      "title": "03-風来望·风车底座",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=45mprd4",
+      "scene_points": [
+        "45mprd4"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "风车底座与外露楼梯对应；实拍绕到另一侧，海面方向与CG不同。"
+    },
+    {
+      "file": "windmill-looking-up.jpg",
+      "title": "03-苫前风车·仰望",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3p9sv",
+      "scene_points": [
+        "aj3p9sv"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "以风车叶片、塔身和天空构图对照；点名在地图中为“苫前町”。"
+    },
+    {
+      "file": "coastal-bend.jpg",
+      "title": "04-白色沙滩·沿海弯道",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=ez1whl4",
+      "scene_points": [
+        "ez1whl4"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "弯道、左侧护栏、右侧山坡和远处风车对应。"
+    },
+    {
+      "file": "beach-evening-reference.jpg",
+      "title": "04-白色沙滩·夕阳参考",
+      "scene_source": "https://key.visualarts.gr.jp/anemoi/special.html",
+      "scene_points": [
+        "45mmtbe"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "补充对照",
+      "note": "上图为官网配布的爱乃海边视觉图；下图换为沙滩、海浪与岸坡更清楚的日间实拍。海岸背景作补充参考，人物、滑翔翼与夕阳未复刻，非同机位对照。"
+    },
+    {
+      "file": "mirai-stairs.jpg",
+      "title": "05-未来港公园·阶梯",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=alve9sm",
+      "scene_points": [
+        "alve9sm"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "补充对照",
+      "note": "公园阶梯与灯具已拍到，但照片朝向与CG草坡背景不同。"
+    },
+    {
+      "file": "mirai-second-view.jpg",
+      "title": "05-未来港公园·补充视角",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=45kzsdu",
+      "scene_points": [
+        "45kzsdu"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "补充对照",
+      "note": "同一公园的另一条地图参考；没有完整复现CG的正面草坡机位。"
+    },
+    {
+      "file": "fuwatto-platform.jpg",
+      "title": "06-道の駅風W·海景平台",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=gbiazd7",
+      "scene_points": [
+        "gbiazd7"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "补充对照",
+      "note": "建筑、馆内商店和后方海景均有照片；CG中两张长椅的平台机位没有拍到。"
+    },
+    {
+      "file": "seicomart.jpg",
+      "title": "07-苫前Seicomart",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=dm5fsj3",
+      "scene_points": [
+        "dm5fsj3"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "店铺招牌、屋顶和入口结构对应。"
+    },
+    {
+      "file": "dairinji.jpg",
+      "title": "08-久遠山大林寺",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=gbij60z",
+      "scene_points": [
+        "gbij60z"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "寺门、正面建筑与两侧院落对应。"
+    },
+    {
+      "file": "haboro-street.jpg",
+      "title": "10-羽幌街道路口",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3f739",
+      "scene_points": [
+        "aj3f739"
+      ],
+      "photo_date": "2026-10-02",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "交叉路口、右侧白色房屋、超市与电线结构对应；采用当前地图修正后的点位。 实拍换为左上角无遮挡的同路口照片，保持原图完整画面。"
+    },
+    {
+      "file": "observatory-front.jpg",
+      "title": "11-天文台正面",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=3wvutqu",
+      "scene_points": [
+        "3wvutqu",
+        "alunuhj"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "穹顶、斜翼、入口、圆窗对应。"
+    },
+    {
+      "file": "observatory-hall.jpg",
+      "title": "12-天文台圆窗大厅",
+      "scene_source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "scene_points": [
+        "eh2rfwi"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "今天已入馆；圆窗、白板、桌子与陈列柜对应，陈设有所变化。"
+    },
+    {
+      "file": "observatory-lawn.jpg",
+      "title": "13-天文台草坪主视觉",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=45l911q",
+      "scene_points": [
+        "45l911q",
+        "3wvv46e"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "补充对照",
+      "note": "主视觉取景范围的白天实拍；夜间星空、人物和花卉未复刻。"
+    },
+    {
+      "file": "museum-exterior.jpg",
+      "title": "09-乡土资料馆外观-补拍",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=aj3chxn",
+      "scene_points": [
+        "aj3chxn",
+        "45l3jqr",
+        "3ww2h93"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "用今天光线更好的外观补拍替换首轮主选；入馆实拍见本组下方。"
+    },
+    {
+      "file": "museum-room-reference.jpg",
+      "title": "14-乡土资料馆室内-补拍",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=gbigshk",
+      "scene_points": [
+        "gbigshk"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "待确认",
+      "note": "今天已经入馆并拍摄室内。实拍应接室／视频观看室与CG都有窗户、挂钟、木墙和柜子，但空间比例、机位及家具不同；尚不能确认是CG诊疗室的同一房间。"
+    },
+    {
+      "file": "kobayashi-ranch.jpg",
+      "title": "15-小林牧场入口",
+      "scene_source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "scene_points": [
+        "eh2oy6v"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "主对照",
+      "note": "招牌、白色围栏、红色牧场建筑和右侧道路对应；游戏对招牌及道路作了改编。"
+    },
+    {
+      "file": "minshuku-bar.jpg",
+      "title": "17-民宿30ノット-吧台室内",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=45ol5u1",
+      "scene_points": [
+        "45ol5u1"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "微信补充素材",
+      "accuracy": "主对照",
+      "note": "酒柜、吊灯、柜台和高脚椅对应；椅子数量、陈设与拍摄视角有所变化。"
+    },
+    {
+      "file": "minshuku-tatami.jpg",
+      "title": "18-民宿30ノット-榻榻米室内",
+      "scene_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=gbhusje",
+      "scene_points": [
+        "gbhusje"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "微信补充素材",
+      "accuracy": "主对照",
+      "note": "三面窗、吊灯、矮桌与暖炉对应；窗帘、坐垫和桌面陈设有所变化。"
+    },
+    {
+      "file": "wheat-field-reference.jpg",
+      "title": "16-栄浜苫前町麦田-周边补拍",
+      "scene_source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "scene_points": [
+        "dymy0us",
+        "alvo7e3"
+      ],
+      "photo_date": "2026-10-03",
+      "photo_source": "2026年10月巡礼实拍",
+      "accuracy": "补充对照",
+      "note": "原图GPS：44.307797, 141.670667。距苫前町麦田标注488米、栄浜麦田标注580米；同批202号照片距两个标注432／540米。归入麦田周边补拍，取景机位不同；实拍田地已收割。"
+    },
+    {
+      "file": "coast-windmill.jpg",
+      "title": "coast-windmill",
+      "photo_date": "2026-10-02",
+      "photo_source": "巡礼实拍的现有预览导出"
+    },
+    {
+      "file": "rumoi-boarding.jpg",
+      "title": "rumoi-boarding",
+      "photo_date": "2026-10-02",
+      "photo_source": "巡礼实拍的现有预览导出"
+    },
+    {
+      "file": "minshuku-exterior.jpg",
+      "title": "minshuku-exterior",
+      "photo_date": "2026-10-02",
+      "photo_source": "巡礼实拍的现有预览导出"
+    },
+    {
+      "file": "workman-exterior.jpg",
+      "title": "workman-exterior",
+      "photo_date": "2026-10-02",
+      "photo_source": "巡礼实拍的现有预览导出"
+    },
+    {
+      "file": "misakidai-sign.jpg",
+      "title": "misakidai-sign",
+      "photo_date": "2026-10-03",
+      "photo_source": "巡礼实拍的现有预览导出"
+    }
+  ]
+}

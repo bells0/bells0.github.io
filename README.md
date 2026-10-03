@@ -27,3 +27,11 @@ The previous generated Hexo pages remain in Git history and their existing paths
 图片尺寸与来源见 `anemoi/image-manifest.json` 和 `anemoi/图片来源与像素.csv`。图片版权归 VISUAL ARTS/Key、客座画师及摄影者；本站是非官方个人巡礼资料整理。原始文件保留来源站水印与像素，不代表美术制作源文件或完整游戏 CG 库。
 
 Pages 是公开静态网站，没有登录保护；仓库仅包含公开网页素材与页面文件，不包含个人行程、密码、SSH 配置或 OSS 凭据。`.nojekyll` 保持原样，由现有 `main` 分支根目录发布。
+
+## anemoi 图文交通指南
+
+`anemoi/guide/` 是中文图文攻略：20 组现有游戏／实景上下对照，按苫前步行、羽幌、初山别和郊外支线排列。地点卡包含 Google 地图地点及下一段步行导航；公交说明区分工作日、周末、普通路线与预约制高速巴士，并提供官方时刻及站位入口。住宿推荐附民宿电话、羽幌备选官网、初山别温泉预约入口。
+
+本地预览：`http://127.0.0.1:4177/anemoi/guide/`。当前待用户确认后再发布；本地完成不等于线上已更新。图片点击直接打开文件，不用弹窗。所用文件来自已有无 EXIF 预览与对照导出，不包含私人票据或订单。
+
+选择性重新导入素材：`node scripts/import-anemoi-guide-assets.mjs /absolute/path/to/图片巡礼补全`。来源记录在 `anemoi/guide/assets/sources.json`；保留补充实景、周边参考及房间对应待确认等状态。
