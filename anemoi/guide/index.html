@@ -7,8 +7,8 @@
   <meta name="description" content="不租车怎么去 anemoi 巡礼？从札幌出发，写清巴士在哪坐、在哪下，附实拍与游戏画面对照、Google地图路线和住宿预约。">
   <link rel="canonical" href="https://bells0.github.io/anemoi/guide/">
   <link rel="icon" href="../thumbnails/02-official-backgrounds/am_bg_6.jpg.webp">
-  <link rel="stylesheet" href="guide.css">
-  <script src="guide.js" defer></script>
+  <link rel="stylesheet" href="guide.css?v=20261005-route">
+  <script src="guide.js?v=20261005-route" defer></script>
 </head>
 <body>
   <header class="masthead shell">
@@ -20,7 +20,7 @@
       <div class="hero-copy">
         <p class="eyebrow">北海道 · 2026年10月</p>
         <h1><em>anemoi</em> 巡礼，<br>不租车怎么走？</h1>
-        <p class="lead">这次主要去了苫前、羽幌和初山别，全程靠巴士和步行。<br>下面把上车站、走路顺序和实拍照片放在一起，方便你找地方。<br>札幌 → 留萌 → 苫前 → 羽幌 ⇄ 初山别 → 札幌。</p>
+        <p class="lead">这次主要去了苫前、羽幌和初山别，全程靠巴士和步行。<br>走完之后，我更推荐早上从札幌直接坐到苫前，不必先去留萌住一晚。<br>札幌 → 苫前 → 羽幌 ⇄ 初山别 → 札幌。</p>
         <p class="edition">班次按2026年10月时刻表整理，其他日期出发请再查一次。</p>
         <a class="text-link" href="#transport">从札幌出发 ↓</a>
       </div>
@@ -32,27 +32,40 @@
     </div></nav>
 
     <section class="shell section" id="transport">
-      <div class="section-heading"><p class="eyebrow">01 · 从札幌出发</p><h2>去留萌，找札幌站前5号站牌</h2><p>坐北海道中央巴士的<strong>高速るもい号</strong>。站牌上写着“滝川・留萌方向”，可以对照下面的照片找。去羽幌的特急巴士在32号，别走错了。</p></div>
+      <div class="section-heading"><p class="eyebrow">01 · 从札幌出发</p><h2>更推荐：早上从札幌直接坐到苫前</h2><p>我这次先去留萌住了一晚，走完后觉得：<strong>早上能从札幌出发，就直接去苫前。</strong>少一次换车，也省下留萌这一晚。下面先写推荐的走法，我实际走过的留萌路线放在后面。</p></div>
+      <div class="entry-options">
+        <article class="recommended-entry"><span class="recommend-badge">首选 · 走完之后更推荐这条</span><h3>札幌 → 苫前，直达开始巡礼</h3><p class="recommended-time"><strong>09:30 札幌站前32号 → 12:41 苫前上町</strong></p><p>坐沿岸巴士“特急はぼろ号0111便”，<strong>提前订到苫前的票</strong>。中午下车开始逛，傍晚再坐当地巴士去羽幌。</p><p class="small">这是走完后的建议，不是我这次实际乘坐的班次。特急车票不是通票，苫前→羽幌要另付车费。</p><div class="links"><a data-route="sapporo,sapporo32" target="_blank" rel="noopener">札幌站 → 32号附近 ↗</a><a data-transit="sapporo32,tomamae" target="_blank" rel="noopener">这段公交路线 ↗</a><a href="https://www.engan-bus.co.jp/01_expressbus/81_haboro_express/index.html" target="_blank" rel="noopener">时刻表／订票 ↗</a><a href="#timetables">看时刻表图片 ↓</a></div><a class="text-link" href="#tomamae">看苫前巡礼点 ↓</a></article>
+        <article><span class="bus-label">备选 · 下午才能出发的话</span><h3>先到留萌住一晚</h3><p>这是我这次的走法：下午从札幌出发，晚上到留萌。第二天从<strong>留萌駅前2号站牌</strong>坐车去苫前。</p><p>比直达多一次换车和一晚住宿，但适合来不及赶09:30巴士的人。</p><a class="text-link" href="#rumoi-alternative">展开留萌路线、站牌照片和班次 ↓</a></article>
+      </div>
+      <h3 class="route-heading">推荐走法：巴士按这个顺序坐</h3>
+      <nav class="transport-flow" id="transport-flow" aria-label="公交与巡礼顺序"></nav>
+      <div class="walk-links"><a class="button" href="https://www.google.com/maps/d/viewer?mid=1bO7MHPAQLLZApTrgpgVafz2l0kA&amp;ll=44.27,141.70&amp;z=9" target="_blank" rel="noopener">沿岸巴士官方 Google 路线图：留萌—苫前—羽幌—初山别 ↗</a></div>
+      <p class="note">点地名看乘车信息，点箭头打开路线。<strong>Google有时查不到当地巴士，具体班次看下面的时刻表链接。</strong></p>
+      <div class="bus-grid" id="bus-steps"></div>
+      <section class="timetable-section" id="timetables" aria-labelledby="timetable-title">
+        <h3 class="route-heading" id="timetable-title">时刻表也放在这里，点开就能看</h3>
+        <p class="note">以下是<strong>2026年10月1日起</strong>的沿岸巴士官方表，时间均为日本时间。特急表的右半边看札幌出发，左半边看回札幌；当地巴士要分北行、南行。<strong>●是平日班，☆是周末／节假日班</strong>，年末年始的例外看图上说明。</p>
+        <div class="timetable-grid">
+          <figure><a class="photo-link" href="assets/timetable-haboro-express.png"><img src="assets/timetable-haboro-express.png" alt="沿岸巴士特急はぼろ号官方时刻表与票价，2026年10月1日改正" width="1785" height="2527" loading="lazy"><span class="enlarge">放大时刻表 ↗</span></a><figcaption><strong>札幌 ⇄ 苫前／羽幌 · 特急はぼろ号</strong><br>去程：右表111便，09:30→12:41。回程：左表41便，羽幌13:04→札幌16:27。<br>来源：沿岸巴士 <a href="https://www.engan-bus.co.jp/10_pdf/20261001_haboro_express.pdf" target="_blank" rel="noopener">官方PDF第2页 ↗</a></figcaption></figure>
+          <figure><a class="photo-link" href="assets/timetable-local-north.png"><img src="assets/timetable-local-north.png" alt="沿岸巴士留萌至苫前、羽幌、初山别北行官方时刻表，2026年10月1日改正" width="3564" height="2518" loading="lazy"><span class="enlarge">放大时刻表 ↗</span></a><figcaption><strong>当地巴士北行 · 留萌 → 苫前 → 羽幌 → 初山别</strong><br>看左侧大表，先找站名，再沿同一列往下看。苫前16:50→羽幌17:06是●平日班。<br>来源：沿岸巴士 <a href="https://www.engan-bus.co.jp/10_pdf/timetable/20261001_timetable_localnetwork.pdf" target="_blank" rel="noopener">郊外线官方PDF第2页 ↗</a></figcaption></figure>
+          <figure><a class="photo-link" href="assets/timetable-local-south.png"><img src="assets/timetable-local-south.png" alt="沿岸巴士初山别至羽幌、苫前、留萌南行官方时刻表，2026年10月1日改正" width="3564" height="2518" loading="lazy"><span class="enlarge">放大时刻表 ↗</span></a><figcaption><strong>当地巴士南行 · 初山别 → 羽幌 → 苫前 → 留萌</strong><br>看左侧大表：しょさんべつ温泉16:53→羽幌ターミナル17:31；17:28是本社ターミナル。<br>来源：沿岸巴士 <a href="https://www.engan-bus.co.jp/10_pdf/timetable/20261001_timetable_localnetwork.pdf" target="_blank" rel="noopener">郊外线官方PDF第1页 ↗</a></figcaption></figure>
+        </div>
+      </section>
+      <details class="rumoi-alternative" id="rumoi-alternative"><summary>备选：经留萌住一晚（我这次实际走的路线）</summary>
+      <h3 class="route-heading">去留萌，找札幌站前5号站牌</h3><p>坐北海道中央巴士的<strong>高速るもい号</strong>。站牌上写着“滝川・留萌方向”。推荐直达苫前的特急在32号，别把两种走法的站牌弄混。</p>
       <div class="departure-photos">
         <figure><a href="assets/sapporo-stop5.jpg"><img src="assets/sapporo-stop5.jpg" alt="札幌駅前5番站牌实拍：滝川・留萌方向" width="4080" height="2296" loading="lazy"><span class="enlarge">放大站牌 ↗</span></a><figcaption>就是这个⑤，下面写着“滝川・留萌方向”。</figcaption></figure>
         <figure><a href="assets/chuo-bus.jpg"><img src="assets/chuo-bus.jpg" alt="2026年10月1日札幌站前中央巴士现场照片" width="4096" height="2304" loading="lazy"><span class="enlarge">放大照片 ↗</span></a><figcaption>上车前再看车头，确认写着“高速るもい号／留萌”。</figcaption></figure>
       </div>
       <div class="walk-links"><a class="button" data-route="sapporo,sapporo5" target="_blank" rel="noopener">JR 札幌站 → 候车区域（步行）↗</a><a class="button" href="https://transfer.navitime.biz/chuo-bus/pc/diagram/BusAboardMap?stCode=00300912" target="_blank" rel="noopener">官方站位图：选 5 番 ↗</a></div>
-      <p class="note">地图搜“5番”会出来好几个点。上面的导航只能带到附近，最后一段请对照站牌照片和官方站位图找。</p>
-      <div class="entry-options">
-        <article><span class="bus-label">我这次的走法</span><h3>先到留萌住一晚</h3><p>下午从札幌出发，晚上到留萌。第二天从<strong>留萌駅前2号站牌</strong>坐巴士去苫前，下车开始巡礼。下面按这条路线写。</p><a class="text-link" href="#bus-1">看上车站和班次 ↓</a></article>
-        <article><span class="bus-label">早上能出发的话，也可以这样走</span><h3>札幌直接坐到苫前</h3><p><strong>09:30札幌站前32号 → 12:41苫前上町</strong>，坐沿岸巴士“特急はぼろ号0111便”，提前订到苫前的票。逛完苫前，再另坐当地巴士去羽幌。</p><p class="small">特急车票不能当通票用：中途下车逛完，不能拿同一张票再上下一班。</p><div class="links"><a data-route="sapporo,sapporo32" target="_blank" rel="noopener">札幌站 → 32号附近 ↗</a><a data-transit="sapporo32,tomamae" target="_blank" rel="noopener">这段公交路线 ↗</a><a href="https://www.engan-bus.co.jp/01_expressbus/81_haboro_express/index.html" target="_blank" rel="noopener">时刻表／订票 ↗</a></div><a class="text-link" href="#tomamae">看苫前巡礼点 ↓</a></article>
-      </div>
-      <h3 class="route-heading">巴士按这个顺序坐</h3>
-      <nav class="transport-flow" id="transport-flow" aria-label="公交与巡礼顺序"></nav>
-      <div class="walk-links"><a class="button" href="https://www.google.com/maps/d/viewer?mid=1bO7MHPAQLLZApTrgpgVafz2l0kA&amp;ll=44.27,141.70&amp;z=9" target="_blank" rel="noopener">沿岸巴士官方 Google 路线图：留萌—苫前—羽幌—初山别 ↗</a></div>
-      <p class="note">点地名看乘车信息，点箭头打开路线。<strong>Google有时查不到当地巴士，具体班次看下面的时刻表链接。</strong></p>
-      <div class="bus-grid" id="bus-steps"></div>
+      <p class="note">地图搜“5番”会出来好几个点。导航只能带到附近，最后一段请对照站牌照片和官方站位图找。</p>
+      <div class="bus-grid" id="alternative-bus-steps"></div>
       <div class="station-strip">
         <a href="assets/rumoi-boarding.jpg"><img src="assets/rumoi-boarding.jpg" alt="现场留萌站前示意图：2号站牌往小平、羽幌、幌延、丰富方向" width="1200" height="675" loading="lazy"><span>下一天北上：放大留萌 2 号站牌 ↑</span></a>
         <div><h3>留萌下车和第二天上车，不在同一个站</h3><p>从札幌来的车停<strong>留萌ターミナル</strong>。去苫前要到<strong>留萌駅前2号站牌</strong>，看上面这张现场示意图，找往小平、羽幌方向的2号。</p><div class="links"><a data-route="rumoiTerminal,rumoi" target="_blank" rel="noopener">下车站 → 第二天上车站 ↗</a><a href="https://www.google.com/maps/d/viewer?ll=43.941731,141.6508611&amp;mid=1ORkGVxz_XtF2nVgEJyxoAdXapB0&amp;z=19" target="_blank" rel="noopener">2号站牌位置 ↗</a></div></div>
       </div>
-      <details class="journey-record"><summary>班次说明</summary><p>下面用2026年10月的班次举例，平日和周末有区别。苫前16:50去羽幌这班，适合想多逛一会儿的人，是建议的走法；这次实际乘车时间还没记全。日期不同，先打开时刻表查好再出发。</p></details>
+      </details>
+      <details class="journey-record"><summary>班次说明</summary><p>上面用2026年10月的班次举例，平日和周末有区别。苫前16:50去羽幌这班，适合想多逛一会儿的人，是建议的走法；这次实际乘车时间还没记全。日期不同，先打开时刻表查好再出发。</p></details>
     </section>
 
     <section class="shell section" id="tomamae">

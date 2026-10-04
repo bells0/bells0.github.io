@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-05",
   "copyright": "游戏画面 © VISUAL ARTS / Key；实景摄影版权归摄影者。非官方巡礼资料。",
   "sources": [
+    {
+      "file": "timetable-haboro-express.png",
+      "title": "特急はぼろ号官方时刻表与票价",
+      "source": "https://www.engan-bus.co.jp/10_pdf/20261001_haboro_express.pdf",
+      "source_page": 2,
+      "effective_date": "2026-10-01",
+      "retrieved_date": "2026-10-05",
+      "publisher": "沿岸バス株式会社",
+      "note": "官方PDF第2页直接渲染，未重绘、未改动表内信息。"
+    },
+    {
+      "file": "timetable-local-north.png",
+      "title": "留萌至苫前、羽幌、初山别北行官方时刻表",
+      "source": "https://www.engan-bus.co.jp/10_pdf/timetable/20261001_timetable_localnetwork.pdf",
+      "source_page": 2,
+      "effective_date": "2026-10-01",
+      "retrieved_date": "2026-10-05",
+      "publisher": "沿岸バス株式会社",
+      "note": "官方PDF第2页直接渲染，左侧为巡礼路线北行表；保留原始运行日符号和其他线路。"
+    },
+    {
+      "file": "timetable-local-south.png",
+      "title": "初山别至羽幌、苫前、留萌南行官方时刻表",
+      "source": "https://www.engan-bus.co.jp/10_pdf/timetable/20261001_timetable_localnetwork.pdf",
+      "source_page": 1,
+      "effective_date": "2026-10-01",
+      "retrieved_date": "2026-10-05",
+      "publisher": "沿岸バス株式会社",
+      "note": "官方PDF第1页直接渲染，左侧为巡礼路线南行表；保留原始运行日符号和其他线路。"
+    },
     {
       "file": "sakaehama-street.jpg",
       "title": "01-栄浜街道",
