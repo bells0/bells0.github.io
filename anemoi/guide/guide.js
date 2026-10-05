@@ -115,6 +115,9 @@ document.querySelectorAll('[data-place]').forEach(a=>a.href=googlePlace(a.datase
 document.querySelectorAll('[data-route]').forEach(a=>a.href=googleRoute(a.dataset.route));
 document.querySelectorAll('[data-transit]').forEach(a=>a.href=googleRoute(a.dataset.transit,'transit'));
 const alternative=document.querySelector('#rumoi-alternative');
-const revealAlternative=()=>{if(location.hash==='#rumoi-alternative'||location.hash==='#bus-1'||location.hash==='#bus-2')alternative.open=true;};
-window.addEventListener('hashchange',revealAlternative);
-revealAlternative();
+const revealReference=()=>{
+  if(location.hash==='#rumoi-alternative'||location.hash==='#bus-1'||location.hash==='#bus-2')alternative.open=true;
+  if(location.hash==='#timetables')document.querySelector('#timetables').open=true;
+};
+window.addEventListener('hashchange',revealReference);
+revealReference();
