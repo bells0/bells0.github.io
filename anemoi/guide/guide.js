@@ -103,6 +103,10 @@ for (const s of scenes) {
   const body=document.createElement('div');body.className='scene-body';const note=document.createElement('p');note.textContent=s.note;body.append(note);
   const actions=document.createElement('div');actions.className='scene-actions';actions.append(external((s.mapLabel||'打开地图')+' ↗',googlePlace(s.place)));
   if(s.nextAnchor){const a=document.createElement('a');a.href='#'+s.nextAnchor;a.className='next';a.textContent='接着看 '+s.nextName+' ↓';actions.append(a);}
+  else if(s.n==='8'){
+    actions.append(external('住苫前：走回民宿30ノット ↗',googleRoute('museum,minshuku'),'next'));
+    actions.append(external('住羽幌：走回苫前上町站 ↗',googleRoute('museum,tomamae')));
+  }
   else actions.append(external('走到下一处：'+s.nextName+' ↗',googleRoute(s.place+','+s.next),'next'));
   body.append(actions,external('Anitabi对照图 ↗',community(s.pid),'source-link'));
   if(s.more){const more=document.createElement('details');more.className='more-scenes';const summary=document.createElement('summary');summary.textContent='再看 '+s.more.length+' 张场景对照';more.append(summary);for(const m of s.more)more.append(image(m.photo,s.name,m.caption));body.append(more);}
@@ -110,14 +114,15 @@ for (const s of scenes) {
 }
 const order=document.querySelector('#tomamae-order');
 for(const s of scenes.filter(s=>s.group==='tomamae')){const li=document.createElement('li'),a=document.createElement('a');a.href='#scene-'+s.n;a.textContent=s.n+' '+s.name.split(' · ')[0];li.append(a);order.append(li);}
-for (const [label,keys] of [['到站 → 栄浜 → 风车 → 海岸 · 1.7km / 22分','tomamae,minshuku,wind,beach'],['海岸 → 公园 → 道の駅 · 1.4km / 20分','beach,park,rest'],['道の駅 → 便利店 → 寺院 → 资料馆 → 返站 · 2.3km / 33分','rest,seico,temple,museum,tomamae']]) document.querySelector('#tomamae-walks').append(external(label+' ↗',googleRoute(keys),'button'));
+for (const [label,keys] of [['① 民宿 → ② 风车 → ③ 海岸','minshuku,wind,beach'],['③ 海岸 → ④ 公园 → ⑤ 道の駅 · 1.4km / 20分','beach,park,rest'],['⑤ 道の駅 → ⑥ 便利店 → ⑦ 寺院 → ⑧ 资料馆','rest,seico,temple,museum']]) document.querySelector('#tomamae-walks').append(external(label+' ↗',googleRoute(keys),'button'));
+document.querySelector('#day2-transit .links').prepend(external('苫前下车 → ① 民宿（步行）↗',googleRoute('tomamae,minshuku')));
 document.querySelectorAll('[data-place]').forEach(a=>a.href=googlePlace(a.dataset.place));
 document.querySelectorAll('[data-route]').forEach(a=>a.href=googleRoute(a.dataset.route));
 document.querySelectorAll('[data-transit]').forEach(a=>a.href=googleRoute(a.dataset.transit,'transit'));
-const alternative=document.querySelector('#rumoi-alternative');
 const revealReference=()=>{
-  if(location.hash==='#rumoi-alternative'||location.hash==='#bus-1'||location.hash==='#bus-2')alternative.open=true;
-  if(location.hash==='#timetables')document.querySelector('#timetables').open=true;
+  const target=document.getElementById(location.hash.slice(1));
+  const disclosure=target?.closest('details');
+  if(disclosure)disclosure.open=true;
 };
 window.addEventListener('hashchange',revealReference);
 revealReference();
