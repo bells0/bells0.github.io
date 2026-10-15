@@ -74,7 +74,7 @@ h1 { font-size: clamp(34px, 3.35vw, 49px); line-height: 1.5; letter-spacing: -.0
 .links { gap: 8px 20px; align-items: center; font-size: 13px; }
 .links a { font-weight: 500; min-height: 44px; display: inline-flex; align-items: center; }
 .small { line-height: 1.8; }
-.day-plan { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0; padding: 25px 0; border-block: 1px solid var(--line); }
+.day-plan { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 0; padding: 25px 0; border-block: 1px solid var(--line); }
 .day-plan>li { border: 0; border-right: 1px solid var(--line); background: none; padding: 6px 30px; }
 .day-plan>li:first-child { padding-left: 0; }
 .day-plan>li:last-child { border: 0; padding-right: 0; }
@@ -91,6 +91,15 @@ h1 { font-size: clamp(34px, 3.35vw, 49px); line-height: 1.5; letter-spacing: -.0
 .booking-box li::before { content: counter(booking, decimal-leading-zero); position: absolute; left: 0; top: 1px; font: 500 16px/1.7 var(--sans); color: var(--accent); }
 .booking-box li strong { color: var(--ink); }
 .transit-part h3 { font-size: 24px; }
+.practical-note { margin: 28px 0; padding: 28px 32px; border-radius: 18px; background: var(--surface); border: 1px solid var(--line); }
+.practical-note h3 { margin: 12px 0 16px; font-size: 23px; }
+.practical-note p,.practical-steps { font-size: 15px; line-height: 1.9; color: var(--muted); }
+.practical-note strong { color: var(--ink); }
+.practical-steps { padding-left: 1.4em; }
+.practical-steps li+li { margin-top: 10px; }
+.practical-note .small,.practical-note .table-source { font-size: 13px; }
+.return-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; align-items: start; }
+.return-options .practical-note { min-width: 0; }
 .table-wrap { border-radius: 16px; overflow: hidden; background: var(--surface); }
 .simple-timetable { background: var(--surface); }
 .simple-timetable th { background: #e8ede3; color: #4f6254; font-weight: 500; padding: 16px 22px; }
@@ -200,6 +209,9 @@ footer .closing { font: 500 24px/1.6 var(--sans); }
   .day-heading h3 { font-size: 20px; }
   .day-plan .links { margin-top: 8px; }
   .booking-box { padding: 24px; border-radius: 18px; }
+  .practical-note { padding: 22px; }
+  .return-options { grid-template-columns: 1fr; gap: 0; }
+  .return-options .practical-note { margin-bottom: 0; }
   .booking-box h3 { font-size: 24px; }
   .booking-box ol { grid-template-columns: 1fr; padding: 0; gap: 20px; }
   .booking-box li { font-size: 14px; }
