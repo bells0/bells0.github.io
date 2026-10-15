@@ -126,3 +126,19 @@ const revealReference=()=>{
 };
 window.addEventListener('hashchange',revealReference);
 revealReference();
+
+// Keep the chapter indicator in step with the section being read.
+const chapterLinks=[...document.querySelectorAll('.chapter-nav a')];
+const chapterSections=chapterLinks.map(a=>document.querySelector(a.hash));
+let chapterFrame=0;
+const updateChapter=()=>{
+  chapterFrame=0;
+  let current=chapterSections[0];
+  for(const section of chapterSections)if(section.getBoundingClientRect().top<=160)current=section;
+  for(const a of chapterLinks){
+    if(a.hash==='#'+current.id)a.setAttribute('aria-current','location');
+    else a.removeAttribute('aria-current');
+  }
+};
+window.addEventListener('scroll',()=>{if(!chapterFrame)chapterFrame=requestAnimationFrame(updateChapter);},{passive:true});
+updateChapter();
