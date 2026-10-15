@@ -69,6 +69,20 @@ const image = (filename, alt, caption='上：游戏／宣传画面 · 下：实�
 const external = (label,href,className='') => {
   const a=document.createElement('a');a.textContent=label;a.href=href;a.target='_blank';a.rel='noopener';a.className=className;return a;
 };
+// Show the indoor pilgrimage scenes alongside the lodging recommendation.
+const stayScenes=document.createElement('section');stayScenes.className='stay-scenes';
+stayScenes.setAttribute('aria-labelledby','stay-scenes-title');
+const stayScenesTitle=document.createElement('h3');stayScenesTitle.id='stay-scenes-title';stayScenesTitle.textContent='这家民宿，本身就是巡礼点';
+const stayScenesNote=document.createElement('p');stayScenesNote.textContent='吧台和榻榻米房间都可以对照游戏画面。下图是别人拍摄的补充资料，不是我这次入内拍的；参观和拍照请先问店家。';
+const stayScenesGrid=document.createElement('div');stayScenesGrid.className='stay-scenes-grid';
+for(const [file,title,pid] of [['minshuku-bar.jpg','吧台 · 酒柜、吊灯与高脚椅','45ol5u1'],['minshuku-tatami.jpg','榻榻米房间 · 三面窗与顶灯','gbhusje']]) {
+  const figure=image(file,title,'上：游戏画面 · 下：他人拍摄的室内实景');
+  const heading=document.createElement('h4');heading.textContent=title;figure.prepend(heading);
+  const source=document.createElement('p');source.className='small';source.append('实景：微信补充素材（原摄影者待补署名）；游戏画面 © VISUAL ARTS / Key · ',external('Anitabi 场景来源 ↗','https://www.anitabi.cn/map?bangumiId=465493&pid='+pid));figure.append(source);
+  stayScenesGrid.append(figure);
+}
+stayScenes.append(stayScenesTitle,stayScenesNote,stayScenesGrid);
+document.querySelector('.primary-stay').after(stayScenes);
 const localTimetable='https://www.engan-bus.co.jp/02_omnibus/01_routebus/12_horonobe_rumoi/index.html';
 const expressTimetable='https://www.engan-bus.co.jp/01_expressbus/81_haboro_express/index.html';
 const localStation = (lat,lng) => 'https://www.google.com/maps/d/viewer?'+new URLSearchParams({mid:'1bO7MHPAQLLZApTrgpgVafz2l0kA',ll:lat+','+lng,z:'19'});
