@@ -156,3 +156,32 @@ const updateChapter=()=>{
 };
 window.addEventListener('scroll',()=>{if(!chapterFrame)chapterFrame=requestAnimationFrame(updateChapter);},{passive:true});
 updateChapter();
+
+// Keep enlarged images inside the guide so closing returns to the same place.
+const photoViewer=document.createElement('dialog');photoViewer.className='photo-viewer';photoViewer.setAttribute('aria-label','查看大图');
+const viewerToolbar=document.createElement('div');viewerToolbar.className='photo-viewer-toolbar';
+const viewerTitle=document.createElement('p');
+const viewerClose=document.createElement('button');viewerClose.type='button';viewerClose.textContent='关闭 ×';viewerClose.setAttribute('aria-label','关闭大图');
+const viewerStage=document.createElement('div');viewerStage.className='photo-viewer-stage';
+const viewerImage=document.createElement('img');viewerStage.append(viewerImage);
+viewerToolbar.append(viewerTitle,viewerClose);photoViewer.append(viewerToolbar,viewerStage);document.body.append(photoViewer);
+let photoTrigger=null;
+viewerClose.addEventListener('click',()=>photoViewer.close());
+viewerStage.addEventListener('click',event=>{if(event.target===viewerStage)photoViewer.close();});
+photoViewer.addEventListener('close',()=>{
+  document.documentElement.classList.remove('photo-viewer-open');
+  viewerImage.removeAttribute('src');
+  photoTrigger?.focus({preventScroll:true});
+});
+document.querySelector('main').addEventListener('click',event=>{
+  const link=event.target.closest('a');
+  if(!link||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
+  const url=new URL(link.href);
+  if(url.origin!==location.origin||! /\.(jpe?g|png|webp)$/i.test(url.pathname))return;
+  if(typeof photoViewer.showModal!=='function')return;
+  event.preventDefault();photoTrigger=link;
+  const label=link.querySelector('img')?.alt||link.textContent.trim();
+  viewerTitle.textContent=label;viewerImage.alt=label;viewerImage.src=link.href;
+  document.documentElement.classList.add('photo-viewer-open');
+  photoViewer.showModal();viewerStage.scrollTop=0;viewerClose.focus();
+});
