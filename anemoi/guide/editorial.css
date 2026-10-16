@@ -278,11 +278,16 @@ footer .closing { font: 500 24px/1.6 var(--sans); }
 .scene-grid>.scene>.scene-title { min-height: 124px; }
 .scene-grid>.scene>.comparison>figcaption { min-height: 48px; }
 .stay-card:not(.primary-stay)>img,.departure-photos img { aspect-ratio: 16 / 9; object-fit: contain; background: #edf0e9; }
+.standalone-photo { min-width: 0; cursor: zoom-in; }
+.standalone-photo:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.primary-stay>.standalone-photo { border-radius: 16px; overflow: hidden; }
+.stay-card:not(.primary-stay)>.standalone-photo img { aspect-ratio: 16 / 9; object-fit: contain; background: #edf0e9; }
 @media (max-width:780px) {
   .stay-scenes-grid { grid-template-columns: 1fr; gap: 20px; }
   .stay-scenes h3 { font-size: 22px; }
   .stay-scenes .comparison { padding: 18px; }
   .primary-stay>img { border-radius: 0; }
+  .primary-stay>.standalone-photo { border-radius: 0; }
   .stay-scenes h4 { min-height: 0; }
   .scene-grid>.scene>.scene-title { min-height: 0; }
 }

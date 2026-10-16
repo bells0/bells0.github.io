@@ -157,6 +157,16 @@ const updateChapter=()=>{
 window.addEventListener('scroll',()=>{if(!chapterFrame)chapterFrame=requestAnimationFrame(updateChapter);},{passive:true});
 updateChapter();
 
+// Give standalone content photos the same accessible full-size link as scene comparisons.
+document.querySelectorAll('main .section img').forEach(img=>{
+  if(img.closest('a,button'))return;
+  const link=document.createElement('a');
+  link.href=img.src;link.className='photo-link standalone-photo';
+  link.setAttribute('aria-label','打开大图：'+img.alt);
+  const hint=document.createElement('span');hint.className='enlarge';hint.textContent='点击看大图 ↗';
+  img.before(link);link.append(img,hint);
+});
+
 // Keep enlarged images inside the guide so closing returns to the same place.
 const photoViewer=document.createElement('dialog');photoViewer.className='photo-viewer';photoViewer.setAttribute('aria-label','查看大图');
 const viewerToolbar=document.createElement('div');viewerToolbar.className='photo-viewer-toolbar';
