@@ -1,7 +1,19 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-17",
   "copyright": "游戏画面 © VISUAL ARTS / Key；实景摄影版权归摄影者。非官方巡礼资料。",
   "sources": [
+    {
+      "file": "sunagawa-up-comparison.jpg",
+      "title": "砂川服务区上行：游戏与本人实拍对照",
+      "photo_date": "2026-10-04",
+      "photo_credit": "wonderbell",
+      "original_filename": "IMG_20261004_150631.jpg",
+      "photo_source": "10月4日已导入的手机原片；使用既有定选调色版本，复用10月5日整理的上下对照图",
+      "game_source": "https://vibgyor516.blog.fc2.com/blog-entry-93.html",
+      "game_credit": "游戏画面 © VISUAL ARTS / Key；截图整理来源 wing",
+      "map_source": "https://www.anitabi.cn/map?bangumiId=465493&pid=duzl6dh",
+      "note": "既有对照清单记录原片GPS为43.529175,141.929858，对应返札幌方向的上行服务区；三角屋顶、并排店铺、遮阳棚与户外桌椅可对照，装饰和陈设已有变化。并非去程下行侧实拍。"
+    },
     {
       "file": "timetable-haboro-express.png",
       "title": "特急はぼろ号官方时刻表与票价",
